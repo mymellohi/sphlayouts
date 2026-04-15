@@ -1,0 +1,483 @@
+<style>
+
+@font-face { font-family: 'black demon'; 
+src: url(https://external-media.spacehey.net/media/sHZYEr7XILWwXWOmZeEx9BNcSOnYYmnhKxB2NwuTqkok=/https://dl.dropbox.com/s/u1ht7rk1oytkspl/Black%20Demon.ttf); 
+}
+@font-face { font-family: 'mcr'; 
+src: url(https://external-media.spacehey.net/media/s-Q6zzUjSoxw7pJjVtdghYdKnTSr78LDWl-cuKRVveeI=/https://dl.dropbox.com/s/vlwjpiu7bq4zy7j/my_chemical_romance.ttf); 
+}
+@font-face { font-family: 'goth stencil'; 
+src: url(https://external-media.spacehey.net/media/sNFk4i5b3xm5OvP1GIzqiAAERXMF6Bs9tvJzqM1aEPnY=/https://dl.dropbox.com/s/lix8jq02xbdc7xs/GothStencil_Premium.ttf); 
+}
+
+body{
+  background: url(https://external-media.spacehey.net/media/sJ1sNfcJl_8eNAu5KMQZJpi78w1X5warGmR8ZVcN51wI=/https://i.pinimg.com/originals/3f/59/9f/3f599f622c10241b4e99392e822f79d3.jpg)no-repeat fixed;
+  background-size: cover;
+  font-family: "goth stencil";
+  font-size: 120%;
+  text-transformation: lowercase;
+}
+
+.container {
+    width: 849px;
+    max-width: 100%;
+    margin: 0 auto 10px;
+}
+
+nav .top {
+    background: transparent;
+    padding: 15px 10px 14px 10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    color: #5e0303;
+}
+
+.logout-btn, .logout-form {
+    color: #5e0301;
+    text-shadow: 0 0 5px #5e0301, 0 0 5px #5e0301, 0 0 5px #5e0301;
+    display: inline-block;
+    font-size: 100%;
+    font-weight: bold;
+    font-family: 'goth stencil';
+}
+
+.logout-btn:hover {
+    color: red;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+nav .links {
+    background-color: transparent;
+    padding: 3.5px 16px 5.5px 16px;
+    text-align: center;
+}
+
+main {
+    background: #0000007a;
+    color: #7b0606;
+    padding: 13px 12px;
+    font-size: 80%;
+    box-shadow: inset 0 0 20px 3px #5e0303;
+margin: 17px 0;
+font-weight: bold;
+}
+
+a {
+    color: #820c0c;
+    font-weight: bold;
+    text-shadow: 0px 0px 8px #ff0000, 0px 0px 10px #ff000000;
+    text-decoration: line-through;
+    text-decoration-style: dashed;
+    text-decoration-color: #971919;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background: transparent;
+    color: darkred;
+}
+
+</style>
+
+<style>
+
+.profile .friends .heading, h4, .profile .contact .heading{
+font-family: "mcr";
+}
+
+span, h1 {
+    text-align: center;
+    color: darkred;
+    font-family: "black demon";
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+    color: darkred;
+}
+
+
+.general-about {
+    text-align: center;
+}
+
+details summary {
+    cursor: inherit;
+    user-select: none;
+}
+
+.profile .mood {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #5e0303;
+    box-shadow: 3px 4px #5e0303;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 15px 0;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: 1px solid #5e0303;
+    box-shadow: 4px 3px #5e0303;
+    margin: 10px 0;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: 1px solid #5e0303;
+    box-shadow: 4px 3px #5e0303;
+    margin: 15px 0;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: linear-gradient(91deg, #5e0303c4, transparent);
+    color: #b10707;
+    text-shadow: 4px 2px 0px black;
+    padding: 2px 7px;
+}
+
+.url-info {
+    background: url(https://external-media.spacehey.net/media/sr3cJuf3S1q5aOIO3L9Oi6siB8zKpy8gUc-g_mG4rnsU=/https://i.pinimg.com/564x/e2/7c/f9/e27cf960358903cd50546cbb4b1bf8e8.jpg);
+    background-position: center;
+    background-size: cover;
+font-size: 0px;
+    height: 290px;
+}
+
+.details-table td:first-child {
+    background: transparent;
+    color: #5e0303;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    width: 33%;
+    border: 1px solid;
+}
+
+.details-table td {
+    background: transparent;
+    vertical-align: top;
+    border: 1px solid #5e0303;
+    color: #5e0303;
+    font-weight: bold;
+}
+
+</style>
+
+<style>
+
+.profile .profile-info {
+    background-image: url(https://external-media.spacehey.net/media/sUb2seOMdLdjtQc7_CDPLVnFh0w_UXAXcisgYywVuZHI=/https://i.pinimg.com/564x/13/68/8c/13688c2489f3f6f7ce7363ab77989bf3.jpg);
+    background-position: center;
+    border: 1px solid #5e0303;
+    box-shadow: 4px 3px #5e0303;
+    font-size: 0px;
+    padding: 41px 10px;
+    text-align: center;
+}
+
+.blog-preview {
+    border: 1px solid #5e0303;
+    box-shadow: 4px 3px #5e0303;
+    margin: 24px 0px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+nav .links .icon {
+    vertical-align: -0.41em;
+    filter: hue-rotate(309deg) brightness(0.5) saturate(1.9) drop-shadow(0px 4px 6px #5e0303);
+}
+
+.profile .blurbs {
+    margin: 20px 0;
+    border: 1px solid #5e0303;
+    box-shadow: 4px 3px #5e0303;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: linear-gradient(91deg, #5e0303c2, transparent);
+    color: #b10707;
+    text-shadow: 3px 2px black;
+    padding: 4px 7px;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: #8b0607;
+    text-shadow: 2px 3px #000000;
+    padding-top: 15px;
+}
+
+.friends {
+    border: 1px solid #5e0303;
+    box-shadow: 4px 3px #5e0303;
+    margin: 22px 0px;
+}
+
+div#comments {
+    border: 1px solid #5e0303;
+    box-shadow: 4px 3px #5e0303;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: transparent;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+}
+
+.comments-table td, .music-table td {
+    background: transparent;
+    vertical-align: top;
+}
+
+table.comments-table, table.music-table, table.bulletin-table, table.forum-table, table.groups-table {
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    border: 5px double #5e0303;
+}
+
+</style>
+
+<style>
+
+.profile .friends .person p {
+    color: #b10707;
+    text-shadow: 3px 2px black;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    margin: 0 auto;
+    border: 4px dashed #5e0303;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+BACKGROUND-COLOR: black;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    width: 2px;
+    border: 1px dotted darkred;
+}
+::-webkit-scrollbar-thumb {
+    background: darkred;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: red;  
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    content: url("https://external-media.spacehey.net/media/smJXw2g8JFH4E-Mlef8kh62okT0Avev2FtYQMbFKTG_Y=/https://media.discordapp.net/attachments/859229634424209439/1092376431813730324/IMG_1292.png");
+}
+
+    .friends .heading{ font-size:0; }
+.friends .heading:before {
+    content: "fellow vampires";
+    font-size: .8rem;
+    font-weight: bold;
+    color: #b10707;
+}
+
+   .profile .table-section .heading h4 { font-size:0; }
+.profile .table-section .heading h4:before{ content: "interests/hobbies"; font-size:.8rem; font-weight:bold;     color: #b10707; }
+
+    .contact .heading{ font-size:0; }
+.contact .heading:before {
+    content: "msg me! i don't bite (mostly)";
+    font-size: .8rem;
+    font-weight: bold;
+    color: #b10707;
+}
+
+button, input{
+    border: 1px solid #800808;
+    color: #7b0000;
+    background: black;
+}
+
+nav .links .special a {
+    color: red;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " ⸸ ";
+    color: red;
+}
+
+.online {
+    content: url(https://external-media.spacehey.net/media/sG-A4-pEQRuAI67SoEjfTkVS1GJrCVE4s2RL9pTU09do=/https://i7.glitter-graphics.org/pub/104/104607x61kd02dl0.gif)
+}
+
+button.logout-btn, nav {
+    text-transform: lowercase;
+}
+
+HTML,BODY{cursor: 
+url(https://external-media.spacehey.net/media/s6rl8pclY7DDunCpW9Dilx_i8_U618PDAm6u3qxen7js=/https://ani.cursors-4u.net/symbols/sym-8/sym734.cur),
+auto;}
+
+
+A:hover{cursor: 
+url(https://external-media.spacehey.net/media/s6rl8pclY7DDunCpW9Dilx_i8_U618PDAm6u3qxen7js=/https://ani.cursors-4u.net/symbols/sym-8/sym734.cur),
+auto;}
+
+table.comments-table{
+display: block;
+height: 250px!important;
+overflow-y: scroll;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: #790404;
+    text-shadow: 0 0 7px #c30909;
+    font-size: 0.98em;
+    font-size: max(0.98em, 12px);
+}
+
+nav .links a:hover {
+    color: #e31515;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.logout-btn, .logout-form {
+    color: #8c0707;
+    display: inline-block;
+    font-size: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.general-about .profile-pic img {
+    max-width: 160px;
+    max-height: 160px;
+    box-shadow: 0 0 5px darkred, 0 0 10px darkred;
+    border: 3px solid;
+}
+
+.contact .inner a img {
+       font-size: 0;
+   }
+   .contact .inner a img:before {
+       font-size: 0em;
+    display: block
+   }
+   .contact .inner .f-row:nth-child(1) .f-col:nth-child(1) a:before {
+   	/* Add to Friends */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(1) .f-col:nth-child(2) a:before {
+   	/* Add to Favorites */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(2) .f-col:nth-child(1) a:before {
+	/* Send Message */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(2) .f-col:nth-child(2) a:before {
+	/* Forward to Friend */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(3) .f-col:nth-child(1) a:before {
+	/* Instant Message */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(3) .f-col:nth-child(2) a:before {
+	/* Block User */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(4) .f-col:nth-child(1) a:before {
+	/* Add to Group */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(4) .f-col:nth-child(2) a:before {
+	/* Report Profile */
+	content: "✞"
+   }
+
+img:hover , .url-info:hover , .online:hover {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+h1{
+  animation: type 3s steps(27);
+  white-space: nowrap;
+  overflow: hidden;
+  }
+
+@keyframes type{
+  0%{
+    width:0ch;
+  }
+  
+  100%{
+    width:27ch;
+  }
+}
+
+@keyframes blink{
+  0%{opacity:1;}
+  50%{opacity:0;}
+  100%{opacity:1;}
+}
+
+.comment-replies {
+    padding: 0 5px;
+    border: 2px solid #5e0303;
+    margin-top: 10px;
+}
+
+.person {
+    filter: grayscale(100%) blur(2px) saturate(100%);
+    transition: filter 400ms ease-in-out;
+}
+
+.person:hover {
+    filter: none !important;
+    animation-name: shake;
+    animation: shake 4s;
+    animation-iteration-count: infinite;
+}
+
+</style>
+
