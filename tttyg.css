@@ -1,0 +1,290 @@
+<style>
+
+body{
+background: url(https://external-media.spacehey.net/media/s7KSH_sG7U59S96EjvFlce6Esjs_9ZAYbiLkbnvXMTQA=/https://i.pinimg.com/564x/16/a5/6a/16a56abfae219264099601b7a2d435a2.jpg);
+background-size: 900px;
+}
+
+nav .top{
+background: url(https://external-media.spacehey.net/media/sbxKBAlNetbiGhAi7C4IunCNLBiTf_FxB9pbvhX1l1tg=/https://i.pinimg.com/236x/57/41/89/5741898c483a0da4e44d57215364126d.jpg);
+    margin-top: 20px;
+    background-position-y: bottom;
+    background-size: 280px;
+    border-radius: 8px;
+    border: 2px solid white;
+    box-shadow: 0 0 5px white, 0 0 15px white;
+}
+
+nav .links {
+    background-color: #000000;
+    margin-top: 10px!important;
+    padding: 3.5px 16px;
+    border: 2px solid white;
+    margin-bottom: 10px!important;
+    border-radius: 8px;
+    box-shadow: 0 0 5px white, 0 0 15px white;
+    text-align: center;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: #1cccbf;
+    text-shadow: 0 0 5px #1cccbf;
+    font-size: max(0.98em, 12px);
+}
+
+nav .links a:hover {
+    text-decoration: none;
+    color: #097a71;
+    text-shadow: 1px 1px #1cccbf;
+    font-style: italic;
+}
+
+nav .links .special a {
+    color: #00fff7;
+}
+
+button, input {
+    overflow: visible;
+    background: black;
+    color: #1cccbf;
+    border: 1px solid #1cccbf;
+    border-radius: 5px;
+}
+
+nav .top .center form {
+    margin-top: -2px;
+    width: 100%;
+    color: #1cccbf;
+}
+
+nav .top .right {
+    text-align: right;
+    color: #1cccbf;
+    text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
+}
+
+.logout-btn {
+    font-family: inherit;
+    text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
+    color: #1cccbf;
+}
+
+nav .top .left .logo {
+    width: 165px;
+    height: 42px;
+    filter: sepia(1) saturate(32.5) hue-rotate(90deg) drop-shadow(0 0 5px black);
+}
+
+main{
+background: url(https://external-media.spacehey.net/media/szfri3rSPlmTXV_BjcBQ-rJAhivpooVS_sOCXgCxgfSE=/https://i.pinimg.com/564x/d8/e7/b8/d8e7b814dacb76f22e2d6eea7705a622.jpg);
+    background-size: cover;
+    color: #1cccbf;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    border: 2px solid white;
+    box-shadow: 0 0 5px white, 0 0 15px white;
+    border-radius: 8px;
+}
+
+.profile h1 {
+    font-size: x-large;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+a {
+    color: #7efff5;
+    text-decoration: none;
+}
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: #0a9a8a;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.online{
+content: url(https://external-media.spacehey.net/media/swSI2m09uaH69M2bwBGrrmKoQuHpvzImSgRjLNseIivs=/https://www.theaudiodb.com/images/media/album/cdart/take-this-to-your-grave-4e6bd65e42d36.png);
+    width: 120px;
+    height: auto;
+    animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation{
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+
+.contact .inner{
+background: url(https://external-media.spacehey.net/media/shVtz8qA0uEsIYO_IFbc-drrG_c_YwtZgaTsVwI50FiE=/https://i.pinimg.com/564x/e0/00/a3/e000a3145b62074e63e7e400f8732f88.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    border: 1px solid white;
+    box-shadow: 0 0 5px white, 0 0 10px white;
+    border-radius: 5px;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: none;
+    margin: 10px 0;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading, .profile .blurbs .heading, .profile .friends .heading{
+background: url(https://external-media.spacehey.net/media/shVtz8qA0uEsIYO_IFbc-drrG_c_YwtZgaTsVwI50FiE=/https://i.pinimg.com/564x/e0/00/a3/e000a3145b62074e63e7e400f8732f88.jpg);
+    background-size: cover;
+    background-position-y: top;
+    color: #1cccbf;
+    padding: 2px 7px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px white, 0 0 10px white;
+    text-align: center;
+}
+
+.url-info{
+font-size: 0%;
+background: url(https://external-media.spacehey.net/media/skid2q1GnE9fJZjy0WAvLnzVbFqRLHDbxq_LyGRnpBlk=/https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/04/32/e00432f9-c4c7-5807-048e-3a9ecbd37ba7/mzi.exwqxhpg.jpg/1200x1200bf-60.jpg);
+    background-size: cover;
+height: 270px;
+    border: 2px solid white!important;
+    border-radius: 8px;
+    box-shadow: 0 0 8px white;
+}
+
+.details-table td:first-child {
+    background: transparent;
+    color: inherit;
+    font-weight: bold;
+    width: 33%;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+}
+
+.details-table td {
+    background: transparent;
+    vertical-align: top;
+    box-shadow: 0 0 10px white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.profile .blurbs .inner{
+background: url(https://external-media.spacehey.net/media/sXtxel-rcYFopyNi1rsIS05Z3VTTcFPW1K2h_8tSVtrc=/https://i.pinimg.com/564x/43/39/25/43392522714e64d06b3051fb41805256.jpg);
+    border: 1px solid white;
+    box-shadow: 0 0 5px white, 0 0 10px white;
+    border-radius: 9px;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: #00fff6;
+    text-transform: uppercase;
+}
+
+.profile-info{
+background: url(https://external-media.spacehey.net/media/shJXLBZ-0MXwjpgFKuUGgKXC7xtlMKiUxLsTRK6XGc90=/https://i.pinimg.com/564x/2c/84/52/2c8452f900e8631aa6ce0857622c440d.jpg);
+    background-position-y: center;
+    border: 1px solid white;
+    border-radius: 9px;
+    box-shadow: 0 0 5px white, 0 0 10px white;
+}
+
+.blog-preview p {
+    border-bottom: 2px solid;
+    padding-bottom: 4px;
+}
+
+.profile .friends .inner{
+background: url(https://external-media.spacehey.net/media/sxkEp1ufucl4msj0F6nqMteBrQ2ihC2IfemXPgiR8ZEk=/https://i.pinimg.com/564x/79/98/cf/7998cf535691cd9d8f8a885f1c043619.jpg);
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 9px;
+    box-shadow: 0 0 5px white, 0 0 10px white;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.profile .friends .person p {
+    color: cyan;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    border: 2px solid white;
+    box-shadow: 0 0 5px white, 0 0 10px lightcyan;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.count {
+    color: cyan;
+}
+
+.comments-table td:first-child, .music-table td:first-child{
+background: url(https://external-media.spacehey.net/media/saH2w0gynS_G6aF96LuMbAiOF-0jYbwehoS86ZdF8NKs=/https://i.pinimg.com/564x/eb/eb/a0/ebeba0b69f52c38f0d1099dd82bf7881.jpg);
+    background-size: cover;
+}
+
+.comments-table td, .music-table td{
+background: url(https://external-media.spacehey.net/media/sz5d57iiURTbJjx7j8-arsO1rXo89Lxu4lYuMQkjPd9E=/https://i.pinimg.com/564x/71/3d/f0/713df003778dea7079c1de2578754350.jpg);
+}
+
+.comments-table tbody {
+    box-shadow: 0 0 5px white, 0 0 10px white;
+    border-radius: 9px;
+}
+
+.comment-replies {
+    padding: 0 5px;
+    border: 1px solid white;
+    margin-top: 10px;
+    box-shadow: 0 0 5px white;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background-color: transparent;
+    color: cyan;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+BACKGROUND-COLOR: black;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    width: 2px;
+    border: 1px dotted black;
+}
+::-webkit-scrollbar-thumb {
+    background: #1cccbf;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: cyan;  
+}
+
+
+</style>
+
