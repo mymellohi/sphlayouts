@@ -1,0 +1,1481 @@
+<!-- (c) Layout created by ray ☆ 2.0 (https://layouts.spacehey.com/layout?id=81616) -->
+
+<style>
+/* == same deal w personal layout, its based around ME so take code as you do but don't take the whole thing (unless you feel like dissecting it :P) == */
+
+.general-about .details:before {
+    content: "they / them";
+}
+
+</style>
+
+hi frienz :3 old account /blackflag got banned :c
+<br/>
+i fucking love minecraft and i fucking hate when you need to shit so much that it burns ur bumhole and you start aggressively gripping the side of the toilet and sweating profusely 
+<br/>
+i also have a massive love for ray toro and andy hurley
+<br/>
+and i don't put pineapple on pizza :3
+<br/>
+
+<img src="https://64.media.tumblr.com/942b7f60ef7e098eaed8df35de06f4d0/b41a3bf70c136061-0a/s250x400/d116661de0d31bb56ef9c52140324e1457c5318d.gifv" width="180" height="24"/>
+
+<img src="https://64.media.tumblr.com/42bb8481c43c99e5441830498a18a8f0/bb1764b47a5c5336-b5/s250x400/ce5ffc0eec3da10727c4a1647f6462b87d61670a.gifv" width="180" height="24"/>
+
+<img src="https://64.media.tumblr.com/31207640325b16c36e700b5de862fc47/bcf4bde061f4be42-ff/s250x400/ab9f64e1bfd0c50537847c12aa9879e88f212d6a.gifv" width="180" height="24"/>
+
+<br/>
+<b>➤ SCHOOL SUBJECTS ;; </b>viscom, studio art, english, math, psych & outdoor ed
+<br/>
+<b>➤ MAJOR INTERESTS ;; </b> music (mostly mcr, fob & the used), minecraft (!! pls add if u like mc, i need more people 2play it w), horror movies
+<br/>
+<b>➤ PRIV ACCOUNT ;; </b> <a href="https://spacehey.com/mymellohi"> mellohi ☆ </a>
+<br/>
+<b>➤ COOL LINKS ;; </b> <a href="https://en.pronouns.page/@pavlove"> ☆ pronouns page ☆ </a> <a href="https://rentry.co/demolvrz"> rentry ☆ </a> <a href="https://twitter.com/s1ster2sleep"> twitter ☆ </a> <a href="https://www.tumblr.com/demolvrzs"> tumblr ☆ </a>
+<br/>
+
+
+<style>
+
+/* == font import == */
+
+
+@font-face { font-family: 'mcr'; 
+src: url(https://dl.dropbox.com/s/vlwjpiu7bq4zy7j/my_chemical_romance.ttf); 
+}.profile h1 {
+    font-family: 'mcr';
+    text-shadow: 0 0 2px red, 0 0 2px red, 0 0 2px red, 0 0 2px red, 0 0 2px red, 0 0 2px red, 0 0 2px red, 0 0 2px red, 0 0 2px red, 0 0 2px red, 0 0 2px red, 0 0 2px red, 0 0 2px red, 16px 8px #8b00006e, -16px -8px #8b00006e;
+    color: black;
+}
+/* == background img == */
+
+body{
+background: url(https://i.pinimg.com/564x/17/4e/ae/174eae1a41776d9776e74c1c36c4bbce.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+/* == nav == */
+
+nav .top{
+color: red;
+background: black;
+    border: 3px dashed red;
+border-radius: 8px;
+outline: 1px solid red;
+    margin-top: 10px;
+}
+
+button, input {
+    overflow: visible;
+    background: black;
+    border: 3px dashed red;
+border-radius: 8px;
+outline: 1px solid red;
+    color: red;
+}
+
+nav .links {
+    background-color: black;
+    padding: 3.5px 16px 5.5px 16px;
+    text-align: center;
+    border: 3px dashed red;
+border-radius: 8px;
+outline: 1px solid red;
+margin-top: 20px;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " † ";
+    color: red;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: red;
+    text-shadow: 0 0 5px red;
+    font-size: 0.98em;
+    font-size: 80%;
+}
+
+nav .links a:hover {
+    color: darkred;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-style: italic;
+}
+
+nav .links .special a {
+    color: red;
+}
+
+nav .links li.active a {
+    font-weight: bold;
+    color: red;
+}
+
+.icon, .award img {
+    display: none;
+}
+
+/* == main == */
+
+main {
+    margin-top: 20px;
+    padding: 6px 0px;
+    font-size: 80%;
+    background: transparent;
+}
+
+.row{
+    border: 3px dashed red;
+border-radius: 8px;
+outline: 1px solid red;
+    background: black;
+    color: red;
+    margin-top: 20px;
+}
+
+.container {
+    width: 810px;
+    max-width: 100%;
+    margin: 0 auto 10px;
+    text-transform: lowercase;
+}
+
+a {
+    color: darkred;
+    text-decoration: auto;
+    font-style: italic;
+}
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: darkred;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
+}
+
+.logo {
+content:url("https://cdn.discordapp.com/attachments/859229634424209439/1155462607982047233/Untitled491_20230924211508.png");
+}
+
+.logout-btn, .logout-form {
+    color: red;
+    display: inline-block;
+    font-size: 100%;
+    font-style: italic;
+    text-transform: lowercase;
+    outline: none;
+}
+
+main:before {
+ height: 257px;
+ display: block;
+ content: "";
+ background-image: url('https://i.pinimg.com/736x/05/ba/e7/05bae795bbc9ee082e9b6760afe66a2f.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+    border: 3px dashed red;
+    outline: 1px solid red;
+    border-radius: 8px;
+    margin-bottom: 7px;
+}
+
+/* == right side == */
+
+span {
+    text-align: center;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+img.pfp-fallback {
+    border: 3px dashed red;
+    outline: 1px solid red;
+    border-radius: 15px;
+}
+
+.general-about .details {
+    display: block;
+    text-align: center;
+}
+
+.online {
+    content: url(https://i.pinimg.com/236x/b8/51/eb/b851ebcf029715334e630ed8a7142e15.jpg);
+    width: 100%;
+}
+
+.profile .mood {
+    margin-bottom: 18px;
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block;
+    border: 3px dashed red;
+    outline: 1px solid red;
+    border-radius: 15px;
+    background: black;
+    padding: 4px;
+    text-align: center;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: black;
+    color: red;
+    border-bottom: 3px dashed red;
+    text-align: center;
+    padding: 2px 7px;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: 3px dashed red;
+    border-radius: 10px;
+    outline: 1px solid red;
+    margin: 10px 0;
+    background: black;
+}
+
+.profile .url-info {
+    padding: 4px 7px;
+    font-size: 0px;
+    background: url(https://i.pinimg.com/564x/cb/3e/90/cb3e903a569010ee035f5b537aab4887.jpg);
+    height: 398px;
+    background-size: cover;
+    filter: saturate(1.2);
+}
+
+.details-table td {
+    background: black;
+    border: 2px dotted red;
+    vertical-align: top;
+    border-radius: 5px;
+}
+
+.details-table td:first-child {
+    background: black;
+    color: red;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px dotted red;
+    font-weight: bold;
+    width: 33%;
+    border-radius: 5px;
+}
+
+/* == left side == */
+
+.profile-info {
+    border: 3px dashed red;
+    outline: 1px solid red;
+    border-radius: 15px;
+    background: url(https://i.pinimg.com/564x/c9/e8/81/c9e88128bee9a40b3ff70d1ca087a340.jpg);
+    font-size: 0;
+    height: 170px;
+    background-size: cover;
+    background-position-y: -135px;
+    filter: contrast(1.1) saturate(1.5);
+}
+
+.blog-preview {
+    background: black;
+    border: 3px dashed red;
+    outline: 1px solid red;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: black;
+    color: red;
+    padding: 2px 7px;
+    text-align: center;
+    border-bottom: 3px dashed red;
+}
+
+.profile .blurbs {
+    margin: 20px 0;
+    border: 3px dashed red;
+    border-radius: 10px;
+    background: black;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: red;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.friends {
+    background: black;
+    border: 3px dashed red;
+    border-radius: 10px;
+}
+
+.count {
+    color: red;
+    font-size: 100%;
+}
+
+.profile .friends .person p {
+    color: darkred;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.profile .friends .person p:hover {
+    color: darkred;
+}
+
+div#comments {
+    margin-top: 15px;
+}
+
+.comments-table td, .music-table td {
+    background: black;
+    vertical-align: top;
+    border: 3px dashed red;
+    border-radius: 10px;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: black;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+    border: 3px dashed red;
+    border-radius: 10px;
+}
+
+table.comments-table {
+    border: none;
+}
+
+/* == footer == */
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background: transparent;
+    color: red;
+}
+
+/* == cursor == */
+
+HTML,BODY{cursor: 
+url(https://external-media.spacehey.net/media/s6rl8pclY7DDunCpW9Dilx_i8_U618PDAm6u3qxen7js=/https://ani.cursors-4u.net/symbols/sym-8/sym734.cur),
+auto;}
+
+
+A:hover{cursor: 
+url(https://external-media.spacehey.net/media/s6rl8pclY7DDunCpW9Dilx_i8_U618PDAm6u3qxen7js=/https://ani.cursors-4u.net/symbols/sym-8/sym734.cur),
+auto;}
+.comment-replies {
+    padding: 0 5px;
+    border: 3px dashed red;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+</style>
+
+
+    <div class="mobileHide">
+
+        <style>
+
+   .mobileHide { display: inline;}
+
+   /* Smartphone Portrait and Landscape */
+
+   @media only screen
+
+   and (min-device-width : 320px)
+
+   and (max-device-width : 480px){  .mobileHide { display: none;}}
+
+</style>
+
+/* =========== STYLES ========= */
+
+
+<style> 
+
+h5 {
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: red;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #000;
+}
+
+
+
+/* == headings + text shit == */
+
+h1 {
+    text-align: center;
+    font-size: larger!important;
+    animation: welcomeText 1s infinite;
+}
+
+h2 {
+    font-size: smaller;
+    border: 2px dashed darkred;
+    padding: 10px;
+}
+
+h3 {
+    font-size: small;
+    padding: 10px;
+}
+
+h4 {
+    font-size: medium;
+}
+
+#friends .profile .blurbs .heading, .profile .friends .heading {
+    background: black;
+    color: red;
+    padding: 0;
+    border: none;
+}
+
+a.more {
+    margin-top: 0!important;
+}
+
+
+@keyframes welcomeText {
+0% { color: red; }
+50% { color: darkred }
+100% { color: red; }
+}
+
+
+
+a{
+color: darkred;
+}
+
+:root {
+  --warning-background-color: white;
+  --warning-text-color: black;
+}
+
+</style>
+
+<style>
+/* ====== #friends ======= */
+
+
+#friends {
+    position: fixed;
+    z-index: 149!important;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px 100px;
+    font-size: 200%;
+    background-color: black;
+    color: red;
+    overflow-y: scroll;
+    opacity: 1;
+    transition: .2s;
+    text-align: center;
+}
+
+#friends:target{
+z-index: 150!important;
+}
+
+#friends * {
+ width: 100%;
+ max-width: 700px!important;
+ margin: 20px auto;
+}
+
+
+
+
+
+#friends a {
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+    font-size: smaller;
+}
+
+#friends .friends {
+    border: none;
+}
+
+#friends ul {
+ padding: 10px 50px;
+ border: 2px dashed var(--warning-text-color);
+}
+
+</style>
+
+/* ====== #about ======= */
+
+<style>
+
+#about > img:nth-child(14) {
+    width: 250px;
+    height: auto;
+}
+
+#about > img:nth-child(15) {
+    width: 250px;
+    height: auto;
+}
+
+#about > img:nth-child(16) {
+    width: 250px;
+    height: auto;
+}
+
+#about{
+    position: fixed;
+    z-index: 149;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px 100px;
+    font-size: 200%;
+    background-color: black;
+    color: red;
+    overflow-y: scroll;
+    opacity: 1;
+    transition: .2s;
+    text-align: center;
+}
+
+
+
+#about > ul {
+ padding: 10px 50px;
+ border: 2px dashed var(--warning-text-color);
+}
+
+#about > a {
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+    font-size: smaller;
+}
+
+#about:target {
+    z-index: 150!important;
+    transition: .2s;
+}
+
+#about > * {
+ width: 100%;
+ max-width: 700px!important;
+ margin: 20px auto;
+}
+
+
+#about > img:nth-child(10) {
+    height: 208px;
+    width: auto;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+
+
+</style>
+
+<style>
+
+/* ====== #profile ======= */
+
+
+div#\ {
+    position: fixed;
+    z-index: 150!important;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px 100px;
+    font-size: 200%;
+    background-color: black;
+    color: red;
+    overflow-y: scroll;
+    opacity: 1;
+    transition: .2s;
+    text-align: center;
+}
+
+div#\ > * {
+ width: 100%;
+ max-width: 700px!important;
+ margin: 20px auto;
+}
+
+
+
+
+
+div#\ > a {
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+    font-size: smaller;
+}
+
+div#\ > ul {
+ padding: 10px 50px;
+ border: 2px dashed var(--warning-text-color);
+}
+
+
+</style>
+
+/* ====== #contact======= */
+
+<style>
+
+#contact{
+    position: fixed;
+    z-index: 149;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px 100px;
+    font-size: 200%;
+    background-color: black;
+    color: red;
+    overflow-y: scroll;
+    opacity: 1;
+    transition: .2s;
+    text-align: center;
+}
+
+#contact > h2:nth-child(11) {
+    text-align: center;
+}
+
+#contact> ul {
+ padding: 10px 50px;
+ border: 2px dashed var(--warning-text-color);
+}
+
+#contact> a {
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+    font-size: smaller;
+}
+
+#contact h2 {
+    width: 45%;
+    text-align: left;
+}
+
+#contact:target {
+    z-index: 150!important;
+    transition: .2s;
+}
+
+#contact> * {
+ width: 100%;
+ max-width: 700px!important;
+ margin: 20px auto;
+}
+
+
+#contact> img:nth-child(10) {
+    height: 208px;
+    width: auto;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+
+
+</style>
+
+
+
+
+/* ====== #interests ======= */
+
+<style>
+
+#interests > img:nth-child(14) {
+    width: 250px;
+    height: auto;
+}
+
+#interests > img:nth-child(15) {
+    width: 250px;
+    height: auto;
+}
+
+#interests > img:nth-child(16) {
+    width: 250px;
+    height: auto;
+}
+
+#interests{
+    position: fixed;
+    z-index: 149;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px 100px;
+    font-size: 200%;
+    background-color: black;
+    color: red;
+    overflow-y: scroll;
+    opacity: 1;
+    transition: .2s;
+    text-align: center;
+}
+
+
+
+#interests > ul {
+ padding: 10px 50px;
+ border: 2px dashed var(--warning-text-color);
+}
+
+#interests > a {
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+    font-size: smaller;
+}
+
+#interests:target {
+    z-index: 150!important;
+    transition: .2s;
+}
+
+#interests > * {
+ width: 100%;
+ max-width: 700px!important;
+ margin: 20px auto;
+}
+
+summary {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#interests h2 {
+    font-weight: normal;
+}
+
+#interests > img:nth-child(10) {
+    height: 338px;
+    width: auto;
+}
+
+
+
+</style>
+
+/* ====== #blinkies======= */
+
+<style>
+
+#blinkies> img:nth-child(14) {
+    width: 250px;
+    height: auto;
+}
+
+#blinkies> img:nth-child(15) {
+    width: 250px;
+    height: auto;
+}
+
+#blinkies> img:nth-child(16) {
+    width: 250px;
+    height: auto;
+}
+
+#blinkies{
+    position: fixed;
+    z-index: 149;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px 100px;
+    font-size: 200%;
+    background-color: black;
+    color: red;
+    overflow-y: scroll;
+    opacity: 1;
+    transition: .2s;
+    text-align: center;
+}
+
+
+
+#blinkies > ul {
+ padding: 10px 50px;
+ border: 2px dashed var(--warning-text-color);
+}
+
+#blinkies > a {
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+    font-size: smaller;
+}
+
+#blinkies > a:nth-child(10) > img {
+    margin-top: 42px;
+}
+
+#blinkies:target {
+    z-index: 150!important;
+    transition: .2s;
+}
+
+#blinkies > * {
+ width: 100%;
+ max-width: 700px!important;
+ margin: 20px auto;
+}
+
+
+#blinkies > img:nth-child(10) {
+    height: 208px;
+    width: auto;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+
+
+</style>
+
+
+
+
+/* =========== DIVS ========= */
+
+
+
+
+/* ======= profile div ======= */
+
+<div id=" ">
+
+<a href="https://spacehey.com/home">home |</a>
+<a href="#about">about me |</a>
+<a href="#contact">contact |</a>
+<a href="#friends">friends + comments |</a>
+<a href="https://blog.spacehey.com/fazballs">blogs |</a>
+<a href="https://layouts.spacehey.com/fazballs">layouts |</a>
+<a href="#interests">interests |</a>
+<a href="#blinkies">blinkies</a>
+
+<h1> welcome to my profile! :3 </h1>
+<h2> ** use the links above to navigate my profile ** </h2>
+<img src="https://i.pinimg.com/564x/dd/39/84/dd3984a123515a6a2061769527196475.jpg"/>
+    <br/>
+
+
+<p></p><h3>      brought to you by tibush labs <br/>
+          
+           Disclaimer: This is a fan-based project and is not affiliated with MySpace® in any way. <br/>
+
+
+<ul><a href="https://spacehey.com/about">about | </a>
+<a href="https://spacehey.com/news">news | </a>
+<a href="https://spacehey.com/rules">rules | </a>
+<a href="https://spacehey.com/press/?portal">press | </a>
+<a href="https://spacehey.com/brand">brand | </a>
+<a href="https://spacehey.com/credits">credits | </a>
+<a href="https://rss.spacehey.com">rss | </a>
+<a href="https://spacehey.com/tos">terms | </a>
+<a href="https://spacehey.com/privacy">
+</a><a href="https://tibush.com/imprint">imprint | </a>
+<a href="mailto:support@spacehey.com?subject=SpaceHey.com">contact | </a>
+<a href="mailto:support@spacehey.com?subject=Advertise%20on%20SpaceHey.com">advertise</a>
+<a href="https://status.spacehey.com">status | </a>
+<a href="https://shop.spacehey.com/">spaceHey shop</a>
+    </ul>
+    
+</h3><p>      </p><h3>©2023 SpaceHey.com All Rights Reserved.</h3>
+    
+  </div>
+
+/* ======= about div ======= */
+
+<div id="about">
+
+<a href="https://spacehey.com/home">home |</a>
+<a href="#about">about me |</a>
+<a href="#contact">contact |</a>
+<a href="#friends">friends + comments |</a>
+<a href="https://blog.spacehey.com/fazballs">blogs |</a>
+<a href="https://layouts.spacehey.com/fazballs">layouts |</a>
+<a href="#interests">interests |</a>
+<a href="#blinkies">blinkies</a>
+
+<h1> ray ☆ 2.0 </h1>
+<img src="https://cdn.spacehey.net/profilepics/2013164_7039cceb41215b08ab0a68a9ff8fa321.jpg?token=Ejzqw4KSRBMHbZq81uBessTzedaXXrEi7KXkH0s752w&expires=1699404122"/>
+    <br/>
+
+<p></p><h2> they / them <br/> lover of women, ray toro and minecraft <br/> socially awkward 15 year old. <br/> <a href="https://blog.spacehey.com/entry?id=933732">dni / byf</a></h2> 
+
+<img src="https://64.media.tumblr.com/942b7f60ef7e098eaed8df35de06f4d0/b41a3bf70c136061-0a/s250x400/d116661de0d31bb56ef9c52140324e1457c5318d.gifv" width="180" height="24"/>
+
+<img src="https://64.media.tumblr.com/42bb8481c43c99e5441830498a18a8f0/bb1764b47a5c5336-b5/s250x400/ce5ffc0eec3da10727c4a1647f6462b87d61670a.gifv" width="180" height="24"/>
+
+<img src="https://64.media.tumblr.com/31207640325b16c36e700b5de862fc47/bcf4bde061f4be42-ff/s250x400/ab9f64e1bfd0c50537847c12aa9879e88f212d6a.gifv" width="180" height="24"/>
+
+<h4><br/>
+<b>➤ SCHOOL SUBJECTS ;; </b>viscom, studio art, english, math, psych & outdoor ed
+<br/>
+<b>➤ MAJOR INTERESTS ;; </b> music (mostly mcr, fob & the used), minecraft (!! pls add if u like mc, i need more people 2play it w), horror movies
+<br/>
+<b>➤ PRIV ACCOUNT ;; </b> <a href="https://spacehey.com/mymellohi"> mellohi ☆ </a>
+<br/>
+<b>➤ COOL LINKS ;; </b> <a href="https://en.pronouns.page/@pavlove"> ☆ pronouns page ☆ </a> <a href="https://rentry.co/demolvrz"> rentry ☆ </a> <a href="https://twitter.com/s1ster2sleep"> twitter ☆ </a> <a href="https://www.tumblr.com/demolvrzs"> tumblr ☆ </a>
+<br/></h4>
+
+<p></p><h3>      brought to you by tibush labs <br/>
+          
+           Disclaimer: This is a fan-based project and is not affiliated with MySpace® in any way. <br/>
+
+
+<ul><a href="https://spacehey.com/about">about | </a>
+<a href="https://spacehey.com/news">news | </a>
+<a href="https://spacehey.com/rules">rules | </a>
+<a href="https://spacehey.com/press/?portal">press | </a>
+<a href="https://spacehey.com/brand">brand | </a>
+<a href="https://spacehey.com/credits">credits | </a>
+<a href="https://rss.spacehey.com">rss | </a>
+<a href="https://spacehey.com/tos">terms | </a>
+<a href="https://spacehey.com/privacy">
+</a><a href="https://tibush.com/imprint">imprint | </a>
+<a href="mailto:support@spacehey.com?subject=SpaceHey.com">contact | </a>
+<a href="mailto:support@spacehey.com?subject=Advertise%20on%20SpaceHey.com">advertise</a>
+<a href="https://status.spacehey.com">status | </a>
+<a href="https://shop.spacehey.com/">spaceHey shop</a>
+    </ul>
+    
+</h3><p>      </p><h3>©2023 SpaceHey.com All Rights Reserved.</h3>
+    
+  </div>
+
+/* ======= contact div ======= */
+
+<div id="contact">
+
+<a href="https://spacehey.com/home">home |</a>
+<a href="#about">about me |</a>
+<a href="#contact">contact |</a>
+<a href="#friends">friends + comments |</a>
+<a href="https://blog.spacehey.com/fazballs">blogs |</a>
+<a href="https://layouts.spacehey.com/fazballs">layouts |</a>
+<a href="#interests">interests |</a>
+<a href="#blinkies">blinkies</a>
+
+<br/>
+
+<h2>                                  <a href="/addfriend?id=2013164">
+                    <img src="https://i10.glitter-graphics.org/pub/575/575270ehu3guptig.gif" class="icon" alt=""/>                    add to friends
+                  </a>
+    <br/>
+                                  <a href="/addfavorite?id=2013164">
+                    <img src="https://i10.glitter-graphics.org/pub/575/575270ehu3guptig.gif" class="icon" alt=""/>                    add to favorites
+                  </a>
+
+<br/>
+
+                <a href="https://im.spacehey.com?user=2013164">
+                  <img src="https://i10.glitter-graphics.org/pub/575/575270ehu3guptig.gif" class="icon" alt=""/>                  send message
+                </a>
+    <br/>
+                <a href="https://im.spacehey.com/new?text=https://spacehey.com/fazballs">
+                  <img src="https://i10.glitter-graphics.org/pub/575/575270ehu3guptig.gif" class="icon" alt=""/>                  forward to friend
+                </a>
+
+<br/>
+
+                <a href="https://im.spacehey.com?user=2013164">
+                  <img src="https://i10.glitter-graphics.org/pub/575/575270ehu3guptig.gif" class="icon" alt=""/>                  instant message
+                </a>
+    <br/>
+
+                <a href="/block?id=2013164">
+                  <img src="https://i10.glitter-graphics.org/pub/575/575270ehu3guptig.gif" class="icon" alt=""/>                  block user
+                </a>
+
+<br/>
+
+                <a href="/soon?new">
+                  <img src="https://i10.glitter-graphics.org/pub/575/575270ehu3guptig.gif" class="icon" alt=""/>                  add to group
+                </a>
+    <br/>
+
+                <a href="/report?type=user&id=2013164">
+                  <img src="https://i10.glitter-graphics.org/pub/575/575270ehu3guptig.gif" class="icon" alt=""/>                  report user
+                </a>
+</h2>
+
+<h2>
+                <a href="https://twitter.com/s1ster2sleep">
+                  <img src="https://i.pinimg.com/564x/a3/13/bc/a313bc1672a68dbd2aa2dc4a0ba8334c.jpg" class="icon" alt=""/>                  twitter
+                </a>
+
+                <a href="https://www.instagram.com/demolvrzs">
+                  <img src="https://i.pinimg.com/564x/21/67/54/21675440615d287ae7e46ae4f17ac976.jpg" class="icon" alt=""/>                  instagram
+                </a>
+
+                <a href="https://www.tumblr.com/demolvrzs">
+                  <img src="https://i.pinimg.com/564x/74/db/66/74db6683f4a3ace8041865d66bdc5b03.jpg" class="icon" alt=""/>                  tumblr
+                </a>
+
+                <a href="https://www.tiktok.com/@malkiinson">
+                  <img src="https://i.pinimg.com/736x/b5/4c/23/b54c2385f1a6c6fe403fb49c0f7af9c7.jpg" class="icon" alt=""/>                  tiktok
+                </a>
+
+<br/>
+
+discord- sistertosleep
+
+</h2>
+
+<br/>
+<img src="https://i.pinimg.com/564x/05/ba/e7/05bae795bbc9ee082e9b6760afe66a2f.jpg"/>
+    <br/>
+
+
+<p></p><h3>      brought to you by tibush labs <br/>
+          
+           Disclaimer: This is a fan-based project and is not affiliated with MySpace® in any way. <br/>
+
+
+<ul><a href="https://spacehey.com/about">about | </a>
+<a href="https://spacehey.com/news">news | </a>
+<a href="https://spacehey.com/rules">rules | </a>
+<a href="https://spacehey.com/press/?portal">press | </a>
+<a href="https://spacehey.com/brand">brand | </a>
+<a href="https://spacehey.com/credits">credits | </a>
+<a href="https://rss.spacehey.com">rss | </a>
+<a href="https://spacehey.com/tos">terms | </a>
+<a href="https://spacehey.com/privacy">
+</a><a href="https://tibush.com/imprint">imprint | </a>
+<a href="mailto:support@spacehey.com?subject=SpaceHey.com">contact | </a>
+<a href="mailto:support@spacehey.com?subject=Advertise%20on%20SpaceHey.com">advertise</a>
+<a href="https://status.spacehey.com">status | </a>
+<a href="https://shop.spacehey.com/">spaceHey shop</a>
+    </ul>
+    
+</h3><p>      </p><h3>©2023 SpaceHey.com All Rights Reserved.</h3>
+    
+  </div>
+
+
+/* ======= interests div ======= */
+
+<div id="interests">
+
+<a href="https://spacehey.com/home">home |</a>
+<a href="#about">about me |</a>
+<a href="#contact">contact |</a>
+<a href="#friends">friends + comments |</a>
+<a href="https://blog.spacehey.com/fazballs">blogs |</a>
+<a href="https://layouts.spacehey.com/fazballs">layouts |</a>
+<a href="#interests">interests |</a>
+<a href="#blinkies">blinkies</a>
+
+<h1> interests </h1>
+
+<h2> <details> <summary>general</summary> 
+
+<b>☆ music ☆ lifesteal smp + no name smp fan ☆</b> vampires <b>☆ horror movies ☆</b> reading ☆ drawing <b>☆ gaming ☆ zombies ☆</b> coffee ☆ alcohol ☆ coding ☆ sleeping ☆ 
+</details></h2>
+
+<h2> <details> <summary>music</summary> 
+
+<b>☆ MY CHEMICAL ROMANCE ☆ LeATHERMØUTH ☆ FALL OUT BOY ☆ MISFITS ☆ THE USED ☆ BLACK FLAG ☆ pre-split p!atd </b> ☆ the cure ☆ ramones ☆ pencey prep ☆ death spells <b> ☆ paramore ☆ </b> electric century ☆ frank iero ☆ gerard way ☆ the bouncing souls ☆ sunny day real estate ☆ darkthrone ☆ pierce the veil ☆ johnnie guilbert ☆ hawthorne heights <b> ☆ electric callboy ☆ </b> wilbur soot ☆ lovejoy ☆ type o negative ☆ black veil brides ☆ sex pistols ☆ dead kennedys ☆ rites of spring ☆ hilltop hoods ☆ metallica ☆ iron maiden <b> ☆ blink 182 ☆ </b> the young veins ☆ green day <b> ☆ cobra starship ☆ </b> siouxsie and the banshees ☆ get scared ☆ sum 41 ☆ a day to remember ☆ first to last ☆ the academy is ☆ she wants revenge ☆ millionaires ☆ boys like girls ☆ yellowcard ☆ bowling for soup ☆ anti flag ☆ hollywood undead ☆ death cab for cutie ☆ motion city soundtrack ☆ story of the year ☆ afi ☆ mayday parade ☆ taking back sunday ☆ jimmy eat world ☆ thursday ☆ midtown ☆ saosin ☆ circa survive ☆ idkhow ☆ waterparks ☆ depeche mode ☆ joy division ☆ bauhaus <b> ☆ korn ☆ </b> disturbed ☆ ghost ☆ ghost town ☆ late nite reading ☆ i prevail ☆ brand new ☆ woe, is me ☆ weezer ☆ soad <b> ☆ the brobecks ☆ </b> destroy boys ☆ aberdeen is real ☆ tears for fears ☆ linkin park ☆ rob zombie ☆ set it off ☆ sleeping w sirens ☆ thirty seconds to mars ☆ the offspring ☆ the all american rejects ☆ cap'n jazz ☆ bmth ☆ the runaways ☆ joan jett ☆ the cranberries ☆ icp ☆ slipknot ☆ xasthur ☆ windir ☆ uburen <b> ☆ suizid ☆ </b> silencer ☆ rotting christ ☆ nattefrost ☆ mayhem ☆ leviathan ☆ kampfar ☆ immortal ☆ gorgoroth ☆ enslaved ☆ emperor ☆ deafheaven ☆ burzum ☆ bathory ☆ abigor ☆ nocturnal depression ☆ advent sorrow ☆ lifelover ☆ totalselfhatred ☆ deadspace ☆ këkht aräkh ☆
+</details></h2>
+
+<h2> <details> <summary>movies</summary> 
+
+<b>☆ final destination ☆ saw franchise ☆</b> halloween ☆ ft13th <b>☆ midsommar  ☆</b> scream <b>☆ fear street trilogy ☆</b> texas chainsaw massacre ☆ metal lords ☆ life on the murder scene <b>☆ superbad ☆</b> legally blonde <b>☆ baseketball ☆</b>
+</details></h2>
+
+<h2> <details> <summary>tv</summary> 
+
+<b>☆ south park ☆</b> the umbrella academy <b>☆ moral orel ☆</b> bjhm ☆ f is for family ☆ girl from nowhere ☆
+</details></h2>
+
+<h2> <details> <summary>heros</summary> 
+<b>☆ RAY FUCKING TORO ☆ ANDY FUCKING HURLEY ☆</b> gerard way ☆ joe trohman ☆ pete wentz ☆ patrick stump <b>☆ tom delonge ☆</b> mikey way ☆ travis barker ☆ mark hoppus <b>☆ hayley williams ☆</b> william beckett <b>☆ bert mccracken ☆</b> chris motionless <b>☆ jepha howard ☆</b> quinn allman ☆ glenn danzig ☆ ryan ross <b>☆ dallon weekes ☆</b> jonathan davis ☆ siouxsie siouxe ☆ joan jett ☆ robert smith ☆
+</details></h2>
+
+
+<img src="https://i.pinimg.com/564x/f4/b1/c0/f4b1c04fd69f56b0352dc610d966dd1f.jpg"/>
+    <br/>
+
+
+<p></p><h3>      brought to you by tibush labs <br/>
+          
+           Disclaimer: This is a fan-based project and is not affiliated with MySpace® in any way. <br/>
+
+
+<ul><a href="https://spacehey.com/about">about | </a>
+<a href="https://spacehey.com/news">news | </a>
+<a href="https://spacehey.com/rules">rules | </a>
+<a href="https://spacehey.com/press/?portal">press | </a>
+<a href="https://spacehey.com/brand">brand | </a>
+<a href="https://spacehey.com/credits">credits | </a>
+<a href="https://rss.spacehey.com">rss | </a>
+<a href="https://spacehey.com/tos">terms | </a>
+<a href="https://spacehey.com/privacy">
+</a><a href="https://tibush.com/imprint">imprint | </a>
+<a href="mailto:support@spacehey.com?subject=SpaceHey.com">contact | </a>
+<a href="mailto:support@spacehey.com?subject=Advertise%20on%20SpaceHey.com">advertise</a>
+<a href="https://status.spacehey.com">status | </a>
+<a href="https://shop.spacehey.com/">spaceHey shop</a>
+    </ul>
+    
+</h3><p>      </p><h3>©2023 SpaceHey.com All Rights Reserved.</h3>
+    
+  </div>
+
+/* ======= blinkies div ======= */
+
+<div id="blinkies">
+
+<a href="https://spacehey.com/home">home |</a>
+<a href="#about">about me |</a>
+<a href="#contact">contact |</a>
+<a href="#friends">friends + comments |</a>
+<a href="https://blog.spacehey.com/fazballs">blogs |</a>
+<a href="https://layouts.spacehey.com/fazballs">layouts |</a>
+<a href="#interests">interests |</a>
+<a href="#blinkies">blinkies</a>
+
+<br/>
+
+
+<h1> blinkies :) </h1>
+
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/sUd6oVttcUqVo5-YQrSh3WXmlDU-WpKfleIPtZdIrzFQ=/https://tinyurl.com/mr3bx6cb" width="180" height="24"/></a>
+
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/sOw-uRF-63vKK7P6ruHBw7ugCMqQrb1ndRiVFzq9l2L8=/https://tinyurl.com/ysszr8dy" width="180" height="24"/></a>
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/sbyWNSr_wH8Q7o2CZUVJczT7yJLejl_tT0Fq7SaCPlV0=/https://tinyurl.com/2p85dpu9" width="180" height="24"/></a>
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/s1uKEWonqHL0pOH5LlYYCye3weo4EFQMFdf7cKx64wXM=/https://tinyurl.com/bdh5kx8f" width="180" height="24"/></a>
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/ssT9zdj1xM_3sEZH64PixZo3Z8_NLXCMiY4iX4GkrsFA=/https://tinyurl.com/5a6je9mf" width="180" height="24"/></a>
+
+
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/sbX6hkK2AX6GAf8jUufcKGn5D3gtLadCOGHsAokAThok=/https://tinyurl.com/2p9usprj" width="180" height="24"/></a>
+
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/sGt59FLb31hxlPeXBtP235O0bOkiX7vUphd25_sfUmSI=/https://tinyurl.com/4smnvxvu" width="180" height="24"/></a>
+
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/sO09z5-wY7o4SDRMaJRCmkcgee8h2DKM4Pitt_Q4-k6c=/https://tinyurl.com/4jbweyfj" width="180" height="24"/></a>
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/ssiShUqKX0BFRGRrMp90aIdpDQY8tfWlvrImbTlV4v0o=/https://tinyurl.com/2p8rtd7f" width="180" height="24"/></a>
+
+<a href="https://spacehey.com"><img src="https://dl.glitter-graphics.com/pub/120/120247mcv711uxx1.gif" width="180" height="24"/></a>
+
+<a href="https://spacehey.com"><img src="https://i1.glitter-graphics.org/pub/252/252731rd2czu7vk5.gif" width="180" height="24"/></a>
+
+
+
+<a href="https://spacehey.com"><img src="https://i2.glitter-graphics.org/pub/37/37732uquewluv4c.gif" width="180" height="24"/></a>
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/s24kIhGr0-mu14s1fS1hkwYObu_ICMNOZwhTuj7gB2z8=/https://media.discordapp.net/attachments/945328620912644176/947142130416111676/certified_vampire_blinkie.gif" width="180" height="24"/></a>
+
+
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/sUyLQcM43CWE74cMsdWNzXucway4ObhpGer6BwQV_pss=/https://i.ibb.co/vmVHnXh/vampiresnever.gif" width="180" height="24"/></a>
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/sDZWDJSTZjY97xbutKLwv1SAo9ssqNwMTODuc8IMY3HY=/https://blinki.es/blinkies/movie/scream.gif" width="180" height="24"/></a>
+
+<a href="https://spacehey.com"><img src="https://i7.glitter-graphics.org/pub/754/754957zzz2cuge9i.gif" width="180" height="24"/></a>
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/sKwUg_Sj3fcC7R3TQyJU8GHcIqRNgTzUEZod_IergGZM=/https://blinki.es/blinkies/movie/stigmata.gif" width="180" height="24"/></a>
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/sqi1n3WkKIiMVDhCztE1NkY5TmjojC14nsy-OrF63yEE=/https://blinkies.neocities.org/b/display/0167-saw.gif" width="180" height="24"/></a>
+
+<a href="https://spacehey.com"><img src="https://i8.glitter-graphics.org/pub/471/471658sko2qsgbze.gif" width="180" height="24"/></a>
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/smonBiWqCy6Km25vg0a8NmAWctAkbzKtL07CXmeZOqLU=/https://i2.glitter-graphics.org/pub/586/586712m5sfpp1t1m.gif" width="180" height="24"/></a>
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/sqWxoWhM_x9V5rWr80cCxkMTdQhbd_mF81QIc_QaIg7U=/https://i.ibb.co/q5tyNrn/blinkies-Cafe-w-S-1.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/sq1vpzFxEakHy_GdA2r7E3siMzBmnBRZC2jQ1Tlgu5YM=/https://blinkies.cafe/b/blinkiesCafe-io.gif" width="180px" height="24px"/></a>
+
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/sJhOHs0tXHOYRS0pVvqh0bbruvfOUNTtJlaqWiv0cyOg=/https://media.discordapp.net/attachments/811157857550598164/1162443079391924386/blinkiesCafe-QN.gif?ex=6557a3fb&is=65452efb&hm=b79caed5a11e2a14e0d4842c8c5eda4aeaca8a39960d517bbc70921243d7a01a&=" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com"><img src="https://media.discordapp.net/attachments/881023904364265522/1170839139550253076/blinkiesCafe-wl.gif?ex=655a7fec&is=65480aec&hm=fab2bbd063571837b4199817d880f2a51865de845fd2c3ecc68e3a87c773603e&=&width=206&height=27" width="180" height="24px"/></a>
+
+
+<a href="https://spacehey.com"><img src="https://external-media.spacehey.net/media/sgOo2ALyicUqxsfp7NQ3juy-P0pFb68W8XN6jyxH4N-k=/https://i.postimg.cc/8kMp3ZFS/IMG-0956.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com"><img src="https://cdn.discordapp.com/attachments/1135690265206722713/1170842298364469289/blinkiesCafe-1Q.gif?ex=655a82dd&is=65480ddd&hm=00c499fdbdf4dac92585671a14e7607b4660edb5aaef8b1aa69db69ca0587990&" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com"><img src="https://web-mine.neocities.org/blinkies/bite%20me,%20please.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com"><img src="https://web-mine.neocities.org/blinkies/bite%20me%20(1).gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/cool%20baby%20cool.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/addicted%20to%20myspace.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/i%20attract%20evil.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/korn.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/never%20trust%20a%20republican.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/people%20are%20strange.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/protected%20by%20vampyres.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/zero%20to%20witch%20in%206.66%20seconds.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/vengeance.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/rock%20music%20lover.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/i%20am%20immortal.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/good%20charlotte.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/god%20bless%20the%20freaks.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/either%20go%20to%20hell%20or%20die%20trying.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/metallica.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/metal%20rulz.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/i%20just%20came%20out%20to%20feed.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://web-mine.neocities.org/blinkies/deadly%20kitty.gif" width="180px" height="24px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://64.media.tumblr.com/ca9b734b865fc31ffdaf4b113fab8dd9/3558b906d3e28e70-4f/s250x400/6949413ad72aaafdb9e28f6e24504bea5cc3d21d.gifv" width="180px" height="24px"/></a>
+
+<h1> stamps X3 </h1>
+
+<a href="https://spacehey.com"><img src="https://i.ibb.co/wBwqJG2/Untitled498-20231031210119.png" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com"><img src="https://cdn.discordapp.com/attachments/1158989539990310924/1160386328773525534/Untitled228-20231007211908.png?ex=653478fb&is=652203fb&hm=7b40fc270c790929aa8a312eef8ab420e06401a4be5881466ccdd917554b2368&" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://gligar.neocities.org/gfgay.png" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://gligar.neocities.org/straight.png" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://gligar.neocities.org/transhc.png" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://gligar.neocities.org/mobs.gif" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="http://68.media.tumblr.com/c48a827ecae81d7b5ed6a537e4417981/tumblr_inline_otxbl1tsbr1u4rdex_500.gif" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="http://68.media.tumblr.com/7de88726458de62f940159b57f2807c4/tumblr_oggg3t8awD1vdiwg8o3_100.gif" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="http://fc07.deviantart.net/fs70/f/2011/208/c/1/veeeery_good_ideas____by_1foxylady-d41sswa.png" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="http://orig15.deviantart.net/4f1e/f/2008/058/6/2/insane_stamp_by_shelly_oneechan.jpg" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://i.ibb.co/nM1xh86/anarchy-stamp.png" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://i.ibb.co/8Dw9YJr/bad-handwriting-stamp.gif" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://i.ibb.co/YQW4ztW/emo-stamp.png" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://i.ibb.co/19mHrjG/glow-in-the-dark-stamp.gif" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://i.ibb.co/McD6sSb/green-day-stamp-american-idiot.png" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://i.ibb.co/TbMSXcx/mcr-stamp.png" width="auto" height="100px"/></a>
+
+
+<a href="https://spacehey.com">
+<img src="https://i.ibb.co/R2yvVw3/mmmmm-yummy-stamp-hehe.gif" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://i.ibb.co/WVnSW9G/my-chemical-romance-stamp.png" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://i.ibb.co/hZvjpTG/neopronouns-stamp.png" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://i.ibb.co/Lx8fVSd/pierce-the-veil-stamp.png" width="auto" height="100px"/></a>
+
+<a href="https://spacehey.com">
+<img src="https://i.ibb.co/zFYkMBL/yeah-im-SILLY-stamp.png" width="auto" height="100px"/></a>
+
+
+
+<p></p><h3>      brought to you by tibush labs <br/>
+          
+           Disclaimer: This is a fan-based project and is not affiliated with MySpace® in any way. <br/>
+
+
+<ul><a href="https://spacehey.com/about">about | </a>
+<a href="https://spacehey.com/news">news | </a>
+<a href="https://spacehey.com/rules">rules | </a>
+<a href="https://spacehey.com/press/?portal">press | </a>
+<a href="https://spacehey.com/brand">brand | </a>
+<a href="https://spacehey.com/credits">credits | </a>
+<a href="https://rss.spacehey.com">rss | </a>
+<a href="https://spacehey.com/tos">terms | </a>
+<a href="https://spacehey.com/privacy">
+</a><a href="https://tibush.com/imprint">imprint | </a>
+<a href="mailto:support@spacehey.com?subject=SpaceHey.com">contact | </a>
+<a href="mailto:support@spacehey.com?subject=Advertise%20on%20SpaceHey.com">advertise</a>
+<a href="https://status.spacehey.com">status | </a>
+<a href="https://shop.spacehey.com/">spaceHey shop</a>
+    </ul>
+    
+</h3><p>      </p><h3>©2023 SpaceHey.com All Rights Reserved.</h3>
+    
+  </div>
+
+
+/* ======= friends div ======= */
+
+<div id="friends">
+
+<a href="https://spacehey.com/home">home |</a>
+<a href="#about">about me |</a>
+<a href="#contact">contact |</a>
+<a href="#friends">friends + comments |</a>
+<a href="https://blog.spacehey.com/fazballs">blogs |</a>
+<a href="https://layouts.spacehey.com/fazballs">layouts |</a>
+<a href="#interests">interests |</a>
+<a href="#blinkies">blinkies</a>
+
+<h1> friends + comments :3 </h1>
+
+        <div class="friends">
+          <div class="heading">
+            <h2>ray ☆ 2.0's friend space</h2>
+          <div class="inner">
+                        <p></p><h5>ray ☆ 2.0 has <span class="count">311</span> friends.</h5>
+        <div class="friends" id="comments"></div>
+            <a class="more" href="/friends?id=2013164">[view friends]</a>
+          </div></div>
+<br/>
+          <div class="heading">
+            <h2>ray ☆ 2.0's friends comments</h2>
+          </div>
+          <div class="inner">
+                        <p>
+              </p><h5>
+                Displaying <span class="count">15</span> of <span class="count">15</span> comments
+                ( <a href="/comments?id=2013164">View all</a> | <a href="/addcomment?id=2013164">Add Comment</a> )
+              </h5>
+            </div>
+
+<p></p><h3>      brought to you by tibush labs <br/>
+          
+           Disclaimer: This is a fan-based project and is not affiliated with MySpace® in any way. <br/>
+
+
+<ul><a href="https://spacehey.com/about">about | </a>
+<a href="https://spacehey.com/news">news | </a>
+<a href="https://spacehey.com/rules">rules | </a>
+<a href="https://spacehey.com/press/?portal">press | </a>
+<a href="https://spacehey.com/brand">brand | </a>
+<a href="https://spacehey.com/credits">credits | </a>
+<a href="https://rss.spacehey.com">rss | </a>
+<a href="https://spacehey.com/tos">terms | </a>
+<a href="https://spacehey.com/privacy">
+</a><a href="https://tibush.com/imprint">imprint | </a>
+<a href="mailto:support@spacehey.com?subject=SpaceHey.com">contact | </a>
+<a href="mailto:support@spacehey.com?subject=Advertise%20on%20SpaceHey.com">advertise</a>
+<a href="https://status.spacehey.com">status | </a>
+<a href="https://shop.spacehey.com/">spaceHey shop</a>
+    </ul>
+    
+</h3><p></p><h3>©2023 SpaceHey.com All Rights Reserved.</h3>
+    
+  </div></div>
+
+</div>
+
+
+
