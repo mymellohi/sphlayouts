@@ -1,0 +1,587 @@
+<style>
+
+    /* !! FONT IMPORT !! */
+@font-face { font-family: "Adler"; src: url('https://external-media.spacehey.net/media/sGpbRiFPL7z3WkPDywpjT5ah4_DTTOD3jhj3YTzO293A=/http://dl.dropbox.com/s/yi5megh89ndya2s/Adler.ttf'); }
+
+    /* !! BACKGROUND IMAGE !! */
+body{
+background: url(https://external-media.spacehey.net/media/sjwhXF1VJrtHHcbg2YIamTTso-QE9i0S8DajIqQe4llU=/https://media.discordapp.net/attachments/859229634424209439/1102559043295399966/IMG_1326.png?width=897&height=580) no-repeat fixed;
+    background-size: cover;
+font-family: "Adler";
+}
+
+
+.container {
+    width: 810px;
+    max-width: 100%;
+    margin: 0 auto 10px;
+    padding-top: 20px;
+}
+
+    /* !! GRADIENT HEADINGS !! */
+.profile .blurbs .heading, .profile .friends .heading {
+    background: linear-gradient(45deg, #630000, transparent);
+    color: black;
+    text-shadow: 0px 1px 3px #ff0000;
+
+    padding: 2px 7px;
+}
+
+    /* !! MAIN INFO !! */
+main {
+    background: #12121696;
+    color: white;
+    padding: 6px 0px;
+    font-size: 80%;
+}
+
+a{
+color: red
+}
+
+    /* !! RIGHT HAND SIDE !! */
+span {
+    text-align: center;
+    text-shadow: 2px 2px red;
+    color: white;
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+.general-about .profile-pic {
+    display: block;
+    margin: 0 15px 8px 0;
+    height: 160px;
+    text-align: center;
+}
+
+.general-about .profile-pic img {
+    max-width: 160px;
+    max-height: 160px;
+    box-shadow: 4px 4px 0px red;
+    border: 1px solid red;
+}
+
+.general-about .details {
+    display: block;
+    text-align: center;
+}
+
+.general-about {
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: inset 0 0 20px 3px red;
+
+}
+
+
+.profile .mood {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .home-actions {
+    width: 100%;
+    border: 1px solid red;
+    margin: 10px 0;
+    box-shadow: 5px 6px red;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .home-actions .heading {
+    background: linear-gradient(91deg, maroon, transparent);
+    color: black;
+    text-shadow: 0px 1px 3px #ff0000;
+    padding: 2px 7px;
+}
+
+.url-info {
+    background: url(https://external-media.spacehey.net/media/s9yaSmG1tgR70pf142YPp8jCaICRR1vs93uluam0mi1w=/https://i.pinimg.com/564x/95/4c/af/954caf51f81229d8aeb3e9f3588b758a.jpg);
+    background-position: center;
+    background-size: cover;
+font-size: 0px;
+    height: 275px;
+}
+
+.details-table td:first-child {
+    background: linear-gradient(90deg, red, #ff00007a);
+    color: #000000;
+    font-weight: bold;
+    width: 33%;
+}
+
+.details-table td {
+    background: linear-gradient(90deg, #ff00007a, transparent);
+    vertical-align: top;
+    color: black;
+    text-shadow: 0 0 5px red;
+}
+
+    /* !! NAV !! */
+
+nav .top {
+    background: linear-gradient(180deg, #aa0000, #78000047);
+    padding: 15px 10px 14px 10px;
+    display: flex;
+    position: relative;
+}
+
+nav .links {
+    background: linear-gradient(180deg, #78000047, transparent);
+    padding: 3.5px 16px 5.5px 16px;
+    font-size: 9px;
+    text-align: center;
+}
+
+nav .links {
+    background: linear-gradient(180deg, #78000047, transparent);
+    padding: 3.5px 16px 5.5px 16px;
+    font-size: 6px;
+    text-align: center;
+}
+
+nav .links .special a {
+    color: #ff0000;
+}
+
+nav .links a:hover {
+    text-decoration: wavy;
+    text-decoration-line: line-through;
+    text-decoration-color: white;
+    color: #940000;
+}
+
+button, input {
+    overflow: visible;
+    background: black;
+    border: 1px solid red;
+    color: red;
+}
+
+.logo {
+
+content:url("https://external-media.spacehey.net/media/s8FCUucUuJKU9_hlsjD1bfoTMSoOHWddtIXPRFesaMkQ=/https://media.discordapp.net/attachments/1029635361506336808/1096272627208826880/spacehey_foundations.png");
+
+}
+
+    /* !! FOOTER !! */
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background: transparent;
+    color: white;
+}
+
+    /* !! FRIENDS / COMMENTS !! */
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid red;
+    box-shadow: 5px 5px red;
+}
+
+.profile .friends .person p {
+    color: #ff0000;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.profile .blurbs {
+    margin: 20px 0;
+    border: 1px solid red;
+    box-shadow: 5px 5px red;
+}
+
+.friends {
+    border: 1px solid red;
+    box-shadow: 5px 5px red;
+}
+
+div#comments {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+table.comments-table, table.music-table, table.bulletin-table, table.forum-table, table.groups-table {
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    border: 1px solid red;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: linear-gradient(90deg, #7d0000, #b5000075);
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+}
+
+.comments-table td, .music-table td {
+    background: linear-gradient(90deg, #b5000075, transparent);
+    vertical-align: top;
+}
+
+    /* !! SCROLLBAR !! */
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+BACKGROUND-COLOR: black;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    width: 2px;
+    border: 1px dotted darkred;
+}
+::-webkit-scrollbar-thumb {
+    background: darkred;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: red;  
+}
+
+    /* !! RENAMING !! */
+
+    .contact .heading{ font-size:0; }
+.contact .heading:before {
+    content: "msg me ! i don't bite (mostly)";
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+    .friends .heading{ font-size:0; }
+.friends .heading:before {
+    content: "fellow vampires !";
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+    .blurbs .heading{ font-size:0; }
+.blurbs .heading:before {
+    content: "about me !";
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+</style>
+
+<style>
+
+    /* !! IMAGE SHAKING !! */
+
+img:hover , .url-info:hover , .online:hover {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+    /* !! CONTACT SYMBOLS !! */
+
+.contact .inner a img {
+       font-size: 0;
+   }
+   .contact .inner a img:before {
+       font-size: 0em;
+    display: block
+   }
+   .contact .inner .f-row:nth-child(1) .f-col:nth-child(1) a:before {
+   	/* Add to Friends */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(1) .f-col:nth-child(2) a:before {
+   	/* Add to Favorites */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(2) .f-col:nth-child(1) a:before {
+	/* Send Message */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(2) .f-col:nth-child(2) a:before {
+	/* Forward to Friend */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(3) .f-col:nth-child(1) a:before {
+	/* Instant Message */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(3) .f-col:nth-child(2) a:before {
+	/* Block User */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(4) .f-col:nth-child(1) a:before {
+	/* Add to Group */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(4) .f-col:nth-child(2) a:before {
+	/* Report Profile */
+	content: "✞"
+   }
+
+    /* !! CURSOR !! */
+
+HTML,BODY{cursor: 
+url(https://external-media.spacehey.net/media/sgsukpE3pttM4eVvGb02tI801Wl9L0VfRhTBZpSOHtMg=/https://64.media.tumblr.com/1b9c668caa22adae2c4c8124c7873e2d/tumblr_inline_mpqm2fQ9291r6qyth.png),
+auto;}
+
+
+A:hover{cursor: 
+url(https://external-media.spacehey.net/media/sgsukpE3pttM4eVvGb02tI801Wl9L0VfRhTBZpSOHtMg=/https://64.media.tumblr.com/1b9c668caa22adae2c4c8124c7873e2d/tumblr_inline_mpqm2fQ9291r6qyth.png),
+auto;}
+
+    /* !! ONLINE ICON / ROTATION !! */
+
+.online {
+    margin:auto;
+    padding-bottom: 5px;
+    content: url(https://external-media.spacehey.net/media/snruWYSypWG-dCLChsFw-HN_E-agfF2g-PqB72AWY2js=/https://i.ibb.co/mFPFXQB/ezgif-5-f1b7056d17.png);
+}
+
+.online {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+    /* !! NAME ANIMATION !! */
+
+
+h1{
+  animation: type 3s steps(27);
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  }
+
+@keyframes type{
+  0%{
+    width:0ch;
+  }
+  
+  100%{
+    width:27ch;
+  }
+}
+
+@keyframes blink{
+  0%{opacity:1;}
+  50%{opacity:0;}
+  100%{opacity:1;}
+}
+
+    /* !! INRO GIF (GIF THAT SHOWS WHEN YOU OPEN THE PAGE) !! */
+
+body:before {
+	content: " ";
+	height: 100vh;
+	width: 100vw;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-image: url('https://external-media.spacehey.net/media/s0yCP_f7wrGVQarbedKv8iXwxUh9ZQtWQ2w2ZEXSH0J8=/https://media.discordapp.net/attachments/859229634424209439/1102559044159426683/64E45750-5C69-4758-A6C0-F11844D523DB.gif?width=625&height=375');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	animation: yourAnimation 1s ease 1s 1 normal forwards;
+	pointer-events: none;
+}
+@keyframes yourAnimation { 0.0% { opacity: 1; } 75% { opacity: 1; } 100% { opacity: 0; } }
+
+
+
+</style>
+
+<style>
+    /* !! FLOATING IMAGES !! */
+</style>
+
+<div style="float:  ; max-height: 800px; position: fixed; left: 1px; bottom: 15px; z-index: 200;"><img src="https://external-media.spacehey.net/media/sSGrUL1ISVHdfM7mTLoJKajEdPjPT_120om-52yy4y9w=/https://media.discordapp.net/attachments/859229634424209439/1102559043597369446/IMG_1328.png?width=578&height=580" width="375" height="375"/>
+
+<div style="float:  ; max-height: 800px; position: fixed; right: 1px; top: 15px; z-index: 200;"><img src="https://external-media.spacehey.net/media/sHGDcqV_q6W-BTIDaL4KJj838kwsZ27IxBDvOf5C4yrk=/https://media.discordapp.net/attachments/859229634424209439/1102559043895169064/IMG_1329.png?width=578&height=580" width="375" height="375"/>
+
+
+<style>
+    /* !! FALLING EMOJIS !! */
+</style>
+
+<div class="snowflakes">
+
+
+  <div class="snowflake">
+
+
+   💀
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+  🖤
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+  🩸
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+  💀
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+  🖤
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+  🩸
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+    💀
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+    🖤
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+    🩸
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+    💀
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+    🖤
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+    🩸
+
+
+  </div>
+
+
+</div>
+
+
+<style>
+
+
+/* customizable snowflake styling */
+
+
+.snowflake {
+
+
+  color: purple;
+
+
+  font-size: 1em;
+
+
+  font-family: Arial, sans-serif;
+
+
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
+
+
+}
+
+
+
+
+
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}</style></div></div>
+
+
