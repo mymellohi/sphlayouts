@@ -1,0 +1,352 @@
+<style>
+
+/* == font import == */
+
+@font-face { font-family: 'onyx'; src: url(https://external-media.spacehey.net/media/sPdyzt-c1Je3F6oDtNZHLzQ1LZcMx6Y4TMLNRKaU8X0k=/https://dl.dropbox.com/s/q11jrtn8akbq0bz/ONYX.ttf); }
+
+
+@font-face { font-family: 'mcr'; 
+src: url(https://external-media.spacehey.net/media/s-Q6zzUjSoxw7pJjVtdghYdKnTSr78LDWl-cuKRVveeI=/https://dl.dropbox.com/s/vlwjpiu7bq4zy7j/my_chemical_romance.ttf); 
+} body{ font-family: 'mcr'; }
+
+/* == background img == */
+
+body{
+    background: url(https://external-media.spacehey.net/media/swOvt2tYwK1GsmvmlqzjdVKwTGdWfh-6mbdZODUfo7lE=/https://i.pinimg.com/originals/3c/0c/b6/3c0cb639b0d69586dfe8b2417ad810b9.jpg) no-repeat fixed;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: luminosity;
+    text-transform: lowercase;
+    backdrop-filter: brightness(1.5);
+
+}
+
+.container {
+    width: 810px;
+    max-width: 100%;
+    margin: 20px auto 10px;
+}
+
+/* == nav == */
+
+nav .top {
+    background: white;
+    color: black;
+    padding: 15px 10px 14px 10px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+}
+
+nav .top .left .logo {
+    width: 165px;
+    height: 42px;
+    filter: invert(1);
+}
+
+button, input {
+    overflow: visible;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.logout-btn, .logout-form {
+    color: black;
+    box-shadow: none;
+    display: inline-block;
+    font-size: 100%;
+}
+
+nav .links {
+    background-color: white;
+    padding: 3.5px 16px 5.5px 16px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    text-align: center;
+}
+
+nav .links a {
+    text-decoration: line-through;
+    color: black;
+    font-size: max(0.98em, 12px);
+    text-shadow: none;
+}
+
+nav .links a:hover {
+    text-decoration: line-through;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+nav .links .special a {
+    color: black;
+    font-weight: bold;
+}
+
+/* == display name == */
+
+span {
+    text-align: center;
+    font-size: 250%;
+    text-transform: uppercase;
+    font-family: 'onyx';
+}
+
+h1::first-letter {
+    font-size: 120%;
+}
+
+
+/* == main == */
+
+main {
+    margin-top: 10px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
+    padding: 6px 0px;
+    font-size: 80%;
+    box-shadow: 0 0 5px black;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: #464d64;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.general-about .profile-pic img {
+    max-width: 160px;
+    max-height: 160px;
+    box-shadow: 1px 1px 5px 2px black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.general-about .details {
+    display: block;
+    text-align: center;
+}
+
+.profile .mood {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding-top: 10px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: white;
+    color: black;
+    border-bottom: 1px solid black;
+    padding: 2px 7px;
+    border-radius: 10px;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.details-table td:first-child {
+    background: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 0 0 3px black;
+    font-weight: bold;
+    width: 33%;
+}
+
+.details-table td {
+    background: white;
+    vertical-align: top;
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 0 0 3px black;
+}
+
+.profile-info{
+background: url(https://external-media.spacehey.net/media/sNV4R-bWW7lSiKsp50HghRHcqNM2tYXuFk5GfSqFKWKo=/https://i.pinimg.com/564x/4f/9e/9d/4f9e9dcd1517f38016bed614d5e09a99.jpg);
+    background-position-x: -40px;
+    background-repeat-x: no-repeat;
+    background-color: #f6f6f6;
+    background-position-y: -60px;
+    background-size: 374px;
+    height: 200px;
+    padding-left: 200px;
+    font-family: 'mcr';
+    font-size: 160%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.blog-preview {
+    border: 1px solid black;
+    box-shadow: 0 0 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: white;
+    color: black;
+    padding: 2px 7px;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+}
+
+.profile .blurbs .inner, .profile .friends .inner, .blog-entry .comments .inner, .bulletin .comments .inner, .setting-section .inner {
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: black;
+    font-weight: bold;
+}
+
+.count {
+    color: black;
+    font-size: 100%;
+}
+
+.profile .friends .person p {
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: white;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.comments-table td, .music-table td {
+    background: white;
+    border: 1px solid black;
+    vertical-align: top;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.comment-replies {
+    padding: 0 5px;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+img {
+    filter: grayscale(1) brightness(1.5);
+}
+
+html {
+    box-shadow: inset 0 0 20px 0px black, inset 0 0 20px 0px black, inset 0 0 20px 20px #00000096;
+}
+
+.url-info {
+    background: url(https://external-media.spacehey.net/media/s5-E2RRg9q-C9rvaqGbm-xrOJmMkf_x9Qa6y0PRSy91k=/https://i.pinimg.com/564x/7e/46/12/7e461253f6a30de7f0195f9dd6bf6c3f.jpg);
+    background-position: center;
+    background-size: cover;
+font-size: 0px;
+    height: 290px;
+    background-size: contain;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+BACKGROUND-COLOR: white;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    width: 2px;
+    border: 1px solid black;
+box-shadow: 0 0 5px black;
+}
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: black;  
+}
+
+.online{
+content: url(https://external-media.spacehey.net/media/s1jcjxnXRXzcs4w3dvK2KSQxbgEoOBPnmvbLoZ1aeTjQ=/https://i8.glitter-graphics.org/pub/52/52648s7y4he37mb.jpg);
+    width: -webkit-fill-available;
+    filter: invert(1);
+}
+
+
+</style>
+
