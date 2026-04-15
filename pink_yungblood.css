@@ -1,0 +1,262 @@
+<!-- (c) Layout created by ray ☆ 2.0 (https://layouts.spacehey.com/layout?id=81467) -->
+
+<style>
+
+@font-face { font-family: 'starshines'; 
+src: url(https://dl.dropbox.com/s/5ojtturb4ny5zgk/Starshines%20Italic.ttf); } .profile h1 { font-family: 'starshines', cursive; text-align: center; font-size: xx-large; }
+
+body{
+background: url(https://i.pinimg.com/564x/70/2c/e3/702ce39b954176354c3734df6a310541.jpg);
+}
+
+nav .top{
+margin-top: 10px;
+color: white;
+background: url(https://i.pinimg.com/564x/6c/5c/0b/6c5c0be28f262f39a71d470d47496068.jpg);
+    text-shadow: 1px 1px hotpink;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 8px white;
+}
+
+nav .top .left .logo {
+    width: 165px;
+    height: 42px;
+    filter: drop-shadow(0px 0px 5px pink);
+}
+
+button, input {
+    overflow: visible;
+    background: white;
+    color: lightpink;
+    border: none;
+    box-shadow: 0 0 5px white;
+    border-radius: 5px;
+}
+
+nav .links {
+    background-color: transparent;
+    padding: 3.5px 16px;
+    text-align: center;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 2px pink, 0 0 2px pink, 0 0 2px pink, 0 0 2px pink, 0 0 2px pink, 0 0 2px deeppink;
+    font-size: max(0.98em, 12px);
+    font-weight: bold;
+}
+
+nav .links a:hover {
+    text-decoration: none;
+    color: lightpink;
+    text-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white;
+}
+
+nav .links .special a {
+    color: white;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " | ";
+    color: pink;
+}
+
+main{
+background: url(https://i.pinimg.com/564x/0b/42/f3/0b42f37a77b48a488065da79d5b0dec3.jpg);
+    border: 1px solid white;
+    background-size: contain;
+    box-shadow: 0 0 10px white;
+    border-radius: 8px;
+    color: white;
+    text-shadow: 1px 1px hotpink;
+}
+
+
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background-color: transparent;
+    color: hotpink;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 2px pink, 0 0 2px pink, 0 0 2px pink, 0 0 2px pink, 0 0 2px pink, 0 0 2px deeppink;
+    font-size: max(0.98em, 12px);
+    font-weight: bold;
+}
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    text-decoration: none;
+    color: lightpink;
+    text-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: white;
+    color: pink;
+    border-radius: 8px;
+    padding: 2px 7px;
+    box-shadow: 0 0 10px white, 0 0 5px white;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: none;
+    margin: 10px 0;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: white;
+    color: pink;
+    padding: 2px 7px;
+    box-shadow: 0 0 5px white, 0 0 10px white;
+    border-radius: 8px;
+}
+
+.details-table td:first-child, .comments-table td:first-child, .music-table td:first-child {
+    background: lightpink;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    width: 33%;
+    box-shadow: 0 0 10px white, inset 5px 4px #ffe0e4, inset -4px -5px #dc5a6d82;
+    padding: 9px;
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+table.comments-table, table.music-table, table.bulletin-table, table.forum-table, table.groups-table {
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    border: none;
+}
+
+.url-info{
+background: url(https://i.pinimg.com/564x/63/1e/d9/631ed9d83da4b26e70903b542293ee9a.jpg);
+height: 300px;
+font-size: 0px;
+    background-size: contain;
+    filter: brightness(1.5);
+    border: 1px solid white!important;
+    border-radius: 8px;
+    box-shadow: 0 0 10px;
+    background-color: #ffc0cb2e;
+    background-blend-mode: overlay;
+}
+
+.details-table td, .comments-table td, .music-table td {
+    background: pink;
+    vertical-align: top;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white, inset 4px 5px #f8e8ea, inset -4px -5px #ef94a3cc;
+    padding: 10px;
+}
+
+.profile-info{
+background: url(https://i.pinimg.com/564x/12/15/2e/12152ee3a6adb80d4029987697bf969a.jpg);
+    filter: contrast(0.7) brightness(1.3);
+    background-position-x: 97px;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white;
+    font-size: 0;
+    height: 103px;
+    background-size: 368px;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.count {
+    color: white;
+}
+
+.profile .friends .person p {
+    color: inherit;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+color: white;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    margin: 0 auto;
+    filter: brightness(1.5) saturate(0.4);
+}
+
+img.pfp-fallback {
+    border: 1px solid white;
+    box-shadow: 0 0 10px white;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: pink;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+HTML,BODY{cursor: 
+url(https://external-media.spacehey.net/media/sRWPTdfAwYJj4YXmmdmKVdg-3-bojvA5Kt8FNCL73KWM=/https://cur.cursors-4u.net/anime/ani-1/ani195.png),
+auto;}
+
+
+A:hover{cursor: 
+url(https://external-media.spacehey.net/media/sRWPTdfAwYJj4YXmmdmKVdg-3-bojvA5Kt8FNCL73KWM=/https://cur.cursors-4u.net/anime/ani-1/ani195.png),
+auto;}
+
+    .icon, .award img {
+        display: none;
+        height: 2.0em;
+        width: 2.0em;
+        margin: 0 .05em 0 .1em;
+        vertical-align: -0.3em;
+        color: rgba(0,0,0,0);
+    }
+
+.contact a:before {
+    content: " ♡ ";
+}
+
+.online {
+    content: url(https://i10.glitter-graphics.org/pub/576/576020rj5q3x4njv.gif);
+    filter: brightness(1.5);
+}
+
+
+
+</style>
+
