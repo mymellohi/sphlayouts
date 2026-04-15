@@ -1,0 +1,345 @@
+<style>
+
+@import url('https://external-media.spacehey.net/css/sfAGFu7uJ3sVb21c3yehMdndvw6tEHT8emGSLTRMGfPM=/https://fonts.googleapis.com/css2?family=Life+Savers:wght@700&display=swap');
+
+@font-face { font-family: 'zombie holocaust'; 
+src: url(https://external-media.spacehey.net/media/sFL-_3IvXFJSJ65_CwEPW9h_vXDN_I7kNdruYG_r-Dso=/https://dl.dropbox.com/s/394i5cxz5a66u3x/Zombie_Holocaust.ttf); 
+}
+
+body{
+background: black;
+font-family: 'Life Savers', cursive;
+}
+
+.container {
+    width: 810px;
+    max-width: 100%;
+    margin: 0 auto 10px;
+    padding-top: 30px;
+}
+
+nav {
+    color: white;
+    font-size: 72%;
+    font-size: max(72%, 12px);
+    border: 1px solid red;
+    box-shadow: 3px 3px red;
+}
+
+nav .top {
+    background: #000000;
+    padding: 15px 10px 14px 10px;
+    display: flex;
+    color: red;
+    position: relative;
+}
+
+button, input {
+    overflow: visible;
+    border: 1px solid red;
+    box-shadow: 1px 1px red;
+    background: black;
+    color: red;
+}
+
+.logout-btn, .logout-form {
+    color: red;
+    display: inline-block;
+    font-size: 100%;
+}
+
+.logo {
+width: 141px;
+    height: 85px;
+    content: url("https://external-media.spacehey.net/media/s3gTqWo4L1xkT18CBk5b6qRxyKuEFJML8d2I1jp6nhjI=/https://media.discordapp.net/attachments/859229634424209439/1113365127912235048/IMG_1343.png?width=1177&height=326");
+}
+
+nav .links {
+    background-color: #000000;
+    padding: 3.5px 16px 5.5px 16px;
+    color: red;
+    text-align: center;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: red;
+    text-shadow: 0 0 7px #ff0000;
+    font-size: 0.98em;
+    font-size: max(0.98em, 12px);
+}
+
+nav .links .special a {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+nav .links a:hover {
+    text-decoration: underline;
+    color: red;
+    font-weight: bolder;
+}
+
+</style>
+
+<style>
+
+main {
+    background: black;
+    color: red;
+    padding: 6px 0px;
+    font-size: 80%;
+    border: 1px solid red;
+    box-shadow: 3px 3px red;
+    margin-top: 20px;
+}
+
+a {
+    color: #ff0000;
+    text-shadow: 0px 0px 5px red, 0px 0px 5px red, 0px 0px 10px red;
+    text-transform: uppercase;
+    font-size: 90%;
+    text-align: center;
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+span {
+    text-align: center;
+    font-family: 'zombie holocaust', cursive;
+    font-size: 200%;
+}
+
+.general-about .profile-pic img {
+    max-width: 160px;
+    max-height: 160px;
+    border: 1px solid red;
+    box-shadow: 3px 3px red;
+}
+
+.count {
+    color: #D32626;
+    font-family: 'Life Savers';
+    font-size: 11px;
+    font-weight: bolder;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: #000000;
+    color: red;
+    border-bottom: 1px solid red;
+    padding: 2px 7px;
+    text-align: center;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: 1px solid red;
+    box-shadow: 3px 3px red;
+    margin: 10px 0;
+}
+
+.details-table td:first-child {
+    background: #000000;
+    border: 1px solid red;
+    color: red;
+    font-weight: bold;
+    width: 33%;
+    text-align: center;
+}
+
+.details-table td {
+    background: black;
+    border: 1px solid red;
+    color: red;
+}
+
+</style>
+
+<style>
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    box-shadow: 3px 3px red;
+    background: url(https://external-media.spacehey.net/media/sEewiyS2_4RH12qdYtAj_77VhdicNeZhL16I8bJ44qxM=/https://i.pinimg.com/564x/5a/2e/c1/5a2ec1f780baa429fcb7ff6bdf1ed667.jpg);
+    background-size: 468px;
+    background-position-y: 108px;
+    font-size: 0px;
+    height: 104px;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: black;
+    border: 1px solid red;
+    color: red;
+    padding: 2px 7px;
+}
+
+.profile .friends .person p {
+    color: red;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    margin: 0 auto;
+    border: 3px dashed red;
+    border-radius: 15px;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: black;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+}
+
+.comments-table td, .music-table td {
+    background: black;
+    vertical-align: top;
+}
+
+table.comments-table, table.music-table, table.bulletin-table, table.forum-table, table.groups-table {
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    border: 1px solid red;
+}
+
+div#comments {
+    height: 500px;
+    border: 1px solid red;
+    overflow-y: scroll;
+    box-shadow: 3px 3px red;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+BACKGROUND-COLOR: black;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    width: 2px;
+    border: 1px dotted darkred;
+}
+::-webkit-scrollbar-thumb {
+    background: darkred;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: red;  
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background: #000000;
+    color: red;
+}
+
+</style>
+
+<style>
+
+HTML,BODY{cursor: 
+url(https://external-media.spacehey.net/media/s6rl8pclY7DDunCpW9Dilx_i8_U618PDAm6u3qxen7js=/https://ani.cursors-4u.net/symbols/sym-8/sym734.cur),
+auto;}
+
+
+A:hover{cursor: 
+url(https://external-media.spacehey.net/media/s6rl8pclY7DDunCpW9Dilx_i8_U618PDAm6u3qxen7js=/https://ani.cursors-4u.net/symbols/sym-8/sym734.cur),
+auto;}
+
+.online {
+    content: url(https://external-media.spacehey.net/media/s9sYPfcpkhTLaPXW7Mo-IfxU1RWI-BvxXW46CneT6Xm0=/https://i7.glitter-graphics.org/pub/494/494347l3jvossuzv.gif)
+}
+
+    .icon, .award img {
+        content: url(https://external-media.spacehey.net/media/sNzjZSanGHHHD0EhVswx14ZWPaoitM3MPA-asLInk23o=/https://i6.glitter-graphics.org/pub/134/134516ig8nw45tc7.gif);
+        display: inline-block;
+        height: 2.0em;
+        width: 2.0em;
+        margin: 0 .05em 0 .1em;
+        vertical-align: -0.3em;
+        color: rgba(0,0,0,0);
+    }
+
+</style>
+
+
+
+
+    <div class="mobileHide">
+
+        <style>
+
+   .mobileHide { display: inline;}
+
+   /* Smartphone Portrait and Landscape */
+
+   @media only screen
+
+   and (min-device-width : 320px)
+
+   and (max-device-width : 480px){  .mobileHide { display: none;}}
+
+</style>
+
+<div style="float:  ; max-height: 800px; position: fixed; right: 200px; top: 50px; z-index: 200;"><img src="https://external-media.spacehey.net/media/sZOe1vDEZg3eImdeP3fFbSU9fNacmRW2yqlEolJV4J3o=/https://i.pinimg.com/564x/12/93/09/1293096b09b49ea7396bb1b45503ec13.jpg" width="auto" height="300px"/></div></div>
+
+    <div class="mobileHide">
+
+        <style>
+
+   .mobileHide { display: inline;}
+
+   /* Smartphone Portrait and Landscape */
+
+   @media only screen
+
+   and (min-device-width : 320px)
+
+   and (max-device-width : 480px){  .mobileHide { display: none;}}
+
+</style>
+
+<div style="float:  ; max-height: 800px; position: fixed; left: 10px; bottom: 50px; z-index: 200;"><img src="https://external-media.spacehey.net/media/s5MKNc3nOljs7BCVLK-29RZ83ICteTFuaVqhFgY04rhk=/https://i.pinimg.com/originals/61/93/a7/6193a785e98f3cc373f5e319e5f3f963.gif" width="auto" height="350px"/></div></div>
+
+
+<style>
+
+body:before {
+    content: " ";
+    height: 14vh;
+    width: 101vw;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-image: url(https://external-media.spacehey.net/media/sTB-W-942h2dc5q-z7dnufVOTd5_ywJJmjXKpo8Glwa0=/https://i.pinimg.com/originals/24/77/df/2477dfe04df1f05e346e09a6926a6ea3.gif);
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center 20%;
+}
+
+</style>
+
