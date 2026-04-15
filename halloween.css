@@ -1,0 +1,339 @@
+<style>
+
+@font-face { font-family: "04B_03B"; src: url('http://dl.dropbox.com/s/1a8j9ii5han03tc90kie7/04B_03B_.TTF?rlkey=nlk8ov2jg2yovp1lz6lybulxk&dl=0'); } body { font-family: '04B_03B'; }
+
+body{
+background: url(https://i.pinimg.com/564x/92/0e/df/920edfad3214a0a492b232907cea3a38.jpg);
+background-size: contain;
+text-transform: uppercase;
+}
+
+nav .top {
+    background: black;
+    padding: 15px 10px 14px 10px;
+    position: relative;
+    margin-top: 20px;
+    border: 2px solid orangered;
+    color: orangered;
+}
+
+.logo {
+content:url("https://cdn.discordapp.com/attachments/859229634424209439/1155462607982047233/Untitled491_20230924211508.png");
+    filter: hue-rotate(55deg) brightness(1.5);
+}
+
+button, input {
+    overflow: visible;
+    background: black;
+    border: 2px solid orangered;
+    color: orangered;
+}
+
+.logout-btn {
+    font-family: inherit;
+    color: orangered;
+}
+
+nav .links {
+    background-color: black;
+    padding: 3.5px 16px;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    border: 2px solid orangered;
+    text-align: center;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: orangered;
+    text-shadow: none;
+    font-size: 0.98em;
+    font-size: max(0.98em, 12px);
+}
+
+nav .links .special a {
+    color: orangered;
+}
+
+nav .links a:hover {
+    text-decoration: none;
+    color: darkorange;
+    text-transform: uppercase;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " | ";
+    color: orangered;
+}
+
+main {
+    background: black;
+    color: orangered;
+    padding: 6px 5px;
+    font-size: 80%;
+    border: 2px solid orangered;
+}
+
+span {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+.profile .mood {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid orangered;
+    padding: 10px 2px 5px 2px;
+    margin-bottom: 10px;
+}
+
+.online {
+    content: url(https://i2.glitter-graphics.org/pub/1684/1684942a2n1ya4huz.gif);
+    width: 298px;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: black;
+    color: orangered;
+    padding: 2px 7px;
+    border-bottom: 2px solid orangered;
+    text-align: center;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: 2px solid orangered;
+    margin: 10px 0;
+}
+
+.icon, .award img {
+    display: none;
+}
+
+.f-col:before {
+    content: "X";
+    padding: 4px;
+}
+
+.details-table td:first-child {
+    background: black;
+    color: orangered;
+    font-weight: bold;
+    width: 33%;
+    border: 2px solid orangered;
+}
+
+.details-table td {
+    background: black;
+    vertical-align: top;
+    border: 2px solid orangered;
+}
+
+.url-info{
+font-size: 0px;
+background: url(https://i.pinimg.com/564x/ff/37/1c/ff371c3d8a6d9c014bce0004ee01b448.jpg);
+    height: 300px;
+    background-position: center;
+background-size: contain;
+border: 2px solid orangered;
+}
+
+.profile-info{
+background: url(https://i.pinimg.com/564x/4f/bd/ca/4fbdca1918ff4fb4df48f17b60377b2a.jpg);
+    background-size: contain;
+    height: 247px;
+    font-size: 0px;
+}
+
+.blog-preview p {
+    border-bottom: 2px solid orangered;
+    padding-bottom: 2px;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: black;
+    color: orangered;
+    padding: 2px 7px;
+    text-align: center;
+    border: 2px solid orangered;
+}
+
+.profile .blurbs .inner, .profile .friends .inner, .blog-entry .comments .inner, .bulletin .comments .inner, .setting-section .inner {
+    padding: 7px;
+    border: 2px solid orangered;
+    margin-top: 10px;
+}
+
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: orangered;
+    text-align: center;
+    border: 2px solid;
+    text-transform: uppercase;
+}
+
+.heading{
+    text-transform: uppercase;
+}
+
+.heading:after {
+    content: "...";
+}
+
+.count {
+    color: orangered;
+    font-size: smaller;
+}
+
+a {
+    color: orangered;
+    text-decoration: none;
+}
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: darkorange;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.profile .friends .person p {
+    color: orangered;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid orangered;
+}
+
+div#comments {
+    margin-top: 10px;
+}
+
+table.comments-table, table.music-table, table.bulletin-table, table.forum-table, table.groups-table {
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    border: transparent;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: black;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+    border: 2px solid orangered;
+}
+
+.comments-table td, .music-table td {
+    background: black;
+    vertical-align: top;
+    border: 2px solid orangered;
+    border-left: none;
+}
+
+.comment-replies {
+    padding: 0 5px;
+    border: 2px solid orangered;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background-color: black;
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+BACKGROUND-COLOR: black;
+}
+::-webkit-scrollbar-track {
+    width: 2px;
+    border: 1px solid orangered;
+}
+::-webkit-scrollbar-thumb {
+    background: orangered;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: darkorange;  
+}
+
+body::before {
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(https://media.tenor.com/dxA2j-gsp4oAAAAC/glitch-static.gif);
+    z-index: 2;
+    pointer-events: none;
+    mix-blend-mode: color-dodge;
+}
+
+
+html::before {
+    content: " ";
+    height: 14vh;
+    width: 101vw;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-image: url(https://external-media.spacehey.net/media/sTB-W-942h2dc5q-z7dnufVOTd5_ywJJmjXKpo8Glwa0=/https://i.pinimg.com/originals/24/77/df/2477dfe04df1f05e346e09a6926a6ea3.gif);
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center 20%;
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/holidays/hol-1/hol10.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+    .friends .heading{ font-size:0; }
+.friends .heading:before {
+    content: "fellow vampires";
+    font-size: .8rem;
+    color: orangered;
+}
+
+   .profile .table-section .heading h4 { font-size:0; }
+.profile .table-section .heading h4:before{ content: "interests/hobbies"; font-size: .8rem;      color: orangered; }
+
+    .contact .heading{ font-size:0; }
+.contact .heading:before {
+    content: "msg me! i don't bite (mostly)";
+    font-size: .8rem;
+    color: orangered;
+}
+
+table.comments-table{
+display: block;
+height: 456px!important;
+overflow-y: scroll;
+}
+
+</style>
+
