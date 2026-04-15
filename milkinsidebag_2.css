@@ -1,0 +1,324 @@
+
+<style>
+
+@font-face { font-family: "04B_03B"; src: url('http://dl.dropbox.com/s/1a8j9ii5han03tc90kie7/04B_03B_.TTF?rlkey=nlk8ov2jg2yovp1lz6lybulxk&dl=0'); } body { font-family: '04B_03B'; }
+
+body{ 
+background: url(https://img.itch.zone/aW1nLzUyMzgzMTMuZ2lm/original/WyqFHx.gif) no-repeat fixed;
+    background-size: cover;
+    text-transform: uppercase;
+}
+
+nav .top {
+    background: transparent;
+    padding: 15px 10px 14px 10px;
+    position: relative;
+}
+
+nav .links {
+    background-color: transparent;
+    padding: 3.5px 16px;
+    text-align: center;
+}
+
+nav{
+background: black;
+    color: #7c128c;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border: 3px solid #7c128c;
+}
+
+button, input {
+    overflow: visible;
+    background: black;
+    border: 3px solid #7c128c;
+    color: #7c128c;
+}
+
+.logout-btn {
+    font-family: inherit;
+    color: initial;
+    box-shadow: none;
+    text-shadow: inherit;
+}
+
+nav .top .left .logo {
+content: url(https://gamefaqs.gamespot.com/a/review/10/171410-1.png); }
+
+
+nav .links a {
+    text-decoration: none;
+    color: #7c128c;
+    font-size: smaller;
+    text-shadow: none;
+}
+
+nav .links a:hover {
+    text-decoration: none;
+    color: #490754;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " ☆ ";
+    color: #490754;
+    text-shadow: none;
+}
+
+main {
+    background: black;
+    color: #7c128c;
+    padding: 6px 0px;
+    font-size: 80%;
+    margin-top: 20px;
+    border: 3px solid #7c128c;
+}
+
+.general-about {
+    background: black;
+    padding: 10px;
+    border: 3px solid;
+}
+
+.profile h1 {
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-size: x-large;
+    color: #7c128c;
+    text-transform: uppercase;
+    border: 3px solid #7c128c;
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+.profile .mood {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background: black;
+    padding-top: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #7c128c;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: transparent;
+    color: inherit;
+    padding: 2px 7px;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    margin: 10px 0;
+    background: black;
+    border: 3px solid #7c128c;
+    padding: 5px;
+}
+
+.icon, .award img {
+    display: none;
+    height: 1.4em;
+    width: 1.4em;
+    aspect-ratio: 1/1;
+    margin: 0 0.05em 0 0.1em;
+    vertical-align: -0.3em;
+    color: rgba(0,0,0,0);
+}
+
+.details-table td:first-child {
+    background: black;
+    border: 3px solid #7c128c;
+    color: inherit;
+    font-weight: bold;
+    width: 33%;
+    padding: 9px;
+}
+
+.details-table td {
+    background: black;
+    border: 3px solid #7c128c;
+    vertical-align: top;
+}
+
+.blog-preview {
+    background: black;
+    padding: 1px;
+    padding-left: 13px;
+    border: 3px solid #7c128c;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: black;
+    color: inherit;
+    padding: 2px 7px;
+    text-align: center;
+    border: 3px solid #7c128c;
+}
+
+.profile .blurbs .section {
+    margin-bottom: 14px;
+    background: black;
+    padding: 5px;
+    border: 3px solid #7c128c;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: #7c128c;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.profile .friends .inner {
+    background: black;
+    border: 3px solid #7c128c;
+    margin: 10px;
+}
+
+
+.profile .friends .person p {
+    color: #7c128c;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.profile .friends .person {
+    width: 100px;
+    background: black;
+    border: 3px solid #7c128c;
+    display: inline-block;
+    padding: 10px;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 81px;
+    max-height: 81px;
+    display: block;
+    margin: 0 auto;
+}
+
+.count {
+    color: inherit;
+    font-size: 0;
+}
+
+.count:after {
+    content: "absolutely NO";
+    font-size: 12px;
+}
+
+table.comments-table, table.music-table, table.bulletin-table, table.forum-table, table.groups-table {
+    width: 100%;
+    border: 0px solid transparent;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: black;
+    text-align: center;
+    font-weight: bold;
+    border: 3px solid #7c128c;
+    width: 38%;
+}
+
+.comments-table td, .music-table td {
+    background: black;
+    vertical-align: top;
+    border: 3px solid #7c128c;
+}
+
+.comment-replies {
+    padding: 0 5px;
+    border: none;
+    margin-top: 10px;
+    background: black;
+    border: 3px solid #7c128c;
+}
+
+.profile-info {
+    border: 3px solid #7c128c;
+font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    background: url(https://static.wikia.nocookie.net/a-bag-of-milk/images/7/7a/Good_ending.png/revision/latest?cb=20230417172345);
+    background-size: 522px;
+    background-position-y: 361px;
+    height: 265px;
+    background-position-x: -24px;}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background-color: black;
+    border: 3px solid #7c128c;
+}
+
+a {
+    color: #7c128c;
+    text-decoration: none;
+}
+
+.online{ content: url(https://i7.glitter-graphics.org/pub/104/104607x61kd02dl0.gif); 
+    filter: hue-rotate(298deg);}
+
+HTML,BODY,A:hover{cursor: 
+url(data:image/x-icon;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUDQ3/FA0N/xQNDf8UDQ3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQNDf8yMqz/MjKs/xQNDf8UDQ3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUDQ3/MjKs/xQNDf8UDQ3/MjKs/xQNDf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQNDf8yMqz/FA0N/xQNDf8yMqz/FA0N/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUDQ3/MjKs/xQNDf8UDQ3/MjKs/xQNDf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQNDf8UDQ3/FA0N/wAAAAAAAAAAAAAAABQNDf8yMqz/FA0N/xQNDf8yMqz/FA0N/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFA0N/zIyrP8yMqz/FA0N/wAAAAAUDQ3/MjKs/xQNDf8UDQ3/MjKs/xQNDf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUDQ3/MjKs/xQNDf8yMqz/FA0N/xQNDf8yMqz/FA0N/xQNDf8yMqz/FA0N/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQNDf8yMqz/FA0N/xQNDf8yMqz/MjKs/xQNDf8UDQ3/MjKs/xQNDf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFA0N/zIyrP8UDQ3/FA0N/xQNDf8yMqz/FA0N/xQNDf8yMqz/FA0N/xQNDf8UDQ3/FA0N/xQNDf8UDQ3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUDQ3/MjKs/xQNDf8UDQ3/FA0N/xQNDf8UDQ3/FA0N/zIyrP8yMqz/MjKs/zIyrP8yMqz/MjKs/xQNDf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQNDf8yMqz/FA0N/xQNDf8UDQ3/FA0N/xQNDf8UDQ3/FA0N/xQNDf8UDQ3/FA0N/xQNDf8yMqz/FA0N/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFA0N/zIyrP8UDQ3/FA0N/xQNDf8UDQ3/FA0N/xQNDf8UDQ3/FA0N/xQNDf8UDQ3/MjKs/xQNDf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUDQ3/MjKs/xQNDf8UDQ3/FA0N/xQNDf8UDQ3/FA0N/xQNDf8UDQ3/FA0N/zIyrP8UDQ3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQNDf8yMqz/FA0N/xQNDf8UDQ3/FA0N/xQNDf8UDQ3/FA0N/xQNDf8yMqz/FA0N/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFA0N/zIyrP8UDQ3/FA0N/xQNDf8UDQ3/FA0N/xQNDf8UDQ3/MjKs/xQNDf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUDQ3/MjKs/xQNDf8UDQ3/FA0N/xQNDf8UDQ3/FA0N/zIyrP8UDQ3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQNDf8yMqz/FA0N/xQNDf8UDQ3/FA0N/xQNDf8yMqz/FA0N/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFA0N/zIyrP8UDQ3/FA0N/xQNDf8UDQ3/MjKs/xQNDf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUDQ3/MjKs/xQNDf8UDQ3/FA0N/zIyrP8UDQ3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQNDf8yMqz/FA0N/xQNDf8yMqz/FA0N/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFA0N/zIyrP8UDQ3/MjKs/xQNDf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUDQ3/MjKs/zIyrP8UDQ3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQNDf8UDQ3/FA0N/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////////////D////wf///4H///+B////A///xwP//8IH///AB///wA///8AAf//AAH//wAB//8AA///AAf//wAP//8AH///AD///wB///8A////Af///wP///8H////D////x////8=),
+auto;}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #000000;
+    border: 3px solid #7c128c;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #7c128c;
+}
+
+.url-info {
+    font-size: 0;
+    height: 278px;
+background: url(https://i.pinimg.com/564x/9c/f4/79/9cf4795063789a0c1f508fc8ed60a829.jpg)!important;
+    background-size: contain !important;
+    filter: contrast(2.5);
+}
+
+html::before {
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(https://i.pinimg.com/originals/f4/b8/49/f4b84973eacdb9abec030abbbc7bd3da.gif);
+    z-index: 200;
+    opacity: 0.5;
+    pointer-events: none;
+background-size: cover;
+    mix-blend-mode: color-dodge;
+}
+
+body > div > main > div.row.profile > div.col.right > div.blurbs > div.inner > div:nth-child(1) > p:nth-child(2) > a:nth-child(10) > img {
+    filter: contrast(1.2);
+}
+
+</style>
+
+
+
