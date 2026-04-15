@@ -1,0 +1,288 @@
+<style>
+
+body{
+background: url(https://i.pinimg.com/564x/0e/71/b5/0e71b5f2c9c2e728a21fb0b6150d09d4.jpg);
+text-transform: lowercase;
+}
+
+nav .top {
+    margin-top: 30px;
+background: url(https://i.pinimg.com/564x/fd/c8/3c/fdc83c41a6854cb78f861506475ba778.jpg);
+    background-position: center;
+    box-shadow: 0 0 28px #706565;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+nav .links {
+    background: transparent;
+    padding: 3.5px 16px;
+    text-align: center;
+    margin-top: 15px!important;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: white;
+    text-shadow: none;
+    font-size: smaller;
+    background: #cfafa6;
+    border-radius: 5px;
+    border-right: 4px solid #cfafa6;
+    border-left: 4px solid #cfafa6;
+    border-bottom: 3px solid #cfafa6;
+}
+
+nav .links .special a {
+    color: white;
+}
+
+nav .links a:hover {
+    text-decoration: none;
+    color: #efd9d3;
+    font-style: italic;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " ♡ ";
+    color: #9f3f23;
+}
+
+button, input {
+    overflow: visible;
+    background: white;
+    border: none;
+    color: #ceaea5;
+}
+
+main{
+background: url(https://i.pinimg.com/564x/20/22/00/202200a3316addaa681df14ddc832a33.jpg);
+
+    border: 2px solid white;
+    box-shadow: 0 0 13px #706565;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.profile h1 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 2px #b9697f, 0 0 2px #b9697f, 0 0 2px #b9697f, 0 0 2px #b9697f, 0 0 2px #b9697f, 0 0 2px #b9697f, 0 0 2px #b9697f, 0 0 2px #b9697f, 0 0 2px #b9697f, 0 0 2px #b9697f, 0 0 2px #b9697f, 0 0 2px #b9697f, 0 0 2px #b9697f;
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+.general-about{
+background: url(https://i.pinimg.com/564x/0e/71/b5/0e71b5f2c9c2e728a21fb0b6150d09d4.jpg);
+    height: 186px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: inset 0 0 15px #706565;
+}
+
+.profile .mood {
+    padding: 7px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+background: url(https://i.pinimg.com/564x/0e/71/b5/0e71b5f2c9c2e728a21fb0b6150d09d4.jpg);
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: inset 0 0 15px #706565;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions{
+background: url(https://i.pinimg.com/564x/0e/71/b5/0e71b5f2c9c2e728a21fb0b6150d09d4.jpg);
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: inset 0 0 15px #706565;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: #ceafa6;
+    color: white;
+    text-align: center;
+    padding: 2px 7px;
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: 2px solid white;
+}
+
+.icon, .award img {
+    display: none;
+}
+
+.contact a:before {
+    content: "♡";
+}
+
+.details-table td:first-child {
+    background: #ceafa6;
+    color: white;
+    font-weight: bold;
+    width: 33%;
+    border-radius: 8px;
+}
+
+.details-table td {
+    background: #d7b9b1;
+    color: white;
+    border-radius: 8px;
+}
+
+.profile-info{
+background: url(https://i.pinimg.com/564x/c7/ca/c5/c7cac5cefa9cb84c671231f16ac11a4e.jpg);
+}
+
+.profile-info {
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    background: url(https://i.pinimg.com/564x/c7/ca/c5/c7cac5cefa9cb84c671231f16ac11a4e.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 9px #6c5648;
+    border-radius: 8px;
+}
+
+.blog-preview {
+    padding: 10px;
+    padding-top: 0;
+background: url(https://i.pinimg.com/564x/0e/71/b5/0e71b5f2c9c2e728a21fb0b6150d09d4.jpg);
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: inset 0 0 15px #706565;
+}
+
+.blurbs, .friends{
+background: url(https://i.pinimg.com/564x/0e/71/b5/0e71b5f2c9c2e728a21fb0b6150d09d4.jpg);
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: inset 0 0 15px #706565;
+}
+
+.profile .blurbs .heading, .profile .friends .heading{
+    background: #ceafa6;
+    color: white;
+    text-align: center;
+    padding: 2px 7px;
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: 2px solid white;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: black;
+}
+
+.count {
+    color: #e48484;
+}
+
+.profile .friends .person p {
+    color: inherit;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+    text-shadow: 0 0 5px #706565;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #5a3939;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+table.comments-table, table.music-table, table.bulletin-table, table.forum-table, table.groups-table {
+    width: 100%;
+    border: 1px solid transparent;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: #ceafa6;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 38%;
+}
+
+.comments-table td, .music-table td {
+    background: #d7b9b1;
+    vertical-align: top;
+    color: white;
+    border-radius: 8px;
+}
+
+.comment-replies {
+    padding: 0 5px;
+    border: none;
+    margin-top: 10px;
+    background: #c9a9a0;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background-color: transparent;
+}
+
+a {
+    color: #b9697f;
+    text-decoration: none;
+}
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: #94354f;
+    text-decoration: none;
+    font-style: italic;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: pink;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.online{ content: url(https://i9.glitter-graphics.org/pub/272/272679lz7b9hcea1.gif); }
+
+</style>
+
+<style>* {cursor: url(https://cur.cursors-4u.net/nature/nat-11/nat1032.ani), url(https://cur.cursors-4u.net/nature/nat-11/nat1032.gif), auto;}</style><a href="https://www.cursors-4u.com/cursor/2012/01/29/brown-bobblehead-bunny.html" target="_blank" title="Brown Bobblehead Bunny"><img src="https://cur.cursors-4u.net/cursor.png" alt="Brown Bobblehead Bunny" style="position:absolute; top: 0px; right: 0px;"/></a>
+
