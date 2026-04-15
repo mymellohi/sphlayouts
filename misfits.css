@@ -1,0 +1,342 @@
+<style>
+
+@font-face { font-family: 'perry goth'; 
+src: url(https://external-media.spacehey.net/media/sJehavmRnSfPA6Vkj18FKkg3KQRRotAr_FgpH_pDSMc8=/https://dl.dropbox.com/s/9a25q7d9s3tsmcf/PERRYGOT.ttf); 
+} h4, .heading{ font-family: 'perry goth'; font-size: 80%; }
+
+@font-face { font-family: 'mcr'; 
+src: url(https://external-media.spacehey.net/media/s-Q6zzUjSoxw7pJjVtdghYdKnTSr78LDWl-cuKRVveeI=/https://dl.dropbox.com/s/vlwjpiu7bq4zy7j/my_chemical_romance.ttf); 
+} span{ font-family: 'mcr'; }
+
+body{
+background: url(https://wallpapercave.com/wp/wILjDMH.jpg);
+background-size: contain;
+background-position-y: -100px;
+}
+
+nav .links {
+    background-color: #111115;
+    padding: 3.5px 16px;
+    text-align: center;
+    border-top: 2px solid white;
+    position: fixed;
+    bottom: 0px;
+    width: -webkit-fill-available;
+    left: 0;
+    font-size: medium;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 7px #ffffff;
+}
+
+nav .links a:hover {
+    text-decoration: none;
+    color: #e9dec2;
+    text-shadow: 0 0 4px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav .links .special a {
+    color: #e9dec2;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " ☆ ";
+    color: white;
+}
+
+
+nav .top {
+    background: transparent;
+    color: white;
+    padding: 15px 10px 14px 10px;
+    display: flex;
+    position: relative;
+}
+
+nav .top {
+    background: transparent;
+    color: white;
+    padding: 15px 20px 35px 63px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-transform: lowercase;
+}
+
+button, input {
+    overflow: visible;
+    background: white;
+    color: black;
+border: none;
+    text-transform: lowercase;
+    box-shadow: none;
+}
+
+.logout-btn, .logout-form {
+    color: white;
+    text-transform: lowercase;
+    display: inline-block;
+    font-size: 100%;
+    box-shadow: none;
+}
+
+nav .top .left .logo {
+    width: 225px;
+    height: auto;
+    transform: skew(23deg, 355deg) translateY(10px) translateX(-58px);
+}
+
+button, input {
+    overflow: visible;
+    background: white;
+    border: none;
+    color: black;
+}
+
+main{
+background: url(https://i.pinimg.com/564x/74/5e/ce/745ecefe8c0cf716d59c445dba0a9728.jpg);
+color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white;
+    margin-top: 20px!important;
+}
+
+.profile h1 {
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-size: x-large;
+    color: #e9dec2;
+    text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
+    padding-top: 15px;
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: none;
+    margin: 10px 0;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading, .profile .blurbs .heading, .profile .friends .heading {
+    background: #e9dec2!important;
+    text-align: center;
+    color: black!important;
+    padding: 2px 7px;
+    margin-bottom: 5px!important;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 7px white;
+}
+
+a {
+    color: #ebddc2;
+    text-decoration: none;
+}
+
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: #928876;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.icon, .award img {
+    display: none;
+}
+
+.f-col:before {
+    content: "☆";
+    font-size: initial;
+    color: #e9dec2;
+}
+
+
+.profile .url-info {
+    padding: 4px 7px;
+    font-size: 0;
+    border: 1px solid white;
+    height: 300px;
+    box-shadow: 0 0 7px white;
+    border-radius: 8px;
+    background: url(https://i.pinimg.com/564x/85/22/49/852249c7c2c0e3937c0ef98f22d6c341.jpg);
+    background-size: contain;
+}
+
+.details-table td:first-child, .comments-table td:first-child, .music-table td:first-child {
+    background: #ebddc2;
+    box-shadow: inset 4px 5px #8a5c48, inset -5px -6px #ffffff;
+    color: black;
+    padding: 11px;
+    font-weight: bold;
+    border-radius: 6px;
+    width: 33%;
+}
+
+.details-table td, .comments-table td, .music-table td {
+    background: #ebddc2;
+    padding: 11px;
+    vertical-align: top;
+    border-radius: 6px;
+    box-shadow: inset 4px 5px #8a5c48, inset -5px -6px #ffffff;
+color: black;
+}
+
+.comment-replies {
+    padding: 5px;
+    border: none;
+    margin-top: 10px;
+    background: #c1a38f;
+    box-shadow: inset 2px 2px #8f6a52, inset -2px -2px #ffefe5;
+    border-radius: 8px;
+    margin-bottom: 7px;
+}
+
+table a {
+    color: black;
+}
+
+.blog-preview p {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+.blog-preview h4 {
+    background: #e9dec2;
+    padding: 2px 7px;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 7px;
+    text-align: center;
+    color: black;
+}
+
+.blog-preview h4 a {
+    color: #977952;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+}
+.count {
+    color: inherit;
+    font-size: 0;
+}
+
+.count:after {
+    content: "absolutely NO";
+    font-size: 12px;
+}
+
+.profile .friends .person p {
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+    text-shadow: 0 0 5px white;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white;
+}
+
+table.comments-table {
+    border: 1px solid transparent;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.online {
+    color: #0C8C00;
+    font-weight: bold;
+    font-size: 95%;
+    filter: grayscale(1) brightness(7.5) drop-shadow(0px 0px 6px white);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: red;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #000;
+}
+
+body::before {
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgb(2 3 37 / 58%) 50%, rgb(0 0 0 / 0%) 50%);
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+}
+
+    .friends .heading{ font-size:0; }
+.friends .heading:before {
+    content: "fellow vampires";
+    font-size: .8rem;
+    color: black;
+}
+
+   .profile .table-section .heading h4 { font-size:0; }
+.profile .table-section .heading h4:before{ content: "interests/hobbies"; font-size: .8rem;      color: black; }
+
+    .contact .heading{ font-size:0; }
+.contact .heading:before {
+    content: "msg me! i don't bite (mostly)";
+    font-size: .8rem;
+    color: black;
+}
+
+table.comments-table{
+display: block;
+height: 250px!important;
+overflow-y: scroll;
+}
+
+</style>
+
