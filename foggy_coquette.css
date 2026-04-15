@@ -1,0 +1,226 @@
+<style>
+
+body{
+    background: url(https://i.pinimg.com/originals/cd/bb/cb/cdbbcbae83991184d6568f94538bf19f.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+nav .top {
+    display: flex!important;
+    opacity: 1!important;
+    margin-top: 15px;
+background: url(https://i.pinimg.com/736x/60/c4/43/60c443f12546249546c61a4bf382cd99.jpg);
+    background-position-y: center;
+    border-radius: 8px;
+    border: 2px solid white;
+    box-shadow: 4px 4px 4px #00000075;
+}
+
+button, input {
+    overflow: visible;
+    background: white;
+    border: none;
+    border-radius: 4px;
+    padding-bottom: 3px;
+    box-shadow: 3px 3px 5px #00000080;
+}
+
+nav .top .left .logo {
+    width: 165px;
+    height: 42px;
+    filter: drop-shadow(3px 3px 1px black);
+}
+
+nav .links, footer .links {
+    margin: 0;
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    box-shadow: 3px 3px 5px #00000096;
+    text-align: center;
+    background: lightslategrey;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    font-size: 0.98em;
+    font-size: max(0.98em, 12px);
+    font-weight: bold;
+}
+
+nav .links a:hover {
+    text-decoration: none;
+    color: darkgrey;
+    font-style: italic;
+}
+
+main{
+background: url(https://i.pinimg.com/736x/f9/77/b0/f977b0bd5e2273b37a8891f60655cdba.jpg) no-repeat fixed;
+    background-size: cover;
+    text-shadow: 2px 2px 1px black;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid white;
+    box-shadow: 3px 3px 5px #00000096;
+}
+
+.inner{
+background: url(https://i.pinimg.com/originals/a5/3c/a8/a53ca8a90f907f2c7cf8fc252b4816ad.jpg);
+    border: 2px solid white;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 3px 3px 5px #00000082;
+}
+
+.heading {
+    background: lightslategrey!important;
+    border: 2px solid white;
+    border-bottom: none;
+    border-radius: 8px 8px 0px 0px;
+    color: white!important;
+}
+
+.blurbs .inner {
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: none;
+    margin: 10px 0;
+}
+
+.details-table td:first-child {
+    background: #ffffff57;
+    color: white;
+    font-weight: bold;
+    width: 33%;
+    border: 1px solid white;
+}
+
+.details-table td:first-child {
+    background: #9c9c9c57;
+    color: white;
+    font-weight: bold;
+    width: 33%;
+    border: 1px solid white;
+}
+
+.details-table td {
+    background: #ffffff57;
+    vertical-align: top;
+    border: 1px solid white;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: #9c9c9c57;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+}
+
+.comments-table td, .music-table td {
+    background: #ffffff57;
+    vertical-align: top;
+}
+
+table.comments-table, table.music-table, table.bulletin-table, table.forum-table, table.groups-table {
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    border: transparent;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: white;
+}
+
+a {
+    color: #cfdde9;
+    text-decoration: none;
+}
+
+.icon, .award img {
+    display: none;
+    height: 1.4em;
+    width: 1.4em;
+    aspect-ratio: 1/1;
+    margin: 0 0.05em 0 0.1em;
+    vertical-align: -0.3em;
+    color: rgba(0,0,0,0);
+}
+
+.profile-info .inner {
+    font-weight: bold;
+    text-align: center;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.profile-info {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+}
+
+.online {
+    color: #0C8C00;
+    font-weight: bold;
+    font-size: 95%;
+    filter: brightness(100) saturate(0);
+}
+
+.awards {
+    filter: invert(1);
+    text-shadow: none;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background-color: transparent;
+    color: white;
+}
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: darkgrey;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.general-about .profile-pic img {
+    max-width: 160px;
+    max-height: 160px;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px #0000007d;
+}
+
+.count {
+    color: white;
+}
+
+.profile .friends .person p {
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+</style>
+
