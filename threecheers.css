@@ -1,0 +1,398 @@
+<style>
+/*=== body background image + font ===*/
+
+body{
+background: url("https://external-media.spacehey.net/media/sSTIu8SZgy1_mwud3YVRnTycXreqCfWYHBYafvULxCrk=/https://i.pinimg.com/originals/40/97/9a/40979ac864aca6cdf34d2880a2c5b834.jpg")
+        no-repeat fixed; background-size: cover;
+    font-size: 18px;
+    font-color: #000000
+}
+
+@font-face { font-family: "Adler"; src: url('https://external-media.spacehey.net/media/sGpbRiFPL7z3WkPDywpjT5ah4_DTTOD3jhj3YTzO293A=/http://dl.dropbox.com/s/yi5megh89ndya2s/Adler.ttf'); } body{ font-family: 'adler'; }
+}
+
+span {
+    color: red;
+    text-align: center;
+    font-size: 150%;
+}
+
+
+</style>
+
+
+<style>    
+/*=== navigation box icon ===*/
+
+nav .links .icon {
+    vertical-align: -0.41em;
+    font-size: 0;
+}
+
+nav .links .special a {
+    color: red;
+}
+
+nav .links a:hover {
+color: red;
+}
+
+</style>
+
+<style>
+/*=== profile background image/color + border ===*/
+
+.container {
+    background-color: #181A28;
+    margin: 2em auto;
+    border: 3px solid red;
+    box-shadow: 0 0 20px red;
+    border-radius: 10px;
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+
+</style>
+
+<style>
+/*=== background color + border for headings + navigation links ===*/
+
+.profile, .blurbs, .heading, .profile, .friends, .heading, main, top, nav .top, details-table, .comments {
+color: #FFFFFF;
+     background-color: #181A28;
+color: #FFFFFF;
+  border-radius: 8px;
+     border: solid;
+     border-color: transparent;
+     border-width: 3px;
+font-color: #000000;
+}
+
+nav .links {
+    background-color: #0E0F1C;
+    text-align: center;
+    font-size: 50%;
+}
+
+  .profile .table-section{
+  border-radius: 8px;
+     border: solid;
+     border-color: #0E0F1C;
+border-width: 3px;
+}
+
+ div.friends div.inner p b {
+color: red !important;
+}
+    h1, .count, .friends a p{
+    color: red !important;
+}
+
+table, td {
+    border: 2px solid red;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: var(--lighter-blue);
+    color: white;
+    border: 3px solid red;
+    padding: 6px 7px;
+    box-shadow: 0 0 10px red;
+}
+
+.contact .inner {
+    border: 3px solid red;
+    border-radius: 10px;
+    box-shadow: 0 0 10px red;
+    margin-top: 15px;
+}
+
+table.details-table {
+    width: 100%;
+    border: 3px solid red;
+    border-radius: 10px;
+    box-shadow: 0 0 10px red;
+    margin-top: 15px;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: #0e0f1c;
+    color: var(--dark-orange);
+    padding: 5px 7px;
+    text-align: center;
+    border: 3px solid red;
+    box-shadow: 0 0 10px red;
+}
+
+.blurbs .inner {
+    border: 3px solid red;
+    border-radius: 10px;
+    box-shadow: 0 0 10px red;
+    margin-top: 15px;
+    background: #181a28;
+}
+
+.comment-replies {
+    padding: 0 5px;
+    border: 3px solid red;
+    margin-top: 10px;
+}
+
+button, input {
+    overflow: visible;
+    background: #0e0f1c;
+    border: 3px solid red;
+    border-radius: 7px;
+    color: red;
+    box-shadow: 0 0 10px red;
+}
+
+.logout-btn, .logout-form {
+    color: white;
+    display: inline-block;
+    font-size: 100%;
+    font-family: 'Adler';
+    box-shadow: none;
+}
+
+.url-info {
+    background: url(https://external-media.spacehey.net/media/s9yaSmG1tgR70pf142YPp8jCaICRR1vs93uluam0mi1w=/https://i.pinimg.com/564x/95/4c/af/954caf51f81229d8aeb3e9f3588b758a.jpg);
+    background-position: center;
+    background-size: cover;
+font-size: 0px;
+    height: 275px;
+}
+
+
+</style>
+
+
+<style>
+/*=== profile info ('edit your profile') image ===*/
+
+.profile .profile-info {
+    background-image: url(https://external-media.spacehey.net/media/ssbuw0_c2iBZD4Vq-yFF7EPSF4QbkhP95I5bB209U25s=/https://i.pinimg.com/originals/46/4d/b7/464db7b6dd7a8d9cbc1e83f161e03c2f.gif);
+    border: solid;
+    border-color: red;
+    box-shadow: 0 0 10px red;
+    border-width: 3px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+</style>
+
+
+<style>
+/*=== online now icon ===*/
+
+.online {
+    margin:auto;
+    padding-bottom: 5px;
+    content: url(https://external-media.spacehey.net/media/snruWYSypWG-dCLChsFw-HN_E-agfF2g-PqB72AWY2js=/https://i.ibb.co/mFPFXQB/ezgif-5-f1b7056d17.png);
+}
+
+.online {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+</style>
+
+<style>
+/*=== profile picture border ===*/
+
+.profile-pic {
+    border-radius: 21px;
+    overflow: hidden;
+    border: 3px solid red;
+    box-shadow: 0 0 15px red;
+}
+
+.profile .friends .person img {
+    border-radius: 16px;
+    overflow: hidden;
+    border: 3px solid red;
+    box-shadow: 0 0 15px red;
+}
+</style>
+
+<style>
+/*=== custom cursor icon ===*/
+
+HTML,BODY{cursor: 
+url(https://external-media.spacehey.net/media/sgsukpE3pttM4eVvGb02tI801Wl9L0VfRhTBZpSOHtMg=/https://64.media.tumblr.com/1b9c668caa22adae2c4c8124c7873e2d/tumblr_inline_mpqm2fQ9291r6qyth.png),
+auto;}
+
+
+A:hover{cursor: 
+url(https://external-media.spacehey.net/media/sgsukpE3pttM4eVvGb02tI801Wl9L0VfRhTBZpSOHtMg=/https://64.media.tumblr.com/1b9c668caa22adae2c4c8124c7873e2d/tumblr_inline_mpqm2fQ9291r6qyth.png),
+auto;}
+
+
+</style>
+
+<style>
+/*=== contact emojis ===*/
+
+.contact .inner a img {
+       font-size: 0;
+   }
+   .contact .inner a img:before {
+       font-size: 0em;
+    display: block
+   }
+   .contact .inner .f-row:nth-child(1) .f-col:nth-child(1) a:before {
+   	/* Add to Friends */
+	content: "🩸"
+   }
+   .contact .inner .f-row:nth-child(1) .f-col:nth-child(2) a:before {
+   	/* Add to Favorites */
+	content: "🧣"
+   }
+   .contact .inner .f-row:nth-child(2) .f-col:nth-child(1) a:before {
+	/* Send Message */
+	content: "🦞"
+   }
+   .contact .inner .f-row:nth-child(2) .f-col:nth-child(2) a:before {
+	/* Forward to Friend */
+	content: "🥀"
+   }
+   .contact .inner .f-row:nth-child(3) .f-col:nth-child(1) a:before {
+	/* Instant Message */
+	content: "💥"
+   }
+   .contact .inner .f-row:nth-child(3) .f-col:nth-child(2) a:before {
+	/* Block User */
+	content: "❌"
+   }
+   .contact .inner .f-row:nth-child(4) .f-col:nth-child(1) a:before {
+	/* Add to Group */
+	content: "🎀"
+   }
+   .contact .inner .f-row:nth-child(4) .f-col:nth-child(2) a:before {
+	/* Report Profile */
+	content: "❤️‍🩹"
+   }
+
+</style>
+
+<style>
+/*=== contact background image ===*/
+
+.contact {
+  border-radius: 8px;
+  background-image: url(https://external-media.spacehey.net/media/sVGRK3p1cj0iOUA0QMZYmmDRD06L-jmzR6q-Zz0cQlns=/https://i.pinimg.com/originals/cd/66/19/cd6619ad20f963eee7ed35494536ea3b.gif);
+  background-position: right top;
+  background-repeat: repeat;
+background-attachment: scroll;
+Width: 310px;
+Height:180px;
+     border: solid;
+     border-color: #614A3A;
+border-width: 3px;
+</style>
+
+
+<style>
+/*=== color changes ===*/
+
+:root {
+    --logo-blue: #BD2217;
+    --headers: #0E0F1C;
+    --darker-blue: #BD2217;
+    --lighter-blue: #0E0F1C;
+    --even-lighter-blue: ;
+    --lightest-blue: ;
+    --dark-orange: ;
+    --light-orange: #0E0F1C;
+    --even-lighter-orange: #0E0F1C;
+    --green: #BD2217;
+    --links: var(--headers);
+    --table-header: #BD2217;
+}
+
+</style>
+
+<style>
+/*=== footer image/color ===*/
+
+footer {
+    background-color: #181A28;
+    background-position: bottom center !important;
+    background-repeat: repeat !important;
+    border-radius: 8px;
+    border: solid;
+    color: white;
+    border-color: transparent;
+    border-width: 3px;
+
+}
+
+    /* !! SCROLLBAR !! */
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+BACKGROUND-COLOR: black;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    width: 2px;
+    border: 1px dotted darkred;
+}
+::-webkit-scrollbar-thumb {
+    background: darkred;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: red;  
+}
+</style>
+
+
+<style>
+/*=== spacehey logo ===*/
+
+nav img.logo {
+    filter: brightness(0) saturate(100%) invert(50%) sepia(1000%) saturate(5000%) hue-rotate(340deg) brightness(100%) contrast(100%) drop-shadow(0px 0px 6px red);
+}
+
+</style>
+
+<style>
+/*=== body tint ===*/
+
+body::before {
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgb(0 0 255 / 48%) 50%, rgb(0 0 0 / 0%) 50%);
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+</style>
+
+<style>
+/*=== image for 'about me' section ===*/
+</style>
+
+<a href="https://www.pinterest.com"><img src="https://external-media.spacehey.net/media/s-1_bd87sNwzMn5lXsi8A-njPsmaekdsXWmYQlKMc03c=/https://i.pinimg.com/originals/ab/6d/98/ab6d9816b8ac47962a63c46ffbd09408.png" width="500" height="300"/></a>
+
+
