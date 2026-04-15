@@ -1,0 +1,246 @@
+<style>
+
+body{ background: url(https://i.ytimg.com/vi/3gGCmfeJDvQ/maxresdefault.jpg) no-repeat fixed;
+background-size: cover;
+background-position: center;
+    background-color: #60aaa98c;
+    background-blend-mode: color-burn;
+}
+
+nav .top {
+background: linear-gradient(174deg, #176c36, #4bae70);    animation-timing-function: cubic-bezier(0.55, 0.07, 0.25, 1);
+    padding: 15px 10px 14px 10px;
+    display: flex;
+    position: relative;
+    border: 3px solid white;
+    outline: 4px solid #3d965e;
+    margin-top: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 7px 5px #000000ba;
+    margin-bottom: 18px;
+}
+
+ .logo {
+  content:url("https://takingbacksundaytour.com/wp-content/uploads/2013/09/logo.png");
+    filter: brightness(2.5) drop-shadow(0px 0px 2px black);
+    }
+
+button, input {
+    overflow: visible;
+background: linear-gradient(174deg, #176c36, #4bae70);    border: 2px solid white;
+    border-radius: 3px;
+    color: white;
+    padding-bottom: 2px;
+}
+
+nav .links {
+background: linear-gradient(174deg, #176c36, #4bae70);    padding: 3.5px 16px;
+    border: 3px solid white;
+    outline: 4px solid #3d965e;
+    border-radius: 2px;
+    margin-bottom: 15px!important;
+    box-shadow: 0 0 7px 5px #000000ba;
+text-align: center;
+}
+
+main{
+background: transparent;
+}
+
+.general-about .profile-pic img {
+    max-width: 160px;
+    max-height: 160px;
+    border: 3px solid #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 0 4px 4px #00000069;
+}
+
+.general-about .details {
+    display: block;
+background: linear-gradient(174deg, #176c36, #4bae70);    padding: 10px;
+    border: 3px solid white;
+    outline: 4px solid #3d965e;
+    border-radius: 3px;
+    color: white;
+}
+
+.award a {
+    color: white;
+    text-decoration: none;
+}
+
+.online {
+    color: #f4fef4;
+    font-weight: bold;
+    font-size: 95%;
+    filter: brightness(60.5) saturate(0);
+    text-shadow: 0 0 5px white;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: white;
+    text-shadow: none;
+    font-size: 0.98em;
+    font-size: max(0.98em, 12px);
+}
+
+nav .links a:hover {
+    text-decoration: none;
+    color: #21382a;
+    font-style: italic;
+}
+
+nav .links a:hover {
+    text-decoration: none;
+    color: #21382a;
+    font-style: italic;
+    transition: 1s;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " | ";
+    color: white;
+}
+
+nav .links .icon {
+    vertical-align: -0.41em;
+    display: none;
+}
+
+.profile .blurbs .heading, .profile .friends .heading, .profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading{
+background: linear-gradient(174deg, #176c36, #4bae70);    padding: 3.5px 16px!important;
+    border: 3px solid white!important;
+    outline: 4px solid #3d965e!important;
+    border-radius: 2px!important;
+    box-shadow: 0 0 7px 5px #000000ba!important;
+color: white!important;
+margin-bottom: 15px;
+}
+
+.profile h1, .contact .inner, .profile .blurbs .inner, .profile .friends .inner, .blog-entry .comments .inner, .bulletin .comments .inner, .setting-section .inner, footer{
+background: linear-gradient(174deg, #176c36, #4bae70)!important; 
+    border: 3px solid white!important;
+    outline: 4px solid #3d965e!important;
+    border-radius: 2px!important;
+    box-shadow: 0 0 7px 5px #000000ba!important;
+color: white!important;
+}
+
+.profile .mood, .blog-preview {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+.url-info{
+font-size: 0;
+background: url(https://upload.wikimedia.org/wikipedia/en/e/ef/Tellallyourfriends.jpg);
+    height: 304px;
+    border: 4px solid #3d965e!important;
+    background-size: 307px;
+    background-position: center;
+    border-radius: 3px;
+}
+
+.profile h1 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+    text-align: center;
+    padding: 5px;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.details-table td:first-child, .comments-table td:first-child, .music-table td:first-child {
+    background: #369d5b;
+    color: #ffffff;
+    font-weight: bold;
+    width: 33%;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.details-table td, .comments-table td, .music-table td {
+    background: #48aa6d;
+    vertical-align: top;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: none!important;
+    margin: 10px 0;
+}
+
+.profile-info{
+background: url(https://itsalldead.files.wordpress.com/2014/08/taking_back_sunday_wywtb.jpg);
+border: 2px solid white;
+outline: 3px solid #3d965e;
+    box-shadow: 0 0 7px 5px #000000ba!important;
+    background-size: cover;
+    background-position-y: 184px;
+    height: 150px;
+    border-radius: 3px;
+    filter: sepia(0.4) saturate(1.5) contrast(0.8);
+    font-size: 0;
+}
+
+.profile .friends .person p {
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.profile .friends .person img:not(.icon){
+border: 2px solid white;
+outline: 3px solid #3d965e;
+    box-shadow: 0 0 7px 5px #000000ba!important;
+    border-radius: 3px;
+}
+
+.count {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 5px darkseagreen;
+}
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: #167728;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.icon, .award img {
+    display: none;
+    height: 1.4em;
+    width: 1.4em;
+    aspect-ratio: 1/1;
+    margin: 0 0.05em 0 0.1em;
+    vertical-align: -0.3em;
+    color: rgba(0,0,0,0);
+}
+
+
+
+</style>
+
+
