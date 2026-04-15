@@ -1,0 +1,299 @@
+<style>
+
+@font-face { font-family: 'gothica'; 
+src: url(https://external-media.spacehey.net/media/syR9njRBEsmb2fbe62tBv8E7yCtvTpXXVQ9RlZTttG14=/https://dl.dropbox.com/s/o003k1pyg0okc1o/Gothica-Bold.ttf); 
+}
+
+body{
+background: url(https://external-media.spacehey.net/media/sI4yZMPmgB5l9-oZfaa_oihp6iwQrYNUXzn6_twYNksM=/https://i.pinimg.com/564x/09/0b/6a/090b6ab903ad94213187df0f914b92b0.jpg);
+font-family: 'gothica', monotone;
+}
+
+nav .top {
+    background: transparent;
+    color: deeppink;
+    padding: 15px 10px 14px 10px;
+    position: relative;
+}
+
+nav .top .left .logo {
+    width: 165px;
+    height: 42px;
+    filter: brightness(0) saturate(101%) invert(50%) sepia(100%) saturate(1800%) hue-rotate(313deg) brightness(100%) contrast(1100%);
+}
+
+button, input {
+    overflow: visible;
+    background: black;
+    border: 1px solid deeppink;
+    color: deeppink;
+    box-shadow: 0 0 5px deeppink, 0 0 10px deeppink;
+    font-weight: bold;
+}
+
+.logout-btn, .logout-form {
+    color: deeppink;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 100%;
+}
+
+nav .links {
+    background-color: transparent;
+    text-align: center;
+    padding: 3.5px 16px 5.5px 16px;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: deeppink;
+    text-shadow: 0 0 5px deeppink;
+    background: black;
+    font-size: 0.98em;
+    font-size: max(0.98em, 12px);
+}
+
+nav .links .special a {
+    color: deeppink;
+}
+
+nav .links a:hover {
+    text-decoration: underline;
+    color: #88044b;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+main {
+    background: black;
+    color: white;
+    border: 1px solid deeppink;
+    box-shadow: 0 0 5px deeppink, 0 0 5px deeppink, 0 0 10px deeppink;
+    padding: 6px 0px;
+    font-size: 80%;
+}
+
+span {
+    text-align: center;
+    color: deeppink;
+    text-transform: uppercase;
+    font-size: 170%;
+}
+
+a {
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: #880440;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+.general-about .profile-pic {
+    display: block;
+    float: right;
+    margin: 0 15px 8px 0;
+    border: 1px solid deeppink;
+    box-shadow: 0 0 5px deeppink, 0 0 10px deeppink;
+}
+
+.general-about .details {
+    display: flow-root;
+    text-align: center;
+}
+
+.profile .mood {
+    width: 100%;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: transparent;
+    color: deeppink;
+    text-align: center;
+    border-bottom: 1px solid deeppink;
+    padding: 2px 7px;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: 1px solid deeppink;
+    margin: 10px 0;
+    box-shadow: 0 0 5px deeppink, 0 0 10px deeppink;
+}
+
+.details-table td:first-child {
+    background: transparent;
+    color: deeppink;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid deeppink;
+    box-shadow: inset 0 0 5px deeppink, 0 0 10px deeppink;
+    width: 33%;
+}
+
+.details-table td {
+    background: transparent;
+    color: white;
+    border: 1px solid deeppink;
+    box-shadow: inset 0 0 5px deeppink, 0 0 10px deeppink;
+    vertical-align: top;
+}
+
+.profile-info {
+    border: 1px solid #ff0089;
+    box-shadow: 0 0 5px deeppink, 0 0 10px deeppink, inset 0 0 5px deeppink, inset 0 0 10px deeppink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: transparent;
+    border-bottom: 1px solid deeppink;
+    color: deeppink;
+    padding: 2px 7px;
+    text-align: center;
+}
+
+.profile .blurbs {
+    margin: 20px 0;
+    border: 1px solid deeppink;
+    box-shadow: 0 0 5px deeppink, 0 0 10px deeppink;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: deeppink;
+    text-align: center;
+}
+
+.friends {
+    border: 1px solid deeppink;
+    box-shadow: 0 0 5px deeppink, 0 0 10px deeppink;
+}
+
+.count {
+    color: deeppink;
+}
+
+.profile .friends .person p {
+    color: deeppink;
+    text-shadow: 0 0 5px deeppink, 0 0 10px deeppink;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid deeppink;
+    box-shadow: 0 0 5px deeppink, 0 0 10px deeppink;
+}
+
+.friends-grid {
+    border-top: 1px solid deeppink;
+    padding-top: 10px;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: black;
+    border: 1px solid deeppink;
+    box-shadow: inset 0 0 5px deeppink, inset 0 0 10px deeppink;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+}
+
+.comments-table td:first-child img:not(.icon) {
+    width: 90px;
+    max-width: 100%;
+    max-height: 200px;
+    border: 1px solid deeppink;
+    box-shadow: 0 0 5px deeppink, 0 0 10px deeppink;
+}
+
+.comments-table td, .music-table td {
+    background: #000000;
+    border: 1px solid deeppink;
+    box-shadow: inset 0 0 5px deeppink, inset 0 0 10px deeppink;
+    vertical-align: top;
+}
+
+table.comments-table {
+    border: 1px solid deeppink;
+    box-shadow: 0 0 5px deeppink, 0 0 10px deeppink;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background: #00000000;
+    color: white;
+    text-shadow: 0 0 5px deeppink, 0 0 5px deeppink, 
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+BACKGROUND-COLOR: black;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    width: 2px;
+    border: 1px dotted deeppink;
+}
+::-webkit-scrollbar-thumb {
+    background: deeppink;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: hotpink;  
+}
+
+.online {
+    content: url(https://external-media.spacehey.net/media/s79CdnXtEkYLV5xWyi-5Q5e3EHyIcFyWTUA5F8TJj49g=/https://i10.glitter-graphics.org/pub/352/352870r1wbtx0gci.gif)
+}
+
+    .icon, .award img {
+        content: url(https://external-media.spacehey.net/media/sPR8myirygun3sFc7paIWwIksu_3Y0dNrN30kzkV1_70=/https://i2.glitter-graphics.org/pub/948/948532zr96alyx9q.gif);
+        display: inline-block;
+        height: 2.0em;
+        width: 2.0em;
+        margin: 0 .05em 0 .1em;
+        vertical-align: -0.3em;
+        color: rgba(0,0,0,0);
+    }
+
+HTML,BODY{cursor: 
+url(https://external-media.spacehey.net/media/si9AJw66qnLhOeYjwEH-3xI-WTjEUrT591QRYSk9Nu3s=/https://ani.cursors-4u.net/cursors/cur-13/cur1151.png),
+auto;}
+
+
+A:hover{cursor: 
+url(https://external-media.spacehey.net/media/si9AJw66qnLhOeYjwEH-3xI-WTjEUrT591QRYSk9Nu3s=/https://ani.cursors-4u.net/cursors/cur-13/cur1151.png),
+auto;}
+
+</style>
+
