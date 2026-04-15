@@ -1,0 +1,362 @@
+<style>
+
+@font-face { font-family: 'baby bunny'; 
+src: url(https://external-media.spacehey.net/media/sznqrHRbKodx5yQ8LQLufx12avvnRzmqn0I0G42-sEFE=/https://dl.dropbox.com/s/tgbmlazugt42539/Baby%20Bunny.ttf); 
+} span{ font-family: 'baby bunny'; text-align: center; }
+
+body{
+background: url(https://external-media.spacehey.net/media/sThyxZR9-13ha0m2-43gT7lF4nF4ohyv8QWEIwdjuzmE=/https://i.pinimg.com/564x/e1/cd/98/e1cd984697b5fc0533cbedac8f77dde4.jpg);
+text-transform: lowercase;
+    font-family: fantasy;
+}
+
+nav .top{
+background: transparent;
+    border-radius: 8px;
+}
+
+nav .links{
+background: transparent;
+    text-align: center;
+}
+
+.container{
+margin-top: 10px;
+}
+
+nav {
+    font-size: max(72%, 12px);
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 11px white;
+background: url(https://external-media.spacehey.net/media/svARlzPf5ObXzX0h_wUtR8DhkaspfummTj7Jzvh30qwY=/https://i.pinimg.com/564x/a9/94/36/a994366fcc77e1c7976c9f7bd15c4d1d.jpg);
+    background-position-y: -70px;
+}
+
+nav .top .left .logo {
+    width: 165px;
+    height: 42px;
+    filter: sepia(1) hue-rotate(357deg) saturate(10) brightness(1) drop-shadow(0px 0px 5px black) invert(1);
+}
+
+button, input {
+    overflow: visible;
+    background: #1b1b80;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px white;
+}
+
+nav .links a:hover {
+    text-decoration: underline;
+    color: #0000ff;
+    text-shadow: 0 0 4px white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " ✭ ";
+    font-size: smaller;
+    color: white;
+}
+
+nav .links .icon {
+    vertical-align: -0.41em;
+    font-size: 0;
+}
+
+main {
+    background: url(https://external-media.spacehey.net/media/sfaelh3yad1lEfEDbUJqCzNO_8ypKw_9kXh9V-aqAxjY=/https://i.pinimg.com/564x/4b/7e/47/4b7e47d7f2b37aabdb2561f109349683.jpg);
+    margin-top: 10px;
+    color: white;
+    padding: 6px 0px;
+    font-size: 80%;
+    border: 3px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white;
+}
+
+span {
+    font-size: 300%;
+    animation: blinkingText 2s infinite cubic-bezier(0.46, -0.21, 0.55, 1.16);
+    text-shadow: 0 0 10px;
+}
+
+@keyframes blinkingText {
+0% {color: white; }
+50% { color: blue; }
+100% { color: white; }
+}
+
+a {
+    animation: blinkingText 2s infinite;
+    text-decoration: none;
+    text-shadow: 0 0 5px;
+    font-style: italic;
+}
+
+a:hover {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+.online{
+content: url(https://external-media.spacehey.net/media/snxcKx0cUCTA9hw5vCdUdGW0wafwxQbDmf8hsCUiJHjA=/https://www.theaudiodb.com/images/media/album/cdart/infinity-on-high-4e6bd65e507f5.png);
+    width: 120px;
+    height: auto;
+    animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation{
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+
+.general-about .profile-pic img {
+    max-width: 160px;
+    max-height: 160px;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px white;
+}
+
+.url-info{
+font-size: 0%;
+background: url(https://external-media.spacehey.net/media/sSkESnyh9qEMx2q2Me0YrxYmCQArNABqBqdqTe2nA7T4=/https://i.pinimg.com/564x/2d/ca/d1/2dcad1f4d9b3bfc90cdd23e5bce9105b.jpg);
+height: 300px;
+    border: 2px solid white!important;
+    border-radius: 8px;
+    box-shadow: 0 0 8px white;
+}
+
+.profile-info {
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 7px white;
+    background: url(https://external-media.spacehey.net/media/s6rcam--uwXxcZLWb6fMv3cXhZX1Wuh8z0QzGLZi2Of4=/https://i.pinimg.com/564x/64/06/08/6406085535ed89db368c86b0d9a38774.jpg);
+    height: 130px;
+    background-position-y: -10px;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    color: white;
+    padding: 2px 7px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 7px white;
+    text-align: center;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: none;
+    margin: 10px 0;
+}
+
+.contact .inner {
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 7px white;
+    margin-top: 10px;
+    background: url(https://external-media.spacehey.net/media/sn1osbee0E-QInx9J6QtlGFc_QXBFqYekfQC0RZ_62D0=/https://i.pinimg.com/originals/5b/a8/ab/5ba8abf93a9bab3dfc6ba8f982b3e4dd.gif);
+}
+
+.icon, .award img {
+    display: inline-block;
+    height: 1.4em;
+    width: 1.4em;
+    aspect-ratio: 1/1;
+    margin: 0 0.05em 0 0.1em;
+    vertical-align: -0.3em;
+    color: rgba(0,0,0,0);
+    font-size: 0;
+}
+
+.f-col:before {
+    content: " - ";
+    animation: blinkingText 2s infinite;
+}
+
+table.details-table {
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 0 8px;
+}
+
+.details-table td:first-child {
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    width: 33%;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 3px white;
+}
+
+.details-table td {
+    background: transparent;
+    border: 2px solid white;
+    vertical-align: middle;
+    border-radius: 8px;
+    box-shadow: 0 0 3px white;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: transparent;
+    color: white;
+    padding: 2px 7px;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 8px white;
+}
+
+.profile .blurbs .inner {
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 0 8px white;
+    background: url(https://external-media.spacehey.net/media/skiyOVRug5TNGhrCvYsUQUy_Q2JrPGEHDsXPtZLS3ybQ=/https://i.pinimg.com/564x/8c/41/2a/8c412adaf2ebfbaa17ceb939e8f0664f.jpg);
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px white;
+}
+
+.profile .friends .inner {
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px white;
+}
+
+.profile .friends .person p {
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.count {
+    font-size: 20px;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: transparent;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+}
+
+.comments-table td, .music-table td {
+    background: transparent;
+    vertical-align: top;
+}
+
+.friends tr {
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px;
+}
+
+table.comments-table, table.music-table, table.bulletin-table, table.forum-table, table.groups-table {
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    border: none;
+}
+
+.comment-replies {
+    padding: 0 5px;
+    border: 2px solid white;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px white;
+}
+
+.comments-table td:first-child img:not(.icon) {
+    width: 90px;
+    max-width: 100%;
+    max-height: 200px;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px white;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background: transparent;
+    color: white;
+}
+
+html {
+    filter: sepia(0.4);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+BACKGROUND-COLOR: black;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    width: 2px;
+    border: 1px dotted black;
+}
+::-webkit-scrollbar-thumb {
+    background: #1f2b3b;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #fffbcd;  
+}
+
+table.comments-table{
+display: block;
+height: 250px!important;
+overflow-y: scroll;
+}
+
+.profile div#comments .inner {
+    text-transform: math-auto;
+}
+
+</style>
+
