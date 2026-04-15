@@ -1,0 +1,357 @@
+<!-- (c) Layout created by ray ☆ 2.0 (https://layouts.spacehey.com/layout?id=81616) -->
+
+<style>
+
+/* == font import == */
+
+@font-face { font-family: 'london olympics 2012'; 
+src: url(https://dl.dropbox.com/s/ryxclkspvce88x5ckvphb/LONDO___.ttf?rlkey=187ptxrprfz4ow5g1tbpcgfqb&dl=0); 
+} .profile h1{ font-family: 'london olympics 2012';     text-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 16px 8px #8b00006e, -16px -8px #8b00006e; color: red; }
+
+
+/* == background img == */
+
+body{
+background: url(https://i.pinimg.com/564x/b8/c0/e1/b8c0e19cd34f33f5ab78987ad73f50b4.jpg);
+    background-size: 578px;
+    background-position-x: center;
+}
+
+/* == nav == */
+
+nav .top{
+background: red;
+    border: 3px dashed white;
+border-radius: 8px;
+outline: 1px solid white;
+    margin-top: 10px;
+}
+
+button, input {
+    overflow: visible;
+    background: white;
+    border: none;
+    color: red;
+}
+
+nav .links {
+    background-color: red;
+    padding: 3.5px 16px 5.5px 16px;
+    text-align: center;
+    border: 3px dashed white;
+border-radius: 8px;
+outline: 1px solid white;
+margin-top: 20px;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " † ";
+    color: white;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 5px red;
+    font-size: 0.98em;
+    font-size: 80%;
+}
+
+nav .links a:hover {
+    color: lightgrey;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-style: italic;
+}
+
+nav .links .special a {
+    color: white;
+}
+
+nav .links li.active a {
+    font-weight: bold;
+    color: white;
+}
+
+.icon, .award img {
+    display: none;
+}
+
+/* == main == */
+
+main {
+    margin-top: 20px;
+    padding: 6px 0px;
+    font-size: 80%;
+    background: red;
+}
+
+.row{
+    border: 3px dashed white;
+border-radius: 8px;
+outline: 1px solid white;
+    background: red;
+    color: white;
+    margin-top: 20px;
+}
+
+.container {
+    width: 810px;
+    max-width: 100%;
+    margin: 0 auto 10px;
+    text-transform: lowercase;
+}
+
+a {
+    color: white;
+    text-decoration: auto;
+    font-style: italic;
+}
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: lightgrey;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
+}
+
+main:before {
+ height: 257px;
+ display: block;
+ content: "";
+ background-image: url('https://i.pinimg.com/564x/e9/24/d8/e924d835a36ecb88823902ede816c89b.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 657px;
+    border: 3px dashed white;
+    outline: 1px solid white;
+    border-radius: 8px;
+    margin-bottom: 7px;
+}
+
+/* == right side == */
+
+span {
+    text-align: center;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+img.pfp-fallback {
+    border: 3px dashed white;
+    outline: 1px solid white;
+    border-radius: 15px;
+}
+
+.general-about .details {
+    display: block;
+    text-align: center;
+}
+
+.online {
+
+    filter: grayscale(1) brightness(3.5);
+
+}
+
+.profile .mood {
+    margin-bottom: 18px;
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block;
+    border: 3px dashed white;
+    outline: 1px solid white;
+    border-radius: 15px;
+    background: red;
+    padding: 4px;
+    text-align: center;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: red;
+    color: white;
+    border-bottom: 3px dashed white;
+    text-align: center;
+    padding: 2px 7px;
+    text-shadow: 2px 2px grey;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: 3px dashed white;
+    border-radius: 10px;
+    outline: 1px solid white;
+    margin: 10px 0;
+    background: red;
+}
+
+.profile .url-info {
+    padding: 4px 7px;
+    font-size: 0px;
+    background: url(https://i.pinimg.com/564x/d8/81/d9/d881d90938dc799da3e82a517cb59190.jpg);
+    height: 298px;
+    background-size: cover;
+    filter: saturate(1.2);
+}
+
+.details-table td {
+    background: red;
+    border: 2px dotted;
+    vertical-align: top;
+    border-radius: 5px;
+}
+
+.details-table td:first-child {
+    background: red;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px dotted white;
+    font-weight: bold;
+    width: 33%;
+    border-radius: 5px;
+}
+
+/* == left side == */
+
+.profile-info {
+    border: 3px dashed white;
+    outline: 1px solid white;
+    border-radius: 15px;
+    background: url(https://i.pinimg.com/564x/88/a7/02/88a702fb29f63f50f7bd21bf27f11efe.jpg);
+    font-size: 0;
+    height: 100px;
+    background-size: cover;
+    background-position-y: -50px;
+    filter: saturate(1.5);
+}
+
+.blog-preview {
+    background: red;
+    border: 3px dashed white;
+    outline: 1px solid white;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: red;
+    color: white;
+    padding: 2px 7px;
+    text-align: center;
+    border-bottom: 3px dashed white;
+}
+
+.profile .blurbs {
+    margin: 20px 0;
+    border: 3px dashed white;
+    border-radius: 10px;
+    background: red;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.friends {
+    background: red;
+    border: 3px dashed white;
+    border-radius: 10px;
+}
+
+.count {
+    color: white;
+    font-size: 100%;
+}
+
+.profile .friends .person p {
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.profile .friends .person p:hover {
+    color: lightgrey;
+}
+
+div#comments {
+    margin-top: 15px;
+}
+
+.comments-table td, .music-table td {
+    background: red;
+    vertical-align: top;
+    border: 3px dashed white;
+    border-radius: 10px;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: red;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+    border: 3px dashed white;
+    border-radius: 10px;
+}
+
+table.comments-table {
+    border: 1px red;
+}
+
+/* == footer == */
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background: transparent;
+    color: white;
+}
+
+/* == cursor == */
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur117.cur), auto !important;} /* End https://www.cursors-4u.com */
+.comment-replies {
+    padding: 0 5px;
+    border: 3px dashed white;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+
+/* == scrollbar == */
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+BACKGROUND-COLOR: red;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    width: 2px;
+    border: 1px solid red;
+}
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: lightgrey;  
+}
+
+</style>
+
