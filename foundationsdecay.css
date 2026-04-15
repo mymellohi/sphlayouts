@@ -1,0 +1,244 @@
+
+<style>
+
+body{
+background: url(https://i0.wp.com/www.nerdsandbeyond.com/wp-content/uploads/2022/05/maxresdefault-1.jpg?fit=800%2C450&ssl=1);
+}
+
+nav .top{
+background: url(https://i.pinimg.com/564x/35/41/c8/3541c892c8656b34ea190d3a7122051e.jpg);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    box-shadow: 0 0 10px white;
+    border-radius: 8px;
+}
+
+nav .links {
+    background-color: #111115;
+    padding: 3.5px 16px;
+    text-align: center;
+    border-top: 2px solid white;
+    position: fixed;
+    bottom: 0px;
+    width: -webkit-fill-available;
+    left: 0;
+    font-size: medium;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 7px #ffffff;
+}
+
+nav .links a:hover {
+    text-decoration: none;
+    color: #878dc6;
+    text-shadow: 0 0 4px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav .links .special a {
+    color: #878dc6;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " ♥ ";
+    color: white;
+}
+
+button, input {
+    overflow: visible;
+    background: white;
+    border: none;
+    color: black;
+}
+
+main{
+background: url(https://i.pinimg.com/564x/74/5e/ce/745ecefe8c0cf716d59c445dba0a9728.jpg);
+color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white;
+    margin-top: 20px!important;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: none;
+    margin: 10px 0;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading, .profile .blurbs .heading, .profile .friends .heading {
+    background: #2d2d3a!important;
+    text-align: center;
+    color: white!important;
+    padding: 2px 7px;
+    margin-bottom: 5px!important;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 7px white;
+}
+
+a {
+    color: #848ac1;
+    text-decoration: none;
+}
+
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: #d2d7ff;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.icon, .award img {
+    display: none;
+}
+
+.f-col:before {
+    content: "♥";
+    color: #848ac1;
+}
+
+
+.profile .url-info {
+    padding: 4px 7px;
+    font-size: 0;
+    border: 1px solid white;
+    height: 300px;
+    box-shadow: 0 0 7px white;
+    border-radius: 8px;
+    background: url(https://i.pinimg.com/736x/6e/14/9b/6e149b74290b7ce3411970d3a97235ef.jpg);
+    background-size: contain;
+}
+
+.details-table td:first-child, .comments-table td:first-child, .music-table td:first-child {
+    background: #3a3558;
+    box-shadow: inset 2px 2px #8295ee, inset -2px -2px #000000;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    width: 33%;
+}
+
+.details-table td, .comments-table td, .music-table td {
+    background: #564f7c;
+    vertical-align: top;
+    border-radius: 6px;
+    box-shadow: inset 2px 2px #969be2, inset -2px -2px #24203a;
+}
+
+.blog-preview p {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+.blog-preview h4 {
+    background: #2d2d3a;
+    padding: 2px 7px;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 7px;
+    text-align: center;
+    color: white;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+.count {
+    color: #848ac1;
+}
+
+.profile .friends .person p {
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+    text-shadow: 0 0 5px white;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white;
+}
+
+table.comments-table {
+    border: 1px solid transparent;
+}
+
+.comment-replies {
+    padding: 0 5px;
+    border: none;
+    margin-top: 10px;
+    background: #3a3558;
+    box-shadow: inset 2px 2px #8295ee, inset -2px -2px #1c1b32;
+    border-radius: 8px;
+    margin-bottom: 7px;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.online {
+    color: #0C8C00;
+    font-weight: bold;
+    font-size: 95%;
+    filter: grayscale(1) brightness(7.5) drop-shadow(0px 0px 6px white);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #848ac1;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #000;
+}
+
+body::before {
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgb(2 3 37 / 58%) 50%, rgb(0 0 0 / 0%) 50%);
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+}
+
+
+</style>
+
