@@ -1,0 +1,487 @@
+<style>
+
+/* == font import == */
+
+@font-face { font-family: 'perry goth'; 
+src: url(https://external-media.spacehey.net/media/sJehavmRnSfPA6Vkj18FKkg3KQRRotAr_FgpH_pDSMc8=/https://dl.dropbox.com/s/9a25q7d9s3tsmcf/PERRYGOT.ttf); 
+} body{ font-family: 'perry goth'; font-size: 80%; }
+
+@font-face { font-family: 'mcr'; 
+src: url(https://external-media.spacehey.net/media/s-Q6zzUjSoxw7pJjVtdghYdKnTSr78LDWl-cuKRVveeI=/https://dl.dropbox.com/s/vlwjpiu7bq4zy7j/my_chemical_romance.ttf); 
+} span{ font-family: 'mcr'; }
+
+
+body {
+    background-color: black;
+}
+
+.container{
+width: 100%;
+}
+
+main {
+    width: 810px;
+    margin: auto;
+}
+
+
+nav .links {
+    background-color: transparent;
+    padding: 3.5px 16px 5.5px 16px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    position: absolute;
+    transform: translateX(0px);
+    height: -webkit-fill-available;
+    justify-content: center;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: darkred;
+    text-shadow: 0 0 7px black;
+    font-size: x-large;
+    text-transform: lowercase;
+}
+
+nav .links a:hover {
+    text-decoration: line-through;
+    color: red;
+text-transform: uppercase;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " ";
+    color: black;
+}
+
+nav .links li:not(:last-child)::before, footer .links li:not(:last-child)::before {
+    content: " - ";
+    color: darkred;
+    font-size: xx-large;
+}
+
+nav .links .special a {
+    color: red;
+}
+
+nav .links .special a::before {
+    content: " - ";
+    color: red;
+    font-size: xx-large;
+}
+
+nav .links .icon {
+    vertical-align: -0.41em;
+    font-size: 0;
+}
+
+nav .top {
+    background: transparent;
+    color: red;
+    padding: 15px 10px 14px 10px;
+    display: flex;
+    position: relative;
+}
+
+nav .top {
+    background: transparent;
+    color: red;
+    padding: 15px 20px 35px 63px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-transform: lowercase;
+}
+
+button, input {
+    overflow: visible;
+    background: black;
+    border: 1px solid red;
+    color: red;
+    text-transform: lowercase;
+    box-shadow: 2px 2px red;
+}
+
+.logout-btn, .logout-form {
+    color: red;
+    text-transform: lowercase;
+    display: inline-block;
+    font-size: 100%;
+    box-shadow: none;
+}
+
+nav .top .left .logo {
+    width: 225px;
+    height: auto;
+    filter: sepia(100%) saturate(100) hue-rotate(121deg) invert(1) drop-shadow(0 0 6px red);
+    transform: skew(23deg, 355deg) translateY(32px);
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background: transparent;
+    color: red;
+}
+
+main {
+    background: black;
+    color: red;
+    padding: 6px 0px;
+    font-size: 80%;
+}
+
+span {
+    text-transform: uppercase;
+    font-size: 250%;
+    text-align: center;
+    animation: blinkingText 1s infinite;
+    text-shadow: 0 0 11px darkred;
+}
+
+    @keyframes blinkingText{
+        0%{     color: red;}
+        50%{    color: darkred; }
+        100%{    color: red;}}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+a{
+    color: darkred;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+a:hover {
+    color: red;
+    background: url(https://external-media.spacehey.net/media/sMUeXL1Kw68-MD1xiqC3dWMtc2JxFT2QNmGXE5jtGNB0=/https://i.pinimg.com/originals/9f/0d/99/9f0d9944bbb61e7eb7c4d6fb5955cbe3.gif);
+    background-position: bottom;
+    font-variant: small-caps;
+}
+
+.online {
+    float: left;
+    transform: translateX(31px);
+    filter: hue-rotate(246deg);
+}
+
+.profile .mood {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid red;
+    box-shadow: 2px 2px red;
+    margin: 20px 0 20px 0;
+    padding: 10px 0px 5px 0px;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: black;
+    color: red;
+    border: 1px solid red;
+    padding: 2px 7px;
+    box-shadow: 2px 2px red;
+    text-align: center;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: none;
+    margin: 10px 0;
+}
+
+.contact .inner {
+    border: 1px solid red;
+    box-shadow: 2px 2px red;
+    margin-top: 10px;
+}
+
+.profile .url-info {
+    padding: 4px 7px;
+    font-size: 0px;
+    background: url(https://external-media.spacehey.net/media/sCz3cAsMwTGceXXwEFBaz1VYDp6im_BAXvtHQlvrlvbs=/https://i.pinimg.com/564x/bc/93/5e/bc935e36070e5190f20cd2345ee810eb.jpg);
+    height: 300px;
+    border: 1px solid red;
+    box-shadow: 3px 3px red;
+    background-size: contain;
+}
+
+.table-section .inner {
+    border: 1px solid;
+    box-shadow: 2px 2px red;
+    margin-top: 10px;
+}
+
+.details-table td:first-child {
+    background: black;
+    color: red;
+    font-weight: bold;
+    width: 33%;
+    border: 1px solid red;
+}
+
+.details-table td {
+    background: black;
+    vertical-align: top;
+    border: 1px solid red;
+}
+
+.profile-info {
+    border: 1px solid red;
+    box-shadow: 2px 2px red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+}
+
+.blog-preview h4 {
+    border: 1px solid red;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 2px 2px red;
+}
+
+.blog-preview p {
+    border-bottom: 1px solid red;
+    padding-bottom: 4px;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: black;
+    color: red;
+    border: 1px solid red;
+    padding: 3px;
+    text-align: center;
+    box-shadow: 2px 2px red;
+}
+
+.blurbs .inner {
+    border: 1px solid red;
+    margin-top: 10px;
+    box-shadow: 2px 2px red;
+}
+
+.profile .blurbs h4 {
+    text-align: center;
+}
+
+.friends .inner {
+    border: 1px solid red;
+    margin-top: 10px;
+    box-shadow: 2px 2px red;
+    margin-bottom: 20px;
+}
+
+.count {
+    font-size: small;
+}
+
+.profile .friends .person p {
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.profile .friends .person p:hover {
+color: red;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    margin: 0 auto;
+    border: 3px dashed red;
+    border-radius: 10px;
+}
+
+img:hover , .url-info:hover , .online:hover {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.person {
+    filter: grayscale(100%) blur(2px) saturate(100%);
+    transition: filter 400ms ease-in-out;
+}
+
+.person:hover {
+    filter: none !important;
+    animation-name: shake;
+    animation: shake 4s;
+    animation-iteration-count: infinite;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: black;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+    border: 1px solid red;
+}
+
+.comments-table td, .music-table td {
+    background: black;
+    vertical-align: top;
+    border: 1px solid red;
+}
+
+table.comments-table {
+    border: none;
+}
+
+.comment-replies {
+    padding: 0 5px;
+    border: 1px solid red;
+    margin: 4px;
+}
+
+.general-about {
+    padding-top: 21px;
+    text-align: center;
+}
+
+.general-about .profile-pic {
+    display: block;
+    float: left;
+    margin: 0 15px 8px 0;
+    height: 160px;
+    transform: translate(10px, 10px);
+}
+
+/* == cursor == */
+
+HTML,BODY{cursor: 
+url(https://external-media.spacehey.net/media/s6rl8pclY7DDunCpW9Dilx_i8_U618PDAm6u3qxen7js=/https://ani.cursors-4u.net/symbols/sym-8/sym734.cur),
+auto;}
+
+
+A:hover{cursor: 
+url(https://external-media.spacehey.net/media/s6rl8pclY7DDunCpW9Dilx_i8_U618PDAm6u3qxen7js=/https://ani.cursors-4u.net/symbols/sym-8/sym734.cur),
+auto;}
+
+
+/* == scrollbar == */
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+BACKGROUND-COLOR: black;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    width: 2px;
+    border: 1px dotted black;
+}
+::-webkit-scrollbar-thumb {
+    background: darkred;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: red;  
+}
+
+/* == contact emojis == */
+
+.contact .inner a img {
+       font-size: 0;
+   }
+   .contact .inner a img:before {
+       font-size: 0em;
+    display: block
+   }
+   .contact .inner .f-row:nth-child(1) .f-col:nth-child(1) a:before {
+   	/* Add to Friends */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(1) .f-col:nth-child(2) a:before {
+   	/* Add to Favorites */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(2) .f-col:nth-child(1) a:before {
+	/* Send Message */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(2) .f-col:nth-child(2) a:before {
+	/* Forward to Friend */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(3) .f-col:nth-child(1) a:before {
+	/* Instant Message */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(3) .f-col:nth-child(2) a:before {
+	/* Block User */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(4) .f-col:nth-child(1) a:before {
+	/* Add to Group */
+	content: "✞"
+   }
+   .contact .inner .f-row:nth-child(4) .f-col:nth-child(2) a:before {
+	/* Report Profile */
+	content: "✞"
+   }
+
+
+
+table.comments-table{
+display: block;
+height: 250px!important;
+overflow-y: scroll;
+}
+
+
+button.logout-btn {
+    font-family: 'perry goth';
+}
+
+.count {
+    font-size: 100%;
+    color: red;
+}
+
+body:before {
+    content: " ";
+    height: 14vh;
+    width: 101vw;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-image: url(https://external-media.spacehey.net/media/sTB-W-942h2dc5q-z7dnufVOTd5_ywJJmjXKpo8Glwa0=/https://i.pinimg.com/originals/24/77/df/2477dfe04df1f05e346e09a6926a6ea3.gif);
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center 20%;
+}
+
+</style>
+
