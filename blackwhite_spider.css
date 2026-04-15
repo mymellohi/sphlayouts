@@ -1,0 +1,329 @@
+<style>
+
+/* == font import == */
+
+@font-face { font-family: 'perry goth'; 
+src: url(https://external-media.spacehey.net/media/sJehavmRnSfPA6Vkj18FKkg3KQRRotAr_FgpH_pDSMc8=/https://dl.dropbox.com/s/9a25q7d9s3tsmcf/PERRYGOT.ttf); 
+} body{ font-family: 'perry goth'; font-size: 80%; }
+
+
+/* == background img == */
+
+body{
+background: url(https://external-media.spacehey.net/media/slEXT3qYZnWQtFANCUsEC7ROn6de23CUcDPHLwIq4iEk=/https://i.pinimg.com/564x/45/0a/69/450a69d46d92050f65923d3c17ddcd8e.jpg);
+}
+
+/* == nav == */
+
+nav .top{
+background: url(https://external-media.spacehey.net/media/sV1iBoxynA_1sHqL4fG5-DHf3ChPZBpU8k6pFiRn1i0M=/https://i.pinimg.com/564x/a6/6e/40/a66e406f8ee0f047e81ecafbeb9ba2ae.jpg);
+    border: 2px dotted white;
+    margin-top: 10px;
+}
+
+button, input {
+    overflow: visible;
+    background: black;
+    border: 1px dotted white;
+    color: white;
+}
+
+nav .links {
+    background-color: black;
+    padding: 3.5px 16px 5.5px 16px;
+    text-align: center;
+    border: 2px dotted white;
+margin-top: 20px;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " † ";
+    color: white;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 5px white;
+    font-size: 0.98em;
+    font-size: 80%;
+}
+
+nav .links a:hover {
+    color: grey;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-style: italic;
+}
+
+nav .links .special a {
+    color: lightgrey;
+}
+
+nav .links li.active a {
+    font-weight: bold;
+    color: lightgrey;
+}
+
+
+/* == main == */
+
+main {
+    margin-top: 20px;
+    border: 2px dotted white;
+    background: #0000008f;
+    color: white;
+    padding: 6px 0px;
+    font-size: 80%;
+}
+
+.container {
+    width: 810px;
+    max-width: 100%;
+    margin: 0 auto 10px;
+    text-transform: lowercase;
+}
+
+a {
+    color: lightgrey;
+    text-decoration: auto;
+    text-shadow: 0 0 5px white, 0 0 10px white;
+    font-style: italic;
+}
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: grey;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
+}
+
+
+/* == right side == */
+
+span {
+    text-align: center;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+img.pfp-fallback {
+    border: 3px dashed white;
+    outline: 1px solid white;
+    border-radius: 15px;
+}
+
+.general-about .details {
+    display: block;
+    text-align: center;
+}
+
+.online {
+    color: grey;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 110%;
+    font-style: italic;
+    text-decoration: line-through 2px wavy slategrey;
+}
+
+.profile .mood {
+    margin-bottom: 18px;
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block;
+    border: 3px dashed white;
+    outline: 1px solid white;
+    border-radius: 15px;
+    background: black;
+    padding: 4px;
+    text-align: center;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: black;
+    color: white;
+    border-bottom: 3px dashed white;
+    text-align: center;
+    padding: 2px 7px;
+    text-shadow: 2px 2px grey;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: 3px dashed white;
+    border-radius: 10px;
+    outline: 1px solid white;
+    margin: 10px 0;
+    background: black;
+}
+
+.profile .url-info {
+    padding: 4px 7px;
+    font-size: 0px;
+    background: url(https://external-media.spacehey.net/media/snohOeckOrkRvdP1fLVLxPsxXPm_HfEPCY2c4zwPmX04=/https://i.pinimg.com/564x/26/d8/4d/26d84da35168475464123cd893aa349f.jpg);
+height: 250px;
+}
+
+.details-table td {
+    background: black;
+    border: 2px dotted;
+    vertical-align: top;
+    border-radius: 5px;
+}
+
+.details-table td:first-child {
+    background: black;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px dotted white;
+    font-weight: bold;
+    width: 33%;
+    border-radius: 5px;
+}
+
+/* == left side == */
+
+.profile-info {
+    border: 3px dashed white;
+    outline: 1px solid white;
+    border-radius: 15px;
+    background: url(https://external-media.spacehey.net/media/s_OA1ktOoEZ3FO9LuW5AN4rSEeqSzXiWyXmpJ1L-Rs0I=/https://i.pinimg.com/564x/81/f2/60/81f26083089d69c6bcf0843989c6c7fb.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    font-size: 0;
+    height: 100px;
+    background-size: 400px;
+    background-position-y: 30%;
+    background-position-x: center;
+}
+
+.blog-preview {
+    background: black;
+    border: 3px dashed white;
+    outline: 1px solid white;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: black;
+    color: white;
+    padding: 2px 7px;
+    text-align: center;
+    border-bottom: 3px dashed white;
+}
+
+.profile .blurbs {
+    margin: 20px 0;
+    border: 3px dashed white;
+    border-radius: 10px;
+    background: black;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: grey;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.friends {
+    background: black;
+    border: 3px dashed white;
+    border-radius: 10px;
+}
+
+.count {
+    color: grey;
+    font-size: 100%;
+}
+
+.profile .friends .person p {
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.profile .friends .person p:hover {
+    color: grey;
+}
+
+div#comments {
+    margin-top: 15px;
+}
+
+.comments-table td, .music-table td {
+    background: black;
+    vertical-align: top;
+    border: 3px dashed white;
+    border-radius: 10px;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: black;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+    border: 3px dashed white;
+    border-radius: 10px;
+}
+
+table.comments-table {
+    border: 1px black;
+}
+
+/* == footer == */
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background: transparent;
+    color: white;
+}
+
+/* == cursor == */
+
+html,body{cursor: url(https://external-media.spacehey.net/media/s9ncCoxaIUVC48D2jpuXhCxXeWBGMsIUHRJKj_XsveNM=/https://cur.cursors-4u.net/others/oth-8/oth702.cur),auto;}
+
+a:hover{cursor: url(https://external-media.spacehey.net/media/s9ncCoxaIUVC48D2jpuXhCxXeWBGMsIUHRJKj_XsveNM=/https://cur.cursors-4u.net/others/oth-8/oth702.cur),auto;}
+
+
+/* == scrollbar == */
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+BACKGROUND-COLOR: black;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    width: 2px;
+    border: 1px dotted black;
+}
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: lightgrey;  
+}
+
+</style>
+
