@@ -1,0 +1,252 @@
+<style>
+
+body{
+background-image: url(https://external-media.spacehey.net/media/sd79NZLNzwDAFdhzLJRTa8crWfHTsbk8eTy9f2tgddrs=/https://i.pinimg.com/564x/f1/dc/32/f1dc32ce1603c59e8184a02371abb2ba.jpg)
+}
+
+
+body:before {
+	content: " ";
+	height: 100vh;
+	width: 100vw;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-image: url('https://external-media.spacehey.net/media/s6wYIxZhvv-3jpOkrmVObjhhYbjYCB3O92KewIJwTCpk=/https://i.pinimg.com/564x/4d/97/8c/4d978c0208e70e9f217792c6bb43eefa.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	animation: yourAnimation 1s ease 0s 1 normal forwards;
+	pointer-events: none;
+}
+@keyframes yourAnimation { 0.0% { opacity: 1; } 75% { opacity: 1; } 100% { opacity: 0; } }
+
+nav .top {
+    background: #47008E;
+}
+
+footer {
+	margin: 1em;
+	position: relative;
+	box-shadow: 5px 8px 10px #0006;
+}
+
+
+main, footer{
+background-color: #1e40af00;
+color: #ffffff;
+}
+
+
+.container{
+text-shadow:0 0 5px #B171F1, 0 0 10px #B171F1, 0 0 10px #47008E, 0 0 20px #47008E, 0 0 25px #47008E, 0 0 30px #47008E, 0 0 35px #47008E;
+background-color: #0000009e;
+color: #ffffff;
+margin: 2em auto;
+border-style: solid;
+    border-color: #47008E;
+    border-width: 2px;
+width: 939px;
+}
+
+
+:root {
+    --logo-blue: #ffffff;
+    --darker-blue: #ffffff;
+    --lighter-blue: #47008E;
+    --even-lighter-blue: #6d00ff47;
+    --lightest-blue: #6d00ff47;
+    --dark-orange: #ffffff;
+    --light-orange: #47008E;
+    --even-lighter-orange: #47008E;
+    --strange-yellow: #dbae2e;
+}
+
+.row{
+    width: 100%;
+padding: 40px;
+}
+
+div.general-about {
+    display: grid;
+    align-items: end;
+    justify-content: space-around;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+span{
+text-align: center;
+
+}
+
+p.edit-link{
+text-align: center;
+}
+
+nav .links{
+     background-color: #47008E;
+     border: solid;
+     border-color: transparent;
+     border-width: 3px;
+	text-align: center;
+font-size: 14px;
+}
+
+    }
+    main .right{
+        width: 50%;
+    }
+       .profile{
+        
+    direction: rtl;
+    
+    }
+    .blurbs{
+    
+    direction: ltr;
+        
+    }
+    .blog-preview{
+        
+    direction: ltr;
+        
+    }
+    .friends{
+    
+    direction: ltr;
+        
+    }
+    .general-info{
+        
+    direction: ltr;
+        
+    }
+    .contact{
+        
+    direction: ltr;
+    
+    }
+    .url-info{
+        
+    direction: ltr;
+        
+    }
+    .details-table{
+        
+    direction: ltr;
+        
+    }
+    .profile .table-section .heading{
+    
+    direction: ltr;
+        
+    }
+    .details p{
+
+    direction: ltr;
+
+   }
+   .mood, span{
+
+       direction: ltr;
+
+   }
+
+
+.col, main, footer, nav::before, .online, nav .links, nav .top, .container {
+    animation: float 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.col, main, footer, nav::before, .online, nav .links, nav .top, .container {
+animation: float 3s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+@keyframes float {
+0% { transform: translate(0, 0px);
+}
+50% {
+transform: translate(0, 8px);
+}
+100% {
+transform: translate(0, -0px);
+}
+}
+</style>
+
+<style>
+@import url('https://external-media.spacehey.net/css/s5_wkxXpbEMyEZAZ07c2fS54nJQtmB2yW5bsdfXhT_70=/https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body{
+font-family: 'Special Elite', monotone;
+    font-size: 17px;
+    font-color: #ffffff;
+
+@import url('https://external-media.spacehey.net/css/s5_wkxXpbEMyEZAZ07c2fS54nJQtmB2yW5bsdfXhT_70=/https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+}
+
+ div.friends div.inner p b {
+color: #fff; !important;
+}
+    h1, .count, .friends a p{
+    color: #fff; !important;
+}
+
+
+table.comments-table{
+display: block;
+height: 250px!important;
+overflow-y: scroll;
+}
+
+a:hover{
+color: #47008E;
+}
+
+.profile .friends .person p {
+color: #fff;  
+}
+.profile .friends .person p:hover {
+color: #47008E;  
+}
+
+.logo{
+width: 30px;
+content:url("https://external-media.spacehey.net/media/s-98uytXgwXE1JvslH8cqCxvlilSZ8s-QfmH21ElxwHg=/https://media.discordapp.net/attachments/1083062800752054305/1085761642761048075/image0.jpg")
+
+}
+
+HTML,BODY{cursor: 
+url(https://external-media.spacehey.net/media/sb3MzfCQ_IVwRWXwgvtPS4Uqk_fJj599zaGaWnurKfW4=/https://dl.glitter-graphics.com/pub/3130/3130515kbeoo7uval.gif),
+auto;}
+
+
+A:hover{cursor: 
+url(https://external-media.spacehey.net/media/sb3MzfCQ_IVwRWXwgvtPS4Uqk_fJj599zaGaWnurKfW4=/https://dl.glitter-graphics.com/pub/3130/3130515kbeoo7uval.gif),
+auto;}
+
+    .icon, .award img {
+        content: url(https://external-media.spacehey.net/media/sGjwLeZmSMWZMLyC_8v8yHJuJppZjJPmqzdGIr_VC9JA=/https://dl.glitter-graphics.com/pub/640/640424cwnvopbjme.gif);
+        display: inline-block;
+        height: 2.0em;
+        width: 2.0em;
+        margin: 0 .05em 0 .1em;
+        vertical-align: -0.3em;
+        color: rgba(0,0,0,0);
+    }
+
+.online {
+    content: url(https://external-media.spacehey.net/media/sOOtzs8u3CyS0dpQH9lY7d9jSN9SaxfDZzquX-B49xjI=/https://media.tenor.com/JFaXYdISsDYAAAAi/goth-online.gif)
+}
+
+nav .links a:hover {
+color: black;
+}
+</style>
+
