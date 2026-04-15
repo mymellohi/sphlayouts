@@ -1,0 +1,132 @@
+<style>
+
+body {
+    background-color: black;
+    font-family: verdana, arial, sans-serif, helvetica;
+}
+
+nav .top {
+    background: black;
+    padding: 15px 10px 14px 10px;
+    position: relative;
+    margin-top: 20px;
+    border: 5px ridge darkred;
+}
+
+button, input {
+    overflow: visible;
+    border: 5px ridge darkred;
+    color: white;
+    padding-bottom: 3px;
+    background: black;
+}
+
+nav .links {
+    background-color: black;
+    padding: 3.5px 16px;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    border: 5px ridge darkred;
+    text-align: center;
+    width: 750px;
+    transform: translateX(28px);
+}
+
+main {
+    background: black;
+    color: white;
+    padding: 6px 0px;
+    font-size: 80%;
+    border: 5px ridge darkred;
+}
+
+.edit-info {
+    background: black;
+    border: 5px ridge darkred;
+    width: 100%;
+    padding: 5px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background-color: transparent;
+    color: white;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: darkred;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav .links .special a {
+    color: red;
+}
+
+nav .links a:hover {
+    text-decoration: none;
+    color: darkred;
+}
+
+HTML,BODY{cursor: 
+url(https://external-media.spacehey.net/media/s6rl8pclY7DDunCpW9Dilx_i8_U618PDAm6u3qxen7js=/https://ani.cursors-4u.net/symbols/sym-8/sym734.cur),
+auto;}
+
+
+A:hover{cursor: 
+url(https://external-media.spacehey.net/media/s6rl8pclY7DDunCpW9Dilx_i8_U618PDAm6u3qxen7js=/https://ani.cursors-4u.net/symbols/sym-8/sym734.cur),
+auto;}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+BACKGROUND-COLOR: black;
+}
+::-webkit-scrollbar-track {
+    width: 2px;
+    border: 1px solid darkred;
+}
+::-webkit-scrollbar-thumb {
+    background: darkred;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: red;  
+}
+
+.comments-table td, .music-table td {
+    background: black!important;
+    font-weight: bold;
+    border: 5px ridge darkred!important;
+}
+
+table.comments-table, table.music-table, table.bulletin-table, table.forum-table, table.groups-table {
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    border: none!important;
+}
+
+.comment-replies {
+    padding: 0 5px;
+    border: 5px ridge darkred;
+    margin-top: 10px;
+}
+
+</style>
+
+comment if used :) requested by <a href="https://spacehey.com/profile?id=2177844">
+MysticMay</a> !!
+<br/>
+
+
