@@ -1,0 +1,340 @@
+<style>
+
+@font-face { font-family: 'candy cutes'; 
+src: url(https://external-media.spacehey.net/media/siFGhXcRGWxrDFNJExOmmOp0_17rDqq9L0FExMPpAs7w=/https://dl.dropbox.com/s/3w49a89tknlumag/Candycutes.ttf); 
+}
+
+@font-face { font-family: 'starshines'; 
+src: url(https://external-media.spacehey.net/media/sIY8brv8l56MP2i8ARD8OZi-APNGEXTkFHzPyzADilw8=/https://dl.dropbox.com/s/5ojtturb4ny5zgk/Starshines%20Italic.ttf); 
+}
+
+body{
+background: url(https://external-media.spacehey.net/media/szTD7Esyanxp40F4yH4CQEmyw9YP5R8U_eeMlHkoYvak=/https://i.pinimg.com/564x/a7/87/bb/a787bbb76d0ebeac352ddfa9cac1c6c2.jpg); 
+text-transform: lowercase;
+font-family: 'candy cutes';
+}
+
+.container {
+    width: 810px;
+    max-width: 100%;
+    margin: 0 auto 10px;
+    margin-top: 20px;
+}
+
+nav .top {
+    background: transparent;
+    color: lightblue;
+    position: relative;
+}
+
+nav .top .left .logo {
+    width: 165px;
+    height: 42px;
+    filter: brightness(0) saturate(0.2%) invert(50%) sepia(100%) saturate(200%) hue-rotate(190deg) brightness(139%) contrast(100%);
+}
+
+button, input {
+    overflow: visible;
+    background: white;
+    border: 1px solid lightblue;
+    color: lightblue;
+    box-shadow: 3px 3px 0px lightblue;
+}
+
+.logout-btn, .logout-form {
+    color: lightblue;
+    font-family: 'candy cutes';
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 100%;
+    font-weight: bolder;
+}
+
+nav .links {
+    background-color: white;
+    border: 1px solid lightblue;
+    box-shadow: 3px 3px lightblue;
+    text-align: center;
+    padding: 3.5px 16px 5.5px 16px;
+}
+
+nav .links a {
+    font-style: italic;
+    color: lightblue;
+    text-shadow: 0 0 7px lightblue;
+    font-size: max(0.98em, 12px);
+}
+
+nav .links .special a {
+    color: cornflowerblue;
+}
+
+nav .links a:hover {
+    text-decoration: underline;
+    color: cornflowerblue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " • ";
+    color: lightblue;
+}
+
+main {
+    background: transparent;
+    color: lightblue;
+    padding: 6px 0px;
+    font-size: 80%;
+}
+
+span {
+    text-align: center;
+    font-size: 150%;
+font-family: 'starshines'; 
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+a {
+    color: cornflowerblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: #0b4fca;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.profile .mood {
+    width: 100%;
+    display: inline-block;
+    background: white;
+    border: 1px solid lightblue;
+    box-shadow: 3px 3px lightblue;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: transparent;
+    color: lightblue;
+    padding: 2px 7px;
+    text-align: center;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    background: white;
+    border: 1px solid lightblue;
+    box-shadow: 3px 3px lightblue;
+    margin: 10px 0;
+}
+
+.details-table td:first-child {
+    background: white;
+    color: lightblue;
+    font-weight: bold;
+    width: 33%;
+}
+
+.details-table td {
+    background: white;
+    border: 1px solid lightblue;
+    vertical-align: top;
+}
+
+.profile-info {
+    background: white;
+    border: 1px solid lightblue;
+    box-shadow: 3px 3px lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+}
+
+.blog-preview {
+    background: white;
+    border: 1px solid lightblue;
+    box-shadow: 3px 3px lightblue;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: transparent;
+    font-size: 0%;
+    padding: 2px 7px;
+}
+
+.friends .heading:before {
+    content: "cuties";
+    font-size: .9rem;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+
+.profile .blurbs .section {
+    margin-bottom: 14px;
+    background: white;
+    border: 1px solid lightblue;
+    box-shadow: 3px 3px lightblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: cornflowerblue;
+    text-transform: lowercase;
+}
+
+.friends {
+    background: white;
+    border: 1px solid lightblue;
+    box-shadow: 3px 3px lightblue;
+    margin-bottom: 20px;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: white;
+    border: 1px solid lightblue;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+}
+
+.comments-table td, .music-table td {
+    background: white;
+    border: 1px solid lightblue;
+    vertical-align: top;
+}
+
+
+.count {
+    color: cornflowerblue;
+    font-size: 100%;
+}
+
+.profile .friends .person p {
+    color: cornflowerblue;
+    text-transform: lowercase;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.profile .friends .person p:hover {
+    color: #0b4fca;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    margin: 0 auto;
+    border: 4px dashed lightblue;
+    outline: 1px solid lightblue;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background: white;
+    border: 1px solid lightblue;
+    box-shadow: 3px 3px lightblue;
+    color: lightblue;
+}
+
+.general-about .profile-pic img {
+    max-width: 160px;
+    max-height: 160px;
+    border: 1px solid lightblue;
+    box-shadow: 3px 3px lightblue;
+}
+
+HTML,BODY{cursor: 
+url(https://external-media.spacehey.net/media/snna66oUNtSqKJFK4ALFCj1qevTCEM2NABSnuWkLPG_k=/https://cdn.custom-cursor.com/db/6905/32/sanrio-cinnamon-roll-and-cinnamoroll-pointer.png),
+auto;}
+
+
+A:hover{cursor: 
+url(https://external-media.spacehey.net/media/snna66oUNtSqKJFK4ALFCj1qevTCEM2NABSnuWkLPG_k=/https://cdn.custom-cursor.com/db/6905/32/sanrio-cinnamon-roll-and-cinnamoroll-pointer.png),
+auto;    }
+
+    .icon, .award img {
+        content: url(https://external-media.spacehey.net/media/sUHb56xu9bIF_y-oiemSwETfhDb1no-4WlnLqvx6jZLs=/https://i.pinimg.com/564x/ba/11/99/ba119941a903edd6d851a76e31495199.jpg);
+        display: inline-block;
+        height: 2.0em;
+        width: 2.0em;
+        margin: 0 .05em 0 .1em;
+        vertical-align: -0.3em;
+        color: rgba(0,0,0,0);
+    filter: hue-rotate(222deg);
+    }
+
+.online {
+    content: url(https://external-media.spacehey.net/media/sxuuTW2xwBzAyc95ftfeeYNK141obmTU7fxMpqaL_u98=/https://cur.glitter-graphics.net/pub/2328/2328366zksw82tv1r.gif);
+    filter: hue-rotate(222deg);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+BACKGROUND-COLOR: white;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    width: 2px;
+    border: 1px dotted cornflowerblue;
+}
+::-webkit-scrollbar-thumb {
+    background: lightblue;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: cornflowerblue;  
+}
+
+</style>
+
+<div class="mobileHide">
+
+        <style>
+
+   .mobileHide { display: inline;}
+
+   /* Smartphone Portrait and Landscape */
+
+   @media only screen
+
+   and (min-device-width : 320px)
+
+   and (max-device-width : 480px){  .mobileHide { display: none;}}
+
+</style></div>
+
+<div style="float:  ; max-height: 800px; position: fixed; right: 400px; top: 280px; z-index: 200;"><img src="https://external-media.spacehey.net/media/sbgxThiE9ByW1nklRp148Ni8HmDAJtf18ALZM-LH5xhs=/https://i.pinimg.com/originals/b0/28/84/b02884230f430431ef9b4d68bb1505de.png" width="auto" height="80px"/></div>
+
+<div style="float:  ; max-height: 800px; position: fixed; left: 30px; bottom: 50px; z-index: 200;"><img src="https://external-media.spacehey.net/media/swkXCPkkVDQTNSkAkD5CQdUF16eI9OWLupmnRE-rltYg=/https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a0522984-8c0c-4916-8bda-eccbae7669d9/d6q63t5-8c1124cb-b163-4b08-989c-67e0e074d151.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EwNTIyOTg0LThjMGMtNDkxNi04YmRhLWVjY2JhZTc2NjlkOVwvZDZxNjN0NS04YzExMjRjYi1iMTYzLTRiMDgtOTg5Yy02N2UwZTA3NGQxNTEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.WWerWLMEVnpm6FTn36_91QDxYjCcxcBVRaW-xrXMlOU" width="auto" height="200px"/></div>
+
