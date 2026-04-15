@@ -1,0 +1,442 @@
+<style>
+
+body{
+background: url(https://external-media.spacehey.net/media/sFUy3nC9iyxePvsITldXTlmZd9b5tM_LfFRWG93wnIjM=/https://i.pinimg.com/originals/2b/19/60/2b1960b1553058555656f912ead3b76c.gif);
+background-attachment: fixed;
+background-size: cover;
+}
+
+.container{
+    width: 100%;
+font-family: 'Special Elite', cursive;
+}
+
+main{
+    width: 800px;
+    height: 500px;
+    overflow-y: scroll;
+    margin: auto;
+background: #00000096;
+    color: white;
+    box-shadow: 0px 0px 17px 8px #70f8ff;
+}
+
+nav .links {
+    text-align: center;
+padding: 3.5px 10px 26.5px 16px;
+    background: transparent;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 15px 0 px;
+    padding: 10px 5px;
+    background: transparent;
+    color: white;
+}
+
+nav .top {
+    background: transparent;
+    padding: 10px 0px 0px 0px;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+background-color: black;
+}
+::-webkit-scrollbar-track {
+width: 2px;
+    border: 1px solid #70f8ff;
+}
+::-webkit-scrollbar-thumb {
+    background: #70f8ff;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #1d6fa1;  
+}
+
+</style>
+
+<style>
+
+.profile .blurbs, .friends {
+    margin: 20px 0;
+    background: black;
+    border: solid 4px #70f8ff;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: #70f8ff;
+    color: #000000;
+    padding: 4px 8px;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: #70f8ff;
+}
+
+a:hover {
+    color: #1e9ca3;
+    text-decoration: line-through;
+}
+a {
+    color: #70f8ff;
+}
+
+span {
+    color: #70f8ff;
+    text-align: center;
+}
+
+p.edit-link {
+    text-align: center;
+}
+
+.general-about .profile-pic {
+    display: block;
+    float: right;
+    margin: 0 15px 8px 0;
+    box-shadow: #70f8ff 5px 5px 8px 2px;
+}
+
+.general-about .details {
+    display: block;
+    text-align: center;
+    padding-top: 19px;
+}
+
+.profile .mood {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .home-actions {
+    width: 100%;
+    border: 4px solid #70f8ff;
+    margin: 10px 0;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .home-actions .heading {
+    background: #70f8ff;
+    color: black;
+    padding: 2px 7px;
+    text-align: center;
+}
+
+.contact {
+    background: black;
+}
+
+.profile .url-info {
+    padding: 4px 7px;
+    background: black;
+}
+
+:root{
+--even-lighter-blue: #0000006b;
+--logo-blue: #70f8ff;
+--lightest-blue: #0000006b;
+}
+
+.details-table{
+color: #70f8ff
+}
+
+.details-table td {
+    background: var(--lightest-blue);
+    vertical-align: top;
+    border: double 1px;
+}
+
+.profile-info {
+    border: 3px solid rgb(112 248 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 5px;
+    margin-bottom: 10px;
+background: black;
+}
+
+.blog-preview {
+    border: 3px solid #70f8ff;
+    background: #000000;
+    padding: 0px 10px;
+}
+
+.profile .friends .person {
+    width: 138px;
+    display: inline-block;
+    padding: 0 10px 15px 0;
+}
+
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: #000000;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+}
+
+.comments-table td, .music-table td {
+    background: #000000;
+    vertical-align: top;
+}
+
+table.comments-table {
+    border: 3px double #70f8ff;
+    display: block;
+    height: 300px!important;
+    overflow-y: scroll;
+}
+
+.count {
+    color: #70f8ff;
+}
+
+button, input {
+    overflow: visible;
+    border: 2px solid #70f8ff;
+    background: black;
+    color: white;
+}
+nav .links a:hover {
+color: #70f8ff;
+}
+
+.profile .friends .person p {
+    color: #70f8ff;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+</style>
+
+<style>
+@import url('https://external-media.spacehey.net/css/s5_wkxXpbEMyEZAZ07c2fS54nJQtmB2yW5bsdfXhT_70=/https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+</style>
+
+<style>
+img:hover , .url-info:hover , .online:hover {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+</style>
+
+<style>
+
+HTML,BODY{cursor: 
+url(cursor: url(https://external-media.spacehey.net/media/stZinUiSgZqpYdNPGcXD1NsJupVqNYC5J2uziMQpOO8Q=/https://i.imgur.com/53cWbue.png),
+auto;}
+
+
+A:hover{cursor: 
+url(cursor: url(https://external-media.spacehey.net/media/stZinUiSgZqpYdNPGcXD1NsJupVqNYC5J2uziMQpOO8Q=/https://i.imgur.com/53cWbue.png),
+auto;}
+
+    .icon, .award img {
+        content: url(https://external-media.spacehey.net/media/s6i8y1VTKge--hdc0jCP5uNhIJMo9Rlhn8xf-1fFRGAc=/https://i1.glitter-graphics.org/pub/575/575281br5nqkcttj.gif);
+        display: inline-block;
+        height: 2.0em;
+        width: 2.0em;
+        margin: 0 .05em 0 .1em;
+        vertical-align: -0.3em;
+        color: rgba(0,0,0,0);
+    }
+
+.online {
+    content: url(https://external-media.spacehey.net/media/s1xigMjgD2UEsjH84h6bctUC25ZCcFSvKoIp3_ypkqTk=/http://www.myspacegens.com/images/online_now/316.gif)
+}
+
+.online{
+padding-left: 25px;
+}
+
+</style>
+
+<style>
+
+@font-face { font-family: "PenetrationOutGrunge-JvyM"; src: url('https://external-media.spacehey.net/media/sBiEv06dRjnGKfaPOReOcFGhI2tH3wQpajm-jEtE_JCw=/http://dl.dropbox.com/s/3wt5r6e8l5xrc66/PenetrationOutGrunge-JvyM.ttf'); }
+
+h1, h2, h3, h4, h5{
+    font-family:  "PenetrationOutGrunge-JvyM"; 
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.profile h1 {
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+</style>
+
+
+
+<div class="snowflakes">
+
+
+  <div class="snowflake">
+
+
+   ❄️
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+  ❄️
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+  ❄️
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+  ❄️
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+  ❄️
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+  ❄️
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+    ❄️
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+    ❄️
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+    ❄️
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+    ❄️
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+    ❄️
+
+
+  </div>
+
+
+  <div class="snowflake">
+
+
+    ❄️
+
+
+  </div>
+
+
+</div>
+
+
+<style>
+
+
+/* customizable snowflake styling */
+
+
+.snowflake {
+
+
+  color: purple;
+
+
+  font-size: 1em;
+
+
+  font-family: Arial, sans-serif;
+
+
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
+
+
+}
+
+
+
+
+
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
+
+</style>
+
