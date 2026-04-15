@@ -1,0 +1,345 @@
+<!-- (c) Layout created by ray ☆ 2.0 (https://layouts.spacehey.com/layout?id=81639) -->
+
+<style>
+
+@font-face { font-family: 'candy cutes'; 
+src: url(https://external-media.spacehey.net/media/siFGhXcRGWxrDFNJExOmmOp0_17rDqq9L0FExMPpAs7w=/https://dl.dropbox.com/s/3w49a89tknlumag/Candycutes.ttf); 
+}
+
+@font-face { font-family: 'starshines'; 
+src: url(https://external-media.spacehey.net/media/sIY8brv8l56MP2i8ARD8OZi-APNGEXTkFHzPyzADilw8=/https://dl.dropbox.com/s/5ojtturb4ny5zgk/Starshines%20Italic.ttf); 
+}
+
+body{
+background: url(https://i.pinimg.com/564x/67/06/24/670624ab3fd0e1c56a5c1436b31032c9.jpg); 
+text-transform: lowercase;
+font-family: 'candy cutes';
+}
+
+.container {
+    width: 810px;
+    max-width: 100%;
+    margin: 0 auto 10px;
+    margin-top: 20px;
+}
+
+nav .top {
+    background: transparent;
+    color: pink;
+    position: relative;
+}
+
+nav .top .left .logo {
+    width: 165px;
+    height: 42px;
+    filter: brightness(0) saturate(0%) invert(50%) sepia(100%) saturate(200%) hue-rotate(311deg) brightness(100%) contrast(1000%);
+}
+
+button, input {
+    overflow: visible;
+    background: white;
+    border: 1px solid pink;
+    color: pink;
+    box-shadow: 3px 3px 0px pink;
+}
+
+.logout-btn, .logout-form {
+    color: pink;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 100%;
+    font-weight: bolder;
+}
+
+nav .links {
+    background-color: white;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+    text-align: center;
+    padding: 3.5px 16px 5.5px 16px;
+}
+
+nav .links a {
+    font-style: italic;
+    color: pink;
+    text-shadow: 0 0 7px pink;
+    font-size: max(0.98em, 12px);
+}
+
+nav .links .special a {
+    color: #fb7aab;
+}
+
+nav .links a:hover {
+    text-decoration: underline;
+    color: deeppink;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " • ";
+    color: pink;
+}
+
+main {
+    background: transparent;
+    color: pink;
+    padding: 6px 0px;
+    font-size: 80%;
+}
+
+.profile h1{
+    text-align: center;
+    font-size: 250%;
+font-family: 'starshines'; 
+    color: white;
+    text-shadow: 9px 6px #e78899, -9px -6px hotpink;
+}
+
+.general-about .details {
+    display: block;
+    color: white;
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+color: white;
+}
+
+.edit-link a{
+color: white;
+}
+
+a {
+    color: #fb7aab;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: deeppink;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.profile .mood {
+    width: 100%;
+    display: inline-block;
+    background: white;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: transparent;
+    color: pink;
+    padding: 2px 7px;
+    text-align: center;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    background: white;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+    margin: 10px 0;
+}
+
+.details-table td:first-child {
+    background: white;
+    color: pink;
+    font-weight: bold;
+    width: 33%;
+}
+
+.details-table td {
+    background: white;
+    border: 1px solid;
+    vertical-align: top;
+}
+
+.profile-info {
+    background: url(https://i.pinimg.com/originals/1c/42/9f/1c429f5cfb7e148e2802e57f8574e4bf.gif);
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    font-size: 0;
+    height: 255px;
+}
+
+.blog-preview {
+    background: white;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: transparent;
+    font-size: 0%;
+    padding: 2px 7px;
+}
+
+.friends .heading:before {
+    content: "cuties";
+    font-size: .9rem;
+    font-weight: bold;
+    color: #fb7aab;
+}
+
+.profile .blurbs .section {
+    margin-bottom: 14px;
+    background: white;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: #fb7aab;
+    text-transform: lowercase;
+}
+
+.friends {
+    background: white;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+    margin-bottom: 20px;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: white;
+    border: 1px solid pink;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+}
+
+.comments-table td, .music-table td {
+    background: white;
+    border: 1px solid pink;
+    vertical-align: top;
+}
+
+
+.count {
+    color: #fb7aab;
+    font-size: 100%;
+}
+
+.profile .friends .person p {
+    color: #fb7aab;
+    text-transform: lowercase;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.profile .friends .person p:hover {
+    color: deeppink;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    margin: 0 auto;
+    border: 4px dashed pink;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background: white;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+    color: pink;
+}
+
+.general-about .profile-pic img {
+    max-width: 160px;
+    max-height: 160px;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+}
+
+    .icon, .award img {
+        content: url(https://i.pinimg.com/564x/a6/5c/52/a65c526c895d22d32be3b315d443f2d7.jpg);
+        display: inline-block;
+        height: 2.0em;
+        width: 2.0em;
+        margin: 0 .05em 0 .1em;
+        vertical-align: -0.3em;
+        color: rgba(0,0,0,0);
+    }
+
+.online {
+    content: url(https://cdn.shopify.com/s/files/1/0527/1823/9909/files/PLUSH_2_COMPLETE.png?v=1645994778);
+    width: -webkit-fill-available;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: pink;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+</style>
+
+<style>body { cursor: url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////G4/ezze2qv+uareuZtOuuzfDH3v3///////////////////////////////////////////////////////////////////////////////////+vyN8tRYYOHnYTJ4AuN5tBQ65HSbZMU7pGUrdFU7UxOpkeKoERJG47UYZyhrT////////////////////////////////////////////////////////////U4PQhMIAtO5aNhufGov/KpPbInvjImPjHlvrFlvXImfbJmvjKm/jInf+6ov+RiuNqZMESJ3Fwi7T///////////////////////////////////////////////89SoITKHmih++6m/bKnvHRlPnJmPupnPeVkvOajvWdj/afkfGkkfCzmfzLl/vIl/rHmPvEl/m8nP88RpkyXY3///////////////////////////////////////9yjq9FRqummPnFlvLRmfTHl/e1m/4jNpgWLG5GYIxSbJhnf61feqFGYI4YK3I1N5K4ov7FmPvJl/vImfrKofktOZyHpMr///////////////////////////////////8HIXeupfy/mfLTl/3HmPy/nP4mMYaWrcz///////////////////////////98jcE2PJ3FlvbNmPS/mPvMmPmroP4PJ2////////////////////////////////+/yuI/QqS6oPK+ovooMZCpmvjFnPsbKX////////////////////////////////////8EHHy8oP+/nPk7PZucguS9nPslMYjd6ff///////////////////////////+UqshgV7zAnfKvm/MLMpF7ddLGnPcVL4f///////////////////////////////////8GIX+wnv64ov4KKYZTS6zEl/g7RJ7E0eT///////////////////////////9rh6l7dNbPn/iJe9sTMpldWLTCn/kCI37///////////////9YaI+0usj///////+50OgjMI7An/u1nvsELJMlM5PNmvtVWryms8v///////////////////////////9of6Zyd9TPn/eWheYOM5lZX7fBmPOJc9YcMH7h4PD////////L4PH///////+6wNwHK3qilPHWnfPDofwTJ5YqOJrKm/dYXsKotc////////////////////////////+JoMRcX77JlvK9nPsRKYGjj+zNmvzFl/mGkOYPLoEJMXUnS4NAY6wsV5oCKXUhNZ+ym/jLlfnIlPnEoP4tLIyCf+LVlvQyRqLGzOH////////////////////////////R7PITMYzBmP7NlfTGnP7HlvnJmPy+mfvamPLKnv22mP6liO6RfOWaieTCpvfQnvTNlPjImv3HmfnMmPvRnvvAnvbJnP4DI3v///////////////////////////////////8XOHSgj/TCmPvUlfvLl/rImf3LmPy2mv+5nvm7nPa7nPfJlf3Dlv26lP+8kv/NmPzEmv3Fmf3ImPzUkv7CmvaHdtwsUYf////////////////////////////////////BzOIlK4eLfei9mPjFmfvMmP3Tlv3Rlv3OmPvQlf7Vk/7Sl/3QmPzPmfjSmvbQmPvLmPvJmP3Hl/zVlv67ov8YJoLX6fj///////////////////////////////////+5xuEONIkUK4urkPK8lfnJmfzGmvvNl/7HmP7JmP7Nl//Ol/7Nl/7Nl/7Nlv7DmvvOmPzSmP7Ik/q/pf8iNJAXN4r///////////////////////////+cnJz///////8PJXmgnvmmmvIVIYh6dtm/nv/PmPrJlv3Jmf7GmP7Emf7ImP7JmP7Nm/7HlfvMlfnSlfzAnv+toP8lLI1aYLx4gdgXMm3///////////////////+cnJz///////+pwdYuO52+mfq8mfU+W70cLJKgkPHKm/2/lPnFlfrFl/3CmP3HmP3Hl/3ImPzGlfvQl/vGnP+Oieg+TKwlMZavofm5qv8GJXP///////////////+cnJz///+cnJz///9odqR+d+C/j+p2ascbKItleNYSKIwiNZuRdtnFm//Nnv/Lnv/Jnf/Lnv/Ln//Gmv+Cc9AaLowUL49basYDIolpYbnHmvo4PaXO1uH///////////+cnJz///////////+YqdNKULCqlOhzaMCWj/DPnOiQhugoTJZQXKUVK3YLIm8XJnYQJoANJoEEH3gNKoZbdKYbMYWtov+1kve8oPp6Yr+2qP8VJIH///////////////+cnJz///////////////8LL3poZ8Goj+zBnvqajPMVJYXc3vD///////////////////////////////////+Oq8MjPIhwc9HNn/+zlvs7Q6JCYZP///////////////+cnJz///////////////////9FZJ0cO34UJHQYPYG51uz///////////////////////////////////////////+HoL09UYUHJnIJLnV7lLv////////////////////////////////////V/fj////////////////////+++D///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////////////////////////////8B///wAB//wAAH/4AAA/8AAAH/AP4B/gH/AP4B/wD+AeYA/gBsAP4AAAD+AAAB/wAAAf8AAAH/AAAD+wAAAfYAAAHqAAAA7gAAAe8B/wHvg/+D/vv/////////////////////////////w=='), auto; }</style>
+
+<div class="mobileHide">
+
+        <style>
+
+   .mobileHide { display: inline;}
+
+   /* Smartphone Portrait and Landscape */
+
+   @media only screen
+
+   and (min-device-width : 320px)
+
+   and (max-device-width : 480px){  .mobileHide { display: none;}}
+
+</style>
+
+<div style="float:  ; max-height: 800px; position: fixed; left: 30px; bottom: -20px; z-index: 200;"><img src="https://i.pinimg.com/originals/f5/3b/e8/f53be8a06157dac3ab8fb6b85b5ea9b8.png" width="auto" height="350px"/></div>
+
+</div>
+
