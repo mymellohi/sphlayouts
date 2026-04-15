@@ -1,0 +1,292 @@
+<style>
+
+@font-face { font-family: 'thug'; 
+src: url(https://dl.dropbox.com/s/f6be53wa2zbcu3owmmiuz/THUG____.TTF?rlkey=o205gtg4aa5pcmrp0mriibirx&st=dk0ouhxu&dl=0); 
+}.profile h1 { font-family: 'thug';
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+}
+
+body{
+background: url(https://i0.wp.com/wallpapercave.com/wp/wp3676605.jpg?ssl=1) no-repeat fixed;
+    background-size: cover;
+background-position-y: center;
+}
+
+main:before {
+ height: 214px;
+ display: block;
+ content: "";
+ background-image: url('https://i.pinimg.com/originals/a7/3e/9c/a73e9cfd2315760f14aa2b4e871dc7c1.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    border: 2px solid #8e2222;
+    box-shadow: 0 0 20px #8e2222;
+    border-radius: 3px;
+    margin-bottom: 31px;
+    margin-top: 18px;
+    width: 70%;
+    transform: translateX(113px);
+}
+
+nav {
+    transform: rotateX(-44deg);
+}
+
+nav .top{
+background: url(https://i.pinimg.com/564x/19/c6/05/19c605b4ee911eb856fe5ff8e10b7b65.jpg);
+    background-size: cover;
+    margin-top: 61px;
+    border: 2px solid #741414;
+    border-radius: 4px;
+    box-shadow: 0 0 21px #8e2222;
+    margin-bottom: 15px;
+}
+
+.logo{ content: url(https://upload.wikimedia.org/wikipedia/commons/f/fb/ThreeDaysGrace_Logo.png); 
+filter: invert(1);
+    height: 130% !important;
+    width: 216px !important;
+    padding-bottom: 10px;
+}
+
+button, input {
+    overflow: visible;
+    background: white;
+    border: none;
+    box-shadow: 0 0 7px white;
+    border-radius: 4px;
+}
+
+.logout-btn {
+    font-family: revert;
+    box-shadow: none;
+}
+
+nav .links{
+background: url(https://i.pinimg.com/564x/19/c6/05/19c605b4ee911eb856fe5ff8e10b7b65.jpg);
+    text-align: center;
+    border: #8e2222 2px solid;
+    border-radius: 4px;
+    box-shadow: 0 0 21px #8e2222;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position-y: -79px;
+}
+
+main {
+    background: transparent;
+    color: white;
+    padding: 6px 0px;
+    font-size: 80%;
+}
+
+.award a {
+    color: white;
+    text-decoration: none;
+}
+
+.col.w-40.left {
+    transform: rotateY(10deg) !important;
+    background: #7b2d2dcc;
+    transform: translateX(-6px);
+    border-radius: 4px;
+    box-shadow: 0 0 10px #aa3333;
+    width: 150%;
+}
+
+.col.right {
+    transform: rotateY(-10deg) !important;
+    background: #000000c7;
+    color: #fc2323;
+    box-shadow: 0 0 10px black;
+    border-radius: 4px;
+}
+
+.row.profile {
+    margin-top: 16px;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 2px 7px;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    border: 2px solid #000000;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.online{ content: url(https://i10.glitter-graphics.org/pub/352/352870r1wbtx0gci.gif);
+    filter: grayscale(1);
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+a {
+    color: #8e2222;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+}
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: #6f455b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.icon, .award img{
+content: url(https://cur.glitter-graphics.net/pub/3070/3070131y3wnv2c3ic.gif);
+}
+
+nav .links .icon {
+    vertical-align: -0.41em;
+    filter: invert(1);
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " | ";
+    color: white;
+}
+
+nav .links a:hover {
+    text-decoration: none;
+    color: #833c66;
+    text-shadow: 1px 1px black, -1px -1px white;
+}
+
+.details-table td:first-child {
+    background: black;
+    color: #8e2222;
+    font-weight: bold;
+    width: 33%;
+    outline: 1px solid #8e2222;
+}
+
+.details-table td {
+    background: #8e2222;
+    vertical-align: top;
+    outline: 1px solid black;
+    color: white;
+}
+
+.url-info {
+    font-size: 0;
+background: url(https://snajournalism.files.wordpress.com/2012/11/dsc098512.jpg);
+    height: 229px;
+    background-size: contain;
+}
+
+.profile-info{
+background: url(https://i.ebayimg.com/images/g/pLIAAOSwc-tY52Yj/s-l1600.jpg);
+    background-size: cover;
+    background-position-y: -103px;
+    height: 142px;
+    font-size: 0;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: #891a1a;
+    color: black;
+    padding: 2px 7px;
+    text-align: center;
+}
+
+.profile .blurbs {
+    margin: 20px 0;
+    border: 2px solid #891a1a;
+    border-radius: 4px;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: #891a1a;
+    text-align: center;
+}
+
+.friends {
+    border: 2px solid #891a1a;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.count {
+    color: grey;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 4px;
+    filter: saturate(0.5);
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: black;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+}
+
+.comments-table td, .music-table td {
+    background: #8e2222;
+    vertical-align: top;
+    color: white;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background-color: #00000085;
+    color: white;
+    box-shadow: 0 0 10px black;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: lightgrey;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: grey;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: lightgrey;
+}
+
+.container {
+        perspective: 1000px;
+}
+
+.profile {
+        margin-top: 10%;
+        display: flex;
+        justify-content: space-evenly;
+        -webkit-perspective: 900px;
+        perspective: 1000px;}
+
+.col.w-40.left a {
+    color: white;
+}
+
+</style>
+
