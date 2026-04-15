@@ -1,0 +1,345 @@
+<style>
+
+@font-face { font-family: 'candy cutes'; 
+src: url(https://external-media.spacehey.net/media/siFGhXcRGWxrDFNJExOmmOp0_17rDqq9L0FExMPpAs7w=/https://dl.dropbox.com/s/3w49a89tknlumag/Candycutes.ttf); 
+}
+
+@font-face { font-family: 'starshines'; 
+src: url(https://external-media.spacehey.net/media/sIY8brv8l56MP2i8ARD8OZi-APNGEXTkFHzPyzADilw8=/https://dl.dropbox.com/s/5ojtturb4ny5zgk/Starshines%20Italic.ttf); 
+}
+
+body{
+background: url(https://external-media.spacehey.net/media/stmhlfUkdqL1gIZdkblurk2kf3FBIof6rL0C758PnwbA=/https://i.pinimg.com/564x/92/3e/ec/923eec95fd131d34d21752c87002faaa.jpg); 
+text-transform: lowercase;
+font-family: 'candy cutes';
+}
+
+.container {
+    width: 810px;
+    max-width: 100%;
+    margin: 0 auto 10px;
+    margin-top: 20px;
+}
+
+nav .top {
+    background: transparent;
+    color: pink;
+    position: relative;
+}
+
+nav .top .left .logo {
+    width: 165px;
+    height: 42px;
+    filter: brightness(0) saturate(0%) invert(50%) sepia(100%) saturate(200%) hue-rotate(311deg) brightness(100%) contrast(1000%);
+}
+
+button, input {
+    overflow: visible;
+    background: white;
+    border: 1px solid pink;
+    color: pink;
+    box-shadow: 3px 3px 0px pink;
+}
+
+.logout-btn, .logout-form {
+    color: pink;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 100%;
+    font-weight: bolder;
+}
+
+nav .links {
+    background-color: white;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+    text-align: center;
+    padding: 3.5px 16px 5.5px 16px;
+}
+
+nav .links a {
+    font-style: italic;
+    color: pink;
+    text-shadow: 0 0 7px pink;
+    font-size: max(0.98em, 12px);
+}
+
+nav .links .special a {
+    color: #fb7aab;
+}
+
+nav .links a:hover {
+    text-decoration: underline;
+    color: deeppink;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: " • ";
+    color: pink;
+}
+
+main {
+    background: transparent;
+    color: pink;
+    padding: 6px 0px;
+    font-size: 80%;
+}
+
+span {
+    text-align: center;
+    font-size: 150%;
+font-family: 'starshines'; 
+}
+
+.edit-link {
+    font-size: 90%;
+    text-align: center;
+}
+
+a {
+    color: #fb7aab;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:active, .blog-entry .kudos-btn:hover, .blog-entry .kudos-btn:active {
+    color: deeppink;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.profile .mood {
+    width: 100%;
+    display: inline-block;
+    background: white;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+    background: transparent;
+    color: pink;
+    padding: 2px 7px;
+    text-align: center;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+    width: 100%;
+    background: white;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+    margin: 10px 0;
+}
+
+.details-table td:first-child {
+    background: white;
+    color: pink;
+    font-weight: bold;
+    width: 33%;
+}
+
+.details-table td {
+    background: white;
+    border: 1px solid;
+    vertical-align: top;
+}
+
+.profile-info {
+    background: white;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+}
+
+.blog-preview {
+    background: white;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: transparent;
+    font-size: 0%;
+    padding: 2px 7px;
+}
+
+.friends .heading:before {
+    content: "cuties";
+    font-size: .9rem;
+    font-weight: bold;
+    color: #fb7aab;
+}
+
+.profile .blurbs .section {
+    margin-bottom: 14px;
+    background: white;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: #fb7aab;
+    text-transform: lowercase;
+}
+
+.friends {
+    background: white;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+    margin-bottom: 20px;
+}
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: white;
+    border: 1px solid pink;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+}
+
+.comments-table td, .music-table td {
+    background: white;
+    border: 1px solid pink;
+    vertical-align: top;
+}
+
+
+.count {
+    color: #fb7aab;
+    font-size: 100%;
+}
+
+.profile .friends .person p {
+    color: #fb7aab;
+    text-transform: lowercase;
+    font-weight: bold;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-size: 100%;
+    text-align: center;
+}
+
+.profile .friends .person p:hover {
+    color: deeppink;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 95px;
+    max-height: 95px;
+    display: block;
+    margin: 0 auto;
+    border: 4px dashed pink;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+    margin: 10px 0 10px;
+    padding: 10px 5px;
+    background: white;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+    color: pink;
+}
+
+.general-about .profile-pic img {
+    max-width: 160px;
+    max-height: 160px;
+    border: 1px solid pink;
+    box-shadow: 3px 3px pink;
+}
+
+HTML,BODY{cursor: 
+url(https://external-media.spacehey.net/media/sRWPTdfAwYJj4YXmmdmKVdg-3-bojvA5Kt8FNCL73KWM=/https://cur.cursors-4u.net/anime/ani-1/ani195.png),
+auto;}
+
+
+A:hover{cursor: 
+url(https://external-media.spacehey.net/media/sRWPTdfAwYJj4YXmmdmKVdg-3-bojvA5Kt8FNCL73KWM=/https://cur.cursors-4u.net/anime/ani-1/ani195.png),
+auto;}
+
+    .icon, .award img {
+        content: url(https://external-media.spacehey.net/media/sUHb56xu9bIF_y-oiemSwETfhDb1no-4WlnLqvx6jZLs=/https://i.pinimg.com/564x/ba/11/99/ba119941a903edd6d851a76e31495199.jpg);
+        display: inline-block;
+        height: 2.0em;
+        width: 2.0em;
+        margin: 0 .05em 0 .1em;
+        vertical-align: -0.3em;
+        color: rgba(0,0,0,0);
+    }
+
+.online {
+    content: url(https://external-media.spacehey.net/media/sxuuTW2xwBzAyc95ftfeeYNK141obmTU7fxMpqaL_u98=/https://cur.glitter-graphics.net/pub/2328/2328366zksw82tv1r.gif)
+}
+
+</style>
+
+<div class="mobileHide">
+
+        <style>
+
+   .mobileHide { display: inline;}
+
+   /* Smartphone Portrait and Landscape */
+
+   @media only screen
+
+   and (min-device-width : 320px)
+
+   and (max-device-width : 480px){  .mobileHide { display: none;}}
+
+</style>
+
+<div style="float:  ; max-height: 800px; position: fixed; right: 400px; top: 110px; z-index: 200;"><img src="https://external-media.spacehey.net/media/sNKoUUA4a7P73jRbewYjjfbGzL3nzujw_9IZFDu1OI6k=/https://assets.stickpng.com/thumbs/58485538b772315a9e4dd5d9.png" width="auto" height="150px"/></div></div>
+
+<div style="float:  ; max-height: 800px; position: fixed; left: 30px; bottom: -20px; z-index: 200;"><img src="https://external-media.spacehey.net/media/slXVuR20MJO9-lKllOKCkotqu92ov0B_Kv43ZGBaqnek=/https://i.pinimg.com/originals/39/13/62/3913625236669e8eebd35f5fac746f13.gif" width="auto" height="350px"/></div>
+
+<!-- (c) Layout created by 🌈☆ ˚˖ (๑òᆺó๑) ˖ ˚ ☆🌸 (https://layouts.spacehey.com/layout?id=37767) -->
+
+<style>body::before {
+content: "";
+display: block;
+position: fixed;
+left: -32px;
+top: 0;
+width: calc(100% + 32px);
+height: calc(100% + 32px);
+background-image: url(https://external-media.spacehey.net/media/sxz5lsJAz2BoJF-UrCF3YvgeHiDOtFbKwVmCH8KHd8gg=/https://i.pinimg.com/originals/2f/7d/f8/2f7df8839e9168c9ce2662854c1f5b8a.gif);
+background-size: cover;
+background-position: center;
+background-repeat: repeat;
+z-index: 10000000;
+animation: ScanlineAnimationRight 0.2s linear infinite;
+pointer-events: none;
+opacity: 1;
+animation: hide 0.9s linear 1s 1 forwards;
+}
+
+@keyframes hide {
+to {
+opacity: 0;
+}
+}</style>
+
